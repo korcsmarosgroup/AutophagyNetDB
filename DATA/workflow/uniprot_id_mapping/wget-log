@@ -1,0 +1,12 @@
+--2020-02-28 15:14:47--  https://www.uniprot.org/uniprot/?query=organism%3A%22Drosophila+melanogaster+%28Fruit+fly%29+%5B7227%5D%22
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving www.uniprot.org (www.uniprot.org)... 193.62.192.81, 128.175.245.202
+Connecting to www.uniprot.org (www.uniprot.org)|193.62.192.81|:443... connected.
+HTTP request sent, awaiting response... 200 
+Length: unspecified [text/html]
+Saving to: ‘index.html?query=organism:"Drosophila+melanogaster+(Fruit+fly)+[7227]"’
+
+          index.htm     [<=>              ]       0  --.-KB/s                        index.html     [ <=>             ]  49.97K   221KB/s                       index.html?     [  <=>            ]  80.00K   176KB/s               index.html?query=or     [   <=>           ]  93.27K   205KB/s    in 0.5s    
+
+2020-02-28 15:14:48 (205 KB/s) - ‘index.html?query=organism:"Drosophila+melanogaster+(Fruit+fly)+[7227]"’ saved [95508]
+

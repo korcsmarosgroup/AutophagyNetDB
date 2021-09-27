@@ -1,0 +1,1628 @@
+[
+    {
+        "displayedName": "genename1",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot1",
+                "value": "uniprot1"
+            },
+            {
+                "db": "L0sourceDB",
+                "searchable": true,
+                "url": "L0sourceDB.com",
+                "value": "L0sourceDBid1"
+            },
+            {
+                "db": "L2sourceDB",
+                "searchable": true,
+                "url": "L2sourceDB.com",
+                "value": "L2sourceDBid1"
+            },
+            {
+                "db": "L6sourceDB",
+                "searchable": true,
+                "url": "L6sourceDB.com",
+                "value": "L6sourceDBid1"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot1",
+                "value": "altuniprot1"
+            }
+        ],
+        "fullName": "proteinname1",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot1",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "pathway1"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename10",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot10",
+                "value": "uniprot10"
+            },
+            {
+                "db": "L0sourceDB2",
+                "searchable": true,
+                "url": "L0sourceDB2.com",
+                "value": "L0sourceDB2id10"
+            },
+            {
+                "db": "L0sourceDB",
+                "searchable": true,
+                "url": "L0sourceDB.com",
+                "value": "L0sourceDBid10"
+            },
+            {
+                "db": "L2sourceDB",
+                "searchable": true,
+                "url": "L2sourceDB.com",
+                "value": "L2sourceDBid10"
+            },
+            {
+                "db": "L5sourceDB",
+                "searchable": true,
+                "url": "L5sourceDB.com",
+                "value": "L5sourceDBid10"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot10",
+                "value": "altuniprot10"
+            }
+        ],
+        "fullName": "proteinname10",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot10",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "pathway2"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename11",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot11",
+                "value": "uniprot11"
+            },
+            {
+                "db": "L0sourceDB2",
+                "searchable": true,
+                "url": "L0sourceDB2.com",
+                "value": "L0sourceDB2id11"
+            },
+            {
+                "db": "L0sourceDB",
+                "searchable": true,
+                "url": "L0sourceDB.com",
+                "value": "L0sourceDBid11"
+            },
+            {
+                "db": "L1sourceDB",
+                "searchable": true,
+                "url": "L1sourceDB.com",
+                "value": "L1sourceDBid11"
+            },
+            {
+                "db": "L3sourceDB",
+                "searchable": true,
+                "url": "L3sourceDB.com",
+                "value": "L3sourceDBid11"
+            },
+            {
+                "db": "L5sourceDB",
+                "searchable": true,
+                "url": "L5sourceDB.com",
+                "value": "L5sourceDBid11"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot11",
+                "value": "altuniprot11"
+            }
+        ],
+        "fullName": "proteinname11",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot11",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "pathway1"
+            },
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "pathway2"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename12",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot12",
+                "value": "uniprot12"
+            },
+            {
+                "db": "L1sourceDB",
+                "searchable": true,
+                "url": "L1sourceDB.com",
+                "value": "L1sourceDBid12"
+            },
+            {
+                "db": "L6sourceDB",
+                "searchable": true,
+                "url": "L6sourceDB.com",
+                "value": "L6sourceDBid12"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot12",
+                "value": "altuniprot12"
+            }
+        ],
+        "fullName": "proteinname12",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot12",
+        "pathways": [],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename13",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot13",
+                "value": "uniprot13"
+            },
+            {
+                "db": "L1sourceDB",
+                "searchable": true,
+                "url": "L1sourceDB.com",
+                "value": "L1sourceDBid13"
+            },
+            {
+                "db": "L5sourceDB",
+                "searchable": true,
+                "url": "L5sourceDB.com",
+                "value": "L5sourceDBid13"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot13",
+                "value": "altuniprot13"
+            }
+        ],
+        "fullName": "proteinname13",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot13",
+        "pathways": [],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename14",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot14",
+                "value": "uniprot14"
+            },
+            {
+                "db": "L2sourceDB",
+                "searchable": true,
+                "url": "L2sourceDB.com",
+                "value": "L2sourceDBid14"
+            },
+            {
+                "db": "L5sourceDB",
+                "searchable": true,
+                "url": "L5sourceDB.com",
+                "value": "L5sourceDBid14"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot14",
+                "value": "altuniprot14"
+            }
+        ],
+        "fullName": "proteinname14",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot14",
+        "pathways": [],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename15",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot15",
+                "value": "uniprot15"
+            },
+            {
+                "db": "L2sourceDB",
+                "searchable": true,
+                "url": "L2sourceDB.com",
+                "value": "L2sourceDBid15"
+            },
+            {
+                "db": "L5sourceDB",
+                "searchable": true,
+                "url": "L5sourceDB.com",
+                "value": "L5sourceDBid15"
+            },
+            {
+                "db": "L6sourceDB",
+                "searchable": true,
+                "url": "L6sourceDB.com",
+                "value": "L6sourceDBid15"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot15",
+                "value": "altuniprot15"
+            }
+        ],
+        "fullName": "proteinname15",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot15",
+        "pathways": [],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename16",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot16",
+                "value": "uniprot16"
+            },
+            {
+                "db": "L3sourceDB",
+                "searchable": true,
+                "url": "L3sourceDB.com",
+                "value": "L3sourceDBid16"
+            },
+            {
+                "db": "L5sourceDB",
+                "searchable": true,
+                "url": "L5sourceDB.com",
+                "value": "L5sourceDBid16"
+            },
+            {
+                "db": "L6sourceDB",
+                "searchable": true,
+                "url": "L6sourceDB.com",
+                "value": "L6sourceDBid16"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot16",
+                "value": "altuniprot16"
+            }
+        ],
+        "fullName": "proteinname16",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot16",
+        "pathways": [],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename17",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot17",
+                "value": "uniprot17"
+            },
+            {
+                "db": "L0sourceDB2",
+                "searchable": true,
+                "url": "L0sourceDB2.com",
+                "value": "L0sourceDB2id17"
+            },
+            {
+                "db": "L3sourceDB",
+                "searchable": true,
+                "url": "L3sourceDB.com",
+                "value": "L3sourceDBid17"
+            },
+            {
+                "db": "L5sourceDB",
+                "searchable": true,
+                "url": "L5sourceDB.com",
+                "value": "L5sourceDBid17"
+            },
+            {
+                "db": "L6sourceDB",
+                "searchable": true,
+                "url": "L6sourceDB.com",
+                "value": "L6sourceDBid17"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot17",
+                "value": "altuniprot17"
+            }
+        ],
+        "fullName": "proteinname17",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot17",
+        "pathways": [],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename18",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot18",
+                "value": "uniprot18"
+            },
+            {
+                "db": "L5sourceDB",
+                "searchable": true,
+                "url": "L5sourceDB.com",
+                "value": "L5sourceDBid18"
+            },
+            {
+                "db": "L6sourceDB",
+                "searchable": true,
+                "url": "L6sourceDB.com",
+                "value": "L6sourceDBid18"
+            },
+            {
+                "db": "L7sourceDB",
+                "searchable": true,
+                "url": "L7sourceDB.com",
+                "value": "L7sourceDBid18"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot18",
+                "value": "altuniprot18"
+            }
+        ],
+        "fullName": "proteinname18",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0320",
+                "value": "MI:0320(ribonucleic acid)"
+            }
+        ],
+        "name": "uniprot18",
+        "pathways": [],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename19",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot19",
+                "value": "uniprot19"
+            },
+            {
+                "db": "L5sourceDB",
+                "searchable": true,
+                "url": "L5sourceDB.com",
+                "value": "L5sourceDBid12"
+            },
+            {
+                "db": "L6sourceDB",
+                "searchable": true,
+                "url": "L6sourceDB.com",
+                "value": "L6sourceDBid19"
+            },
+            {
+                "db": "L7sourceDB",
+                "searchable": true,
+                "url": "L7sourceDB.com",
+                "value": "L7sourceDBid19"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot19",
+                "value": "altuniprot19"
+            }
+        ],
+        "fullName": "proteinname19",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0320",
+                "value": "MI:0320(ribonucleic acid)"
+            }
+        ],
+        "name": "uniprot19",
+        "pathways": [],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename2",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot2",
+                "value": "uniprot2"
+            },
+            {
+                "db": "L0sourceDB2",
+                "searchable": true,
+                "url": "L0sourceDB2.com",
+                "value": "L0sourceDB2id2"
+            },
+            {
+                "db": "L0sourceDB",
+                "searchable": true,
+                "url": "L0sourceDB.com",
+                "value": "L0sourceDBid2"
+            },
+            {
+                "db": "L1sourceDB",
+                "searchable": true,
+                "url": "L1sourceDB.com",
+                "value": "L1sourceDBid2"
+            },
+            {
+                "db": "L6sourceDB",
+                "searchable": true,
+                "url": "L6sourceDB.com",
+                "value": "L6sourceDBid2"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot2",
+                "value": "altuniprot2"
+            }
+        ],
+        "fullName": "proteinname2",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot2",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "pathway1"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename20",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot20",
+                "value": "uniprot20"
+            },
+            {
+                "db": "L6sourceDB",
+                "searchable": true,
+                "url": "L6sourceDB.com",
+                "value": "L6sourceDBid20"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot20",
+                "value": "altuniprot20"
+            }
+        ],
+        "fullName": "proteinname20",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot20",
+        "pathways": [],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename21",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot21",
+                "value": "uniprot21"
+            },
+            {
+                "db": "L6sourceDB",
+                "searchable": true,
+                "url": "L6sourceDB.com",
+                "value": "L6sourceDBid21"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot21",
+                "value": "altuniprot21"
+            }
+        ],
+        "fullName": "proteinname21",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot21",
+        "pathways": [],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename22",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot22",
+                "value": "uniprot22"
+            },
+            {
+                "db": "L7sourceDB",
+                "searchable": true,
+                "url": "L7sourceDB.com",
+                "value": "L7sourceDBid22"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot22",
+                "value": "altuniprot22"
+            }
+        ],
+        "fullName": "proteinname22",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0320",
+                "value": "MI:0320(ribonucleic acid)"
+            }
+        ],
+        "name": "uniprot22",
+        "pathways": [],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename23",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot23",
+                "value": "uniprot23"
+            },
+            {
+                "db": "L7sourceDB",
+                "searchable": true,
+                "url": "L7sourceDB.com",
+                "value": "L7sourceDBid23"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot23",
+                "value": "altuniprot23"
+            }
+        ],
+        "fullName": "proteinname23",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0320",
+                "value": "MI:0320(ribonucleic acid)"
+            }
+        ],
+        "name": "uniprot23",
+        "pathways": [],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename24",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot24",
+                "value": "uniprot24"
+            },
+            {
+                "db": "L0sourceDB2",
+                "searchable": true,
+                "url": "L0sourceDB2.com",
+                "value": "L0sourceDB2id24"
+            },
+            {
+                "db": "L6sourceDB",
+                "searchable": true,
+                "url": "L6sourceDB.com",
+                "value": "L6sourceDBid24"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot24",
+                "value": "altuniprot24"
+            }
+        ],
+        "fullName": "proteinname24",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot24",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "pathway3"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename25",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot25",
+                "value": "uniprot25"
+            },
+            {
+                "db": "L0sourceDB2",
+                "searchable": true,
+                "url": "L0sourceDB2.com",
+                "value": "L0sourceDB2id25"
+            },
+            {
+                "db": "L5sourceDB",
+                "searchable": true,
+                "url": "L5sourceDB.com",
+                "value": "L5sourceDBid25"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot25",
+                "value": "altuniprot25"
+            }
+        ],
+        "fullName": "proteinname25",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot25",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "pathway3"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename27",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot27",
+                "value": "uniprot27"
+            },
+            {
+                "db": "L0sourceDB2",
+                "searchable": true,
+                "url": "L0sourceDB2.com",
+                "value": "L0sourceDB2id27"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot27",
+                "value": "altuniprot27"
+            }
+        ],
+        "fullName": "proteinname27",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot27",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "pathway3"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename29",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot29",
+                "value": "uniprot29"
+            },
+            {
+                "db": "L0sourceDB2",
+                "searchable": true,
+                "url": "L0sourceDB2.com",
+                "value": "L0sourceDB2id29"
+            },
+            {
+                "db": "L5sourceDB",
+                "searchable": true,
+                "url": "L5sourceDB.com",
+                "value": "L5sourceDBid29"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot29",
+                "value": "altuniprot29"
+            }
+        ],
+        "fullName": "proteinname29",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot29",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "pathway3"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename3",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot3",
+                "value": "uniprot3"
+            },
+            {
+                "db": "L0sourceDB2",
+                "searchable": true,
+                "url": "L0sourceDB2.com",
+                "value": "L0sourceDB2id3"
+            },
+            {
+                "db": "L0sourceDB",
+                "searchable": true,
+                "url": "L0sourceDB.com",
+                "value": "L0sourceDBid3"
+            },
+            {
+                "db": "L2sourceDB",
+                "searchable": true,
+                "url": "L2sourceDB.com",
+                "value": "L2sourceDBid3"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot3",
+                "value": "altuniprot3"
+            }
+        ],
+        "fullName": "proteinname3",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot3",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "pathway1"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename30",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot30",
+                "value": "uniprot30"
+            },
+            {
+                "db": "L0sourceDB2",
+                "searchable": true,
+                "url": "L0sourceDB2.com",
+                "value": "L0sourceDB2id30"
+            },
+            {
+                "db": "L6sourceDB",
+                "searchable": true,
+                "url": "L6sourceDB.com",
+                "value": "L6sourceDBid30"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot30",
+                "value": "altuniprot30"
+            }
+        ],
+        "fullName": "proteinname30",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot30",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "pathway3"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename4",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot4",
+                "value": "uniprot4"
+            },
+            {
+                "db": "L0sourceDB",
+                "searchable": true,
+                "url": "L0sourceDB.com",
+                "value": "L0sourceDBid4"
+            },
+            {
+                "db": "L1sourceDB",
+                "searchable": true,
+                "url": "L1sourceDB.com",
+                "value": "L1sourceDBid4"
+            },
+            {
+                "db": "L5sourceDB",
+                "searchable": true,
+                "url": "L5sourceDB.com",
+                "value": "L5sourceDBid4"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot4",
+                "value": "altuniprot4"
+            }
+        ],
+        "fullName": "proteinname4",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot4",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "pathway1"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename5",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot5",
+                "value": "uniprot5"
+            },
+            {
+                "db": "L0sourceDB2",
+                "searchable": true,
+                "url": "L0sourceDB2.com",
+                "value": "L0sourceDB2id5"
+            },
+            {
+                "db": "L0sourceDB",
+                "searchable": true,
+                "url": "L0sourceDB.com",
+                "value": "L0sourceDBid5"
+            },
+            {
+                "db": "L2sourceDB",
+                "searchable": true,
+                "url": "L2sourceDB.com",
+                "value": "L2sourceDBid5"
+            },
+            {
+                "db": "L6sourceDB",
+                "searchable": true,
+                "url": "L6sourceDB.com",
+                "value": "L6sourceDBid5"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot5",
+                "value": "altuniprot5"
+            }
+        ],
+        "fullName": "proteinname5",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot5",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "pathway1"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename6",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot6",
+                "value": "uniprot6"
+            },
+            {
+                "db": "L0sourceDB",
+                "searchable": true,
+                "url": "L0sourceDB.com",
+                "value": "L0sourceDBid6"
+            },
+            {
+                "db": "L3sourceDB",
+                "searchable": true,
+                "url": "L3sourceDB.com",
+                "value": "L3sourceDBid6"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot6",
+                "value": "altuniprot6"
+            }
+        ],
+        "fullName": "proteinname6",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot6",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "pathway2"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename7",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot7",
+                "value": "uniprot7"
+            },
+            {
+                "db": "L0sourceDB",
+                "searchable": true,
+                "url": "L0sourceDB.com",
+                "value": "L0sourceDBid7"
+            },
+            {
+                "db": "L2sourceDB",
+                "searchable": true,
+                "url": "L2sourceDB.com",
+                "value": "L2sourceDBid7"
+            },
+            {
+                "db": "L5sourceDB",
+                "searchable": true,
+                "url": "L5sourceDB.com",
+                "value": "L5sourceDBid7"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot7",
+                "value": "altuniprot7"
+            }
+        ],
+        "fullName": "proteinname7",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot7",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "pathway2"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename8",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot8",
+                "value": "uniprot8"
+            },
+            {
+                "db": "L0sourceDB",
+                "searchable": true,
+                "url": "L0sourceDB.com",
+                "value": "L0sourceDBid8"
+            },
+            {
+                "db": "L1sourceDB",
+                "searchable": true,
+                "url": "L1sourceDB.com",
+                "value": "L1sourceDBid8"
+            },
+            {
+                "db": "L3sourceDB",
+                "searchable": true,
+                "url": "L3sourceDB.com",
+                "value": "L3sourceDBid8"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot8",
+                "value": "altuniprot8"
+            }
+        ],
+        "fullName": "proteinname8",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot8",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "pathway2"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename9",
+        "externalReferences": [
+            {
+                "db": "UniProt",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/uniprot9",
+                "value": "uniprot9"
+            },
+            {
+                "db": "L0sourceDB2",
+                "searchable": true,
+                "url": "L0sourceDB2.com",
+                "value": "L0sourceDB2id9"
+            },
+            {
+                "db": "L0sourceDB",
+                "searchable": true,
+                "url": "L0sourceDB.com",
+                "value": "L0sourceDBid9"
+            },
+            {
+                "db": "L0sourceDB",
+                "searchable": true,
+                "url": "L0sourceDB.com",
+                "value": "L0sourceDBid9"
+            },
+            {
+                "db": "L1sourceDB",
+                "searchable": true,
+                "url": "L1sourceDB.com",
+                "value": "L1sourceDBid9"
+            },
+            {
+                "db": "L6sourceDB",
+                "searchable": true,
+                "url": "L6sourceDB.com",
+                "value": "L6sourceDBid9"
+            },
+            {
+                "db": "uniprot",
+                "searchable": true,
+                "url": "uniprot.org/uniprot/altuniprot9",
+                "value": "altuniprot9"
+            }
+        ],
+        "fullName": "proteinname9",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot9",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "pathway2"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    }
+]

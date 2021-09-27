@@ -1,0 +1,2 @@
+We used the db file for mapping that was created by the create_biogrid_map.py script instead of the Uniprot mapper in the dictionary builder.
+The source of the first (the one that was parsed to a anydb file), is Biogrid itself. The anydb map has more matches than, the map mad from uniprot.

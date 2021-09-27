@@ -1,0 +1,95 @@
+{
+    "_id" : ObjectId("5a44e8585bc5dd2e831e1cb2"),
+    "source" : "D10YXT10PGH10",
+    "sourceDisplayedName" : "bbs58",
+    "sourceFullName" : "biology biology super",
+    "target" : "Y10Q80101JO10",
+    "targetDisplayedName" : "bsp44",
+    "targetFullName" : "biology super protein",
+    "isDirected" : false,
+    "interactionDetectionMethods" : [ 
+        {
+            "value" : "SPINE",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "SPINE",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "Chemical cross-linking",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "Co-immunoprecipitation",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "Affinity electrophoresis",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }
+    ],
+    "publications" : [ 
+        {
+            "value" : 219131325.0,
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }
+    ],
+    "sourceDatabases" : [ 
+        {
+            "value" : "Reactome",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "HTRI",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "Mint",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }
+    ],
+    "layer" : [ 
+        {
+            "value" : 2.0,
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }
+    ],
+    "interactionType" : [ 
+        {
+            "value" : "unknown",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }
+    ],
+    "confidenceScore" : [ 
+        {
+            "value" : 0.312368088401612,
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }
+    ],
+    "isDirect" : true
+}

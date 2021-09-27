@@ -1,0 +1,368 @@
+{
+    "_id" : ObjectId("5a44e8585bc5dd2e831e18ca"),
+    "name" : "V10BTJ10O4X10",
+    "displayedName" : "mmt4",
+    "fullName" : "mutant mutant turtle",
+    "taxon" : {
+        "name" : "Caenorhabditis elegans",
+        "shortName" : "C. elegans",
+        "commonName" : "worm",
+        "id" : 6239.0
+    },
+    "topologicalFeatures" : [ 
+        {
+            "value" : "BigAssShit",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "MuchImportante",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "CastIronSwimwear",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "MuchImportante",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }
+    ],
+    "pathways" : [ 
+        {
+            "value" : "GPCR",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "GPCR",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "TCR",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "Rho/Cytoskeleton",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "IIP",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "RTK",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "JAK/STAT(core)",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "TCR(core)",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "HIPPO(core)",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }
+    ],
+    "tissues" : [ 
+        {
+            "value" : "InvisibleTissue",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "TissueSoup",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "MuchWow",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "TrollTissue",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "VortexTissue",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "VillainousTissue",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }
+    ],
+    "minorCellularLocalization" : [ 
+        {
+            "value" : "PCBSide",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "Broadside",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }
+    ],
+    "majorCellularLocalization" : [ 
+        {
+            "value" : "VeryNice",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "OnTheBeach",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }
+    ],
+    "moleculeType" : [ 
+        {
+            "value" : "protein",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }
+    ],
+    "illness" : [ 
+        {
+            "value" : "ZPFUDBAWYTTDWBX",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "LURJNAGIMIKTNUY",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "RTXOVEYHLOMWGQP",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "MHAQMDZKRCCFCOS",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "AKMINXTOBKQDQGT",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "YATIIKYXKBBAFQK",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "ODZYSBJVZZALASM",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "SDCNEBWWKRXGEUA",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "WTUZBPRWMKRDAHF",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "WWEJSNXPDLFHXJF",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "TJUBBQCWGHZTONF",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "SLFEYVUCLARPOEZ",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "LURJNAGIMIKTNUY",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "VYYKKGJZSRGUKMR",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }
+    ],
+    "cancer" : [ 
+        {
+            "value" : "QMQDXQOWJXHNMTM",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "WUCQOLNPEABADAV",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "QBHHLMEWQLHBHEG",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "EQWIUBBGSOPIFQJ",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "HSXDCZQRPZDDBHN",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "CLIWDWBMRETWJUV",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "CAYTQPKQNUJNSJL",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "HSGVOWOENDIQIPR",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }
+    ],
+    "drug" : [ 
+        {
+            "value" : "SUEPIBUPFYOIQXI",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "HOLHVBBTDQJZWJY",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "JBJTUSTTDKYXJWD",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "QVURVROAQTQAYBW",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "EDMQYIKGHMJZUVW",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "QVLSBSVFFDMJHXH",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "JPDYFNLNLXASOFT",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }, 
+        {
+            "value" : "CUSERFNUWGNDAZO",
+            "db" : "",
+            "url" : "",
+            "searchable" : false
+        }
+    ],
+    "externalReferences" : [ 
+        {
+            "value" : "V10BTJ10O4X10",
+            "db" : "UniProt",
+            "url" : "http://www.uniprot.org/uniprot/V10BTJ10O4X10",
+            "searchable" : true
+        }, 
+        {
+            "value" : "E10RRD104EI10",
+            "db" : "Ensembl",
+            "url" : "http://www.ensembl.org/Homo_sapiens/Gene/Summary?db=core;g=E10RRD104EI10",
+            "searchable" : true
+        }
+    ]
+}

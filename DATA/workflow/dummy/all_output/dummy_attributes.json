@@ -1,0 +1,220 @@
+[
+    {
+        "dataType": "string",
+        "displayedName": "Topological Features",
+        "isNode": true,
+        "key": "topologicalFeatures",
+        "possibleValues": [],
+        "searchable": false
+    },
+    {
+        "dataType": "string",
+        "displayedName": "Pathways",
+        "isNode": true,
+        "key": "pathways",
+        "possibleValues": [
+            "pathway1",
+            "pathway2",
+            "pathway3"
+        ],
+        "searchable": false
+    },
+    {
+        "dataType": "string",
+        "displayedName": "Tissues",
+        "isNode": true,
+        "key": "tissues",
+        "possibleValues": [],
+        "searchable": false
+    },
+    {
+        "dataType": "string",
+        "displayedName": "Minor Cellular Localization",
+        "isNode": true,
+        "key": "minorCellularLocalization",
+        "possibleValues": [],
+        "searchable": false
+    },
+    {
+        "dataType": "string",
+        "displayedName": "Major Cellular Localization",
+        "isNode": true,
+        "key": "majorCellularLocalization",
+        "possibleValues": [],
+        "searchable": false
+    },
+    {
+        "dataType": "string",
+        "displayedName": "Molecule Type",
+        "isNode": true,
+        "key": "moleculeType",
+        "possibleValues": [
+            "MI:0326(protein)",
+            "MI:0320(ribonucleic acid)"
+        ],
+        "searchable": false
+    },
+    {
+        "dataType": "string",
+        "displayedName": "Illness",
+        "isNode": true,
+        "key": "illness",
+        "possibleValues": [],
+        "searchable": false
+    },
+    {
+        "dataType": "string",
+        "displayedName": "Cancer",
+        "isNode": true,
+        "key": "cancer",
+        "possibleValues": [],
+        "searchable": false
+    },
+    {
+        "dataType": "string",
+        "displayedName": "Drug",
+        "isNode": true,
+        "key": "drug",
+        "possibleValues": [],
+        "searchable": false
+    },
+    {
+        "dataType": "string",
+        "displayedName": "External References",
+        "isNode": true,
+        "key": "externalReferences",
+        "possibleValues": [
+            "UniProt",
+            "L0sourceDB",
+            "L1sourceDB",
+            "L2sourceDB",
+            "L3sourceDB",
+            "L5sourceDB",
+            "L6sourceDB",
+            "L7sourceDB",
+            "L0sourceDB2"
+        ],
+        "searchable": true
+    },
+    {
+        "dataType": "string",
+        "displayedName": "Interaction Detection Methods",
+        "isNode": false,
+        "key": "interactionDetectionMethods",
+        "possibleValues": [
+            "MI:XXXX(intdetmethod4)",
+            "MI:XXXX(intdetmethod1)",
+            "MI:XXXX(intdetmethod2)",
+            "MI:XXXX(intdetmethod3)",
+            "MI:XXXX(intdetmethod4)",
+            "MI:XXXX(intdetmethod5)",
+            "MI:XXXX(intdetmethod7)",
+            "MI:XXXX(intdetmethod6)",
+            "MI:XXXX(intdetmethod8)"
+        ],
+        "searchable": false
+    },
+    {
+        "dataType": "number",
+        "displayedName": "Publications",
+        "isNode": false,
+        "key": "publications",
+        "possibleValues": [
+            "PMID1",
+            "PMID2",
+            "PMID3",
+            "PMID4",
+            "PMID5",
+            "PMID6",
+            "PMID7",
+            "PMID8",
+            "PMID9",
+            "PMID10",
+            "PMID11",
+            "PMID12",
+            "PMID13",
+            "PMID14",
+            "PMID15",
+            "PMID16",
+            "PMID17",
+            "PMID18",
+            "PMID19",
+            "PMID20",
+            "PMID21",
+            "PMID22",
+            "PMID23",
+            "PMID24",
+            "PMID25",
+            "PMID26",
+            "PMID27"
+        ],
+        "searchable": false
+    },
+    {
+        "dataType": "string",
+        "displayedName": "Source Databases",
+        "isNode": false,
+        "key": "sourceDatabases",
+        "possibleValues": [
+            "L0sourceDB",
+            "L1sourceDB",
+            "L2sourceDB",
+            "L3sourceDB",
+            "L5sourceDB",
+            "L6sourceDB",
+            "L7sourceDB",
+            "L0sourceDB2"
+        ],
+        "searchable": false
+    },
+    {
+        "dataType": "number",
+        "displayedName": "Layer",
+        "isNode": false,
+        "key": "layer",
+        "possibleValues": [
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            5.0,
+            6.0,
+            7.0
+        ],
+        "searchable": false
+    },
+    {
+        "dataType": "string",
+        "displayedName": "Interaction Type",
+        "isNode": false,
+        "key": "interactionType",
+        "possibleValues": [
+            "MI:0407(direct interaction)",
+            "indirect",
+            "directed",
+            "not directed",
+            "MI:0623(inhibition)",
+            "MI:2247(transcriptional regulation)",
+        ],
+        "searchable": false
+    },
+    {
+        "dataType": "number",
+        "displayedName": "Confidence Score",
+        "isNode": false,
+        "key": "confidenceScore",
+        "possibleValues": [],
+        "searchable": false
+    },
+    {
+        "dataType": "undefined",
+        "displayedName": "Is Direct",
+        "isNode": false,
+        "key": "isDirect",
+        "possibleValues": [
+            true,
+            false
+        ],
+        "searchable": false
+    }
+]

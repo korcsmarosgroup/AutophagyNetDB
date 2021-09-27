@@ -1,0 +1,1274 @@
+A_node_name	B_node_name	Int_type_1	Source_db
+uniprot:O43541	uniprot:Q15797	0462(bind)	signor
+uniprot:O43541	uniprot:Q15797	2240(down-regulates)	signor
+uniprot:P45983	uniprot:P15336	0217(phosphorylation reaction)	signor
+uniprot:P45983	uniprot:P15336	2235(up-regulates)	signor
+uniprot:Q13546	uniprot:Q14790	0462(bind)	signor
+uniprot:Q13546	uniprot:Q14790	2236(up-regulates activity)	signor
+uniprot:O15169	uniprot:P36894	0220(ubiquitination reaction)	signor
+uniprot:O15169	uniprot:P36894	2240(down-regulates)	signor
+uniprot:P12931	uniprot:P42224	0217(phosphorylation reaction)	signor
+uniprot:P12931	uniprot:P42224	2236(up-regulates activity)	signor
+uniprot:P42345	uniprot:P42345	0217(phosphorylation reaction)	signor
+uniprot:P42345	uniprot:P42345	2236(up-regulates activity)	signor
+uniprot:O43541	uniprot:Q13485	0462(bind)	signor
+uniprot:O43541	uniprot:Q13485	2241(down-regulates activity)	signor
+uniprot:Q13158	uniprot:Q14790	0462(bind)	signor
+uniprot:Q13158	uniprot:Q14790	2236(up-regulates activity)	signor
+uniprot:Q16539	uniprot:P10636	0217(phosphorylation reaction)	signor
+uniprot:Q16539	uniprot:P10636	2235(up-regulates)	signor
+uniprot:P45983	uniprot:P63104	0217(phosphorylation reaction)	signor
+uniprot:P45983	uniprot:P63104	2240(down-regulates)	signor
+uniprot:P17612	uniprot:P10070	0217(phosphorylation reaction)	signor
+uniprot:P17612	uniprot:P10070	2240(down-regulates)	signor
+uniprot:P49841	uniprot:P36956	0217(phosphorylation reaction)	signor
+uniprot:P49841	uniprot:P36956	2244(down-regulates quantity by destabilization)	signor
+uniprot:Q9HCE7	uniprot:P36894	0220(ubiquitination reaction)	signor
+uniprot:Q9HCE7	uniprot:P36894	2240(down-regulates)	signor
+uniprot:Q12933	uniprot:Q13077	0462(bind)	signor
+uniprot:Q12933	uniprot:Q13077	2235(up-regulates)	signor
+uniprot:Q12933	uniprot:Q13490	0462(bind)	signor
+uniprot:Q12933	uniprot:Q13490	2236(up-regulates activity)	signor
+uniprot:O43521	uniprot:Q07817	0462(bind)	signor
+uniprot:O43521	uniprot:Q07817	2240(down-regulates)	signor
+uniprot:O15169	uniprot:P84022	unknown	signor
+uniprot:O15169	uniprot:P84022	2235(up-regulates)	signor
+uniprot:Q13950	uniprot:P05186	2247(transcriptional regulation)	signor
+uniprot:Q13950	uniprot:P05186	2238(up-regulates quantity by expression)	signor
+uniprot:O15530	uniprot:O15530	0217(phosphorylation reaction)	signor
+uniprot:O15530	uniprot:O15530	2236(up-regulates activity)	signor
+uniprot:O15530	uniprot:O15530	0217(phosphorylation reaction)	signor
+uniprot:O15530	uniprot:O15530	directed	signor
+uniprot:P49841	uniprot:P49841	0217(phosphorylation reaction)	signor
+uniprot:P49841	uniprot:P49841	2236(up-regulates activity)	signor
+uniprot:P17612	uniprot:P49841	0217(phosphorylation reaction)	signor
+uniprot:P17612	uniprot:P49841	2241(down-regulates activity)	signor
+uniprot:P49841	uniprot:Q07812	0217(phosphorylation reaction)	signor
+uniprot:P49841	uniprot:Q07812	2235(up-regulates)	signor
+uniprot:O00755	uniprot:P17612	unknown	signor
+uniprot:O00755	uniprot:P17612	2236(up-regulates activity)	signor
+uniprot:P12931	uniprot:P00533	0217(phosphorylation reaction)	signor
+uniprot:P12931	uniprot:P00533	2235(up-regulates)	signor
+uniprot:O15105	uniprot:Q9HCE7	2256(relocalization reaction)	signor
+uniprot:O15105	uniprot:Q9HCE7	2236(up-regulates activity)	signor
+uniprot:O15105	uniprot:P84022	0462(bind)	signor
+uniprot:O15105	uniprot:P84022	2241(down-regulates activity)	signor
+uniprot:P37173	uniprot:P37173	0217(phosphorylation reaction)	signor
+uniprot:P37173	uniprot:P37173	2241(down-regulates activity)	signor
+uniprot:P12643	uniprot:Q13873	0462(bind)	signor
+uniprot:P12643	uniprot:Q13873	2235(up-regulates)	signor
+uniprot:P49841	uniprot:P60484	0217(phosphorylation reaction)	signor
+uniprot:P49841	uniprot:P60484	2241(down-regulates activity)	signor
+uniprot:P60484	uniprot:P60484	0203(dephosphorylation reaction)	signor
+uniprot:P60484	uniprot:P60484	2236(up-regulates activity)	signor
+uniprot:P01137	uniprot:P37173	0462(bind)	signor
+uniprot:P01137	uniprot:P37173	2236(up-regulates activity)	signor
+uniprot:P49841	uniprot:P10070	0217(phosphorylation reaction)	signor
+uniprot:P49841	uniprot:P10070	2244(down-regulates quantity by destabilization)	signor
+uniprot:P37173	uniprot:P36897	0217(phosphorylation reaction)	signor
+uniprot:P37173	uniprot:P36897	2236(up-regulates activity)	signor
+uniprot:O43521	uniprot:P10415	0462(bind)	signor
+uniprot:O43521	uniprot:P10415	2241(down-regulates activity)	signor
+uniprot:O43521	uniprot:P10415	0462(bind)	signor
+uniprot:O43521	uniprot:P10415	2240(down-regulates)	signor
+uniprot:P00533	uniprot:P00533	0217(phosphorylation reaction)	signor
+uniprot:P00533	uniprot:P00533	2236(up-regulates activity)	signor
+uniprot:P00533	uniprot:P00533	0217(phosphorylation reaction)	signor
+uniprot:P00533	uniprot:P00533	2244(down-regulates quantity by destabilization)	signor
+uniprot:Q92934	uniprot:Q07817	0462(bind)	signor
+uniprot:Q92934	uniprot:Q07817	2241(down-regulates activity)	signor
+uniprot:Q9UHD2	uniprot:Q14164	0462(bind)	signor
+uniprot:Q9UHD2	uniprot:Q14164	2236(up-regulates activity)	signor
+uniprot:P01308	uniprot:P49841	unknown	signor
+uniprot:P01308	uniprot:P49841	2240(down-regulates)	signor
+uniprot:P36894	uniprot:Q13873	0462(bind)	signor
+uniprot:P36894	uniprot:Q13873	2235(up-regulates)	signor
+uniprot:Q13546	uniprot:P25445	0462(bind)	signor
+uniprot:Q13546	uniprot:P25445	2236(up-regulates activity)	signor
+uniprot:P12643	uniprot:Q15465	2247(transcriptional regulation)	signor
+uniprot:P12643	uniprot:Q15465	2243(down-regulates quantity by repression)	signor
+uniprot:O43521	uniprot:Q07812	0462(bind)	signor
+uniprot:O43521	uniprot:Q07812	2236(up-regulates activity)	signor
+uniprot:Q13253	uniprot:Q13873	0462(bind)	signor
+uniprot:Q13253	uniprot:Q13873	2241(down-regulates activity)	signor
+uniprot:P84022	uniprot:Q13950	0462(bind)	signor
+uniprot:P84022	uniprot:Q13950	2241(down-regulates activity)	signor
+uniprot:P12643	uniprot:P12643	0462(bind)	signor
+uniprot:P12643	uniprot:P12643	2235(up-regulates)	signor
+uniprot:Q07889	uniprot:P01116	2252(guanine nucleotide exchange factor)	signor
+uniprot:Q07889	uniprot:P01116	2236(up-regulates activity)	signor
+uniprot:P12931	uniprot:P62993	0217(phosphorylation reaction)	signor
+uniprot:P12931	uniprot:P62993	directed	signor
+uniprot:P56705	uniprot:O75197	0462(bind)	signor
+uniprot:P56705	uniprot:O75197	2236(up-regulates activity)	signor
+uniprot:Q9HCE7	uniprot:Q15797	0220(ubiquitination reaction)	signor
+uniprot:Q9HCE7	uniprot:Q15797	2240(down-regulates)	signor
+uniprot:Q16539	uniprot:P35638	0217(phosphorylation reaction)	signor
+uniprot:Q16539	uniprot:P35638	2236(up-regulates activity)	signor
+uniprot:P01137	uniprot:P36897	0462(bind)	signor
+uniprot:P01137	uniprot:P36897	2236(up-regulates activity)	signor
+uniprot:Q16539	uniprot:Q02078	0217(phosphorylation reaction)	signor
+uniprot:Q16539	uniprot:Q02078	2236(up-regulates activity)	signor
+uniprot:Q16539	uniprot:Q02078	0217(phosphorylation reaction)	signor
+uniprot:Q16539	uniprot:Q02078	2235(up-regulates)	signor
+uniprot:Q16539	uniprot:Q02078	0217(phosphorylation reaction)	signor
+uniprot:Q16539	uniprot:Q02078	directed	signor
+uniprot:O43318	uniprot:Q9Y6K9	0462(bind)	signor
+uniprot:O43318	uniprot:Q9Y6K9	2236(up-regulates activity)	signor
+uniprot:P51617	uniprot:Q9Y4K3	0462(bind)	signor
+uniprot:P51617	uniprot:Q9Y4K3	2236(up-regulates activity)	signor
+uniprot:Q92934	uniprot:P04637	0462(bind)	signor
+uniprot:Q92934	uniprot:P04637	2236(up-regulates activity)	signor
+uniprot:P06239	uniprot:P43403	0217(phosphorylation reaction)	signor
+uniprot:P06239	uniprot:P43403	directed	signor
+uniprot:P06239	uniprot:P43403	0217(phosphorylation reaction)	signor
+uniprot:P06239	uniprot:P43403	2241(down-regulates activity)	signor
+uniprot:P56704	uniprot:O75197	0462(bind)	signor
+uniprot:P56704	uniprot:O75197	2236(up-regulates activity)	signor
+uniprot:P17612	uniprot:P35222	0217(phosphorylation reaction)	signor
+uniprot:P17612	uniprot:P35222	2236(up-regulates activity)	signor
+uniprot:Q15796	uniprot:Q15796	0462(bind)	signor
+uniprot:Q15796	uniprot:Q15796	2236(up-regulates activity)	signor
+uniprot:P49841	uniprot:P49768	0217(phosphorylation reaction)	signor
+uniprot:P49841	uniprot:P49768	2241(down-regulates activity)	signor
+uniprot:P25445	uniprot:P25445	0462(bind)	signor
+uniprot:P25445	uniprot:P25445	2236(up-regulates activity)	signor
+uniprot:P01112	uniprot:P04049	0462(bind)	signor
+uniprot:P01112	uniprot:P04049	2235(up-regulates)	signor
+uniprot:P45983	uniprot:P40763	0217(phosphorylation reaction)	signor
+uniprot:P45983	uniprot:P40763	2236(up-regulates activity)	signor
+uniprot:P49841	uniprot:P10636	0217(phosphorylation reaction)	signor
+uniprot:P49841	uniprot:P10636	2240(down-regulates)	signor
+uniprot:Q14790	uniprot:Q13546	0194(cleavage reaction)	signor
+uniprot:Q14790	uniprot:Q13546	2241(down-regulates activity)	signor
+uniprot:Q16539	uniprot:P84022	0217(phosphorylation reaction)	signor
+uniprot:Q16539	uniprot:P84022	2236(up-regulates activity)	signor
+uniprot:Q16539	uniprot:P04637	0217(phosphorylation reaction)	signor
+uniprot:Q16539	uniprot:P04637	2235(up-regulates)	signor
+uniprot:Q16539	uniprot:P04637	0217(phosphorylation reaction)	signor
+uniprot:Q16539	uniprot:P04637	2236(up-regulates activity)	signor
+uniprot:Q16539	uniprot:P04637	0217(phosphorylation reaction)	signor
+uniprot:Q16539	uniprot:P04637	2239(up-regulates quantity by stabilization)	signor
+uniprot:P01116	uniprot:P42336	0462(bind)	signor
+uniprot:P01116	uniprot:P42336	2235(up-regulates)	signor
+uniprot:O00755	uniprot:O75197	0462(bind)	signor
+uniprot:O00755	uniprot:O75197	2236(up-regulates activity)	signor
+uniprot:P00533	uniprot:P62993	0217(phosphorylation reaction)	signor
+uniprot:P00533	uniprot:P62993	directed	signor
+uniprot:Q9NQC7	uniprot:Q9Y4K3	0204(deubiquitination reaction)	signor
+uniprot:Q9NQC7	uniprot:Q9Y4K3	2240(down-regulates)	signor
+uniprot:Q15465	uniprot:Q13635	0462(bind)	signor
+uniprot:Q15465	uniprot:Q13635	2241(down-regulates activity)	signor
+uniprot:P00533	uniprot:P40763	0217(phosphorylation reaction)	signor
+uniprot:P00533	uniprot:P40763	2236(up-regulates activity)	signor
+uniprot:P63000	uniprot:P45983	0462(bind)	signor
+uniprot:P63000	uniprot:P45983	2235(up-regulates)	signor
+uniprot:P17612	uniprot:P10071	0217(phosphorylation reaction)	signor
+uniprot:P17612	uniprot:P10071	2242(down-regulates quantity)	signor
+uniprot:P17612	uniprot:P10071	0217(phosphorylation reaction)	signor
+uniprot:P17612	uniprot:P10071	2240(down-regulates)	signor
+uniprot:P01308	uniprot:P06213	0462(bind)	signor
+uniprot:P01308	uniprot:P06213	2236(up-regulates activity)	signor
+uniprot:P42345	uniprot:P23443	0217(phosphorylation reaction)	signor
+uniprot:P42345	uniprot:P23443	2236(up-regulates activity)	signor
+uniprot:P46531	uniprot:Q16665	2256(relocalization reaction)	signor
+uniprot:P46531	uniprot:Q16665	2236(up-regulates activity)	signor
+uniprot:Q12933	uniprot:O43318	0220(ubiquitination reaction)	signor
+uniprot:Q12933	uniprot:O43318	2236(up-regulates activity)	signor
+uniprot:Q9UJU2	uniprot:P01106	2247(transcriptional regulation)	signor
+uniprot:Q9UJU2	uniprot:P01106	2238(up-regulates quantity by expression)	signor
+uniprot:P49137	uniprot:P16220	0217(phosphorylation reaction)	signor
+uniprot:P49137	uniprot:P16220	2235(up-regulates)	signor
+uniprot:Q9Y4K3	uniprot:Q9Y4K3	0220(ubiquitination reaction)	signor
+uniprot:Q9Y4K3	uniprot:Q9Y4K3	2236(up-regulates activity)	signor
+uniprot:P12643	uniprot:Q15796	unknown	signor
+uniprot:P12643	uniprot:Q15796	2235(up-regulates)	signor
+uniprot:Q13253	uniprot:P36894	0462(bind)	signor
+uniprot:Q13253	uniprot:P36894	2241(down-regulates activity)	signor
+uniprot:P12643	uniprot:Q16539	unknown	signor
+uniprot:P12643	uniprot:Q16539	2235(up-regulates)	signor
+uniprot:P04628	uniprot:O75581	0462(bind)	signor
+uniprot:P04628	uniprot:O75581	2236(up-regulates activity)	signor
+uniprot:P35222	uniprot:Q9UJU2	0462(bind)	signor
+uniprot:P35222	uniprot:Q9UJU2	2236(up-regulates activity)	signor
+uniprot:P04637	uniprot:P10415	0462(bind)	signor
+uniprot:P04637	uniprot:P10415	2241(down-regulates activity)	signor
+uniprot:O15169	uniprot:O15169	0462(bind)	signor
+uniprot:O15169	uniprot:O15169	2236(up-regulates activity)	signor
+uniprot:P43403	uniprot:P43403	0217(phosphorylation reaction)	signor
+uniprot:P43403	uniprot:P43403	2236(up-regulates activity)	signor
+uniprot:P43403	uniprot:P43403	0217(phosphorylation reaction)	signor
+uniprot:P43403	uniprot:P43403	2240(down-regulates)	signor
+uniprot:P12931	uniprot:O15530	0217(phosphorylation reaction)	signor
+uniprot:P12931	uniprot:O15530	2235(up-regulates)	signor
+uniprot:P12931	uniprot:O15530	0217(phosphorylation reaction)	signor
+uniprot:P12931	uniprot:O15530	2236(up-regulates activity)	signor
+uniprot:P41221	uniprot:O75581	0462(bind)	signor
+uniprot:P41221	uniprot:O75581	2236(up-regulates activity)	signor
+uniprot:Q13490	uniprot:Q12933	0220(ubiquitination reaction)	signor
+uniprot:Q13490	uniprot:Q12933	2244(down-regulates quantity by destabilization)	signor
+uniprot:Q9HCE7	uniprot:Q13873	0220(ubiquitination reaction)	signor
+uniprot:Q9HCE7	uniprot:Q13873	2240(down-regulates)	signor
+uniprot:P04637	uniprot:P25445	2247(transcriptional regulation)	signor
+uniprot:P04637	uniprot:P25445	2238(up-regulates quantity by expression)	signor
+uniprot:O15530	uniprot:O00141	0217(phosphorylation reaction)	signor
+uniprot:O15530	uniprot:O00141	2235(up-regulates)	signor
+uniprot:Q12933	uniprot:Q13546	0220(ubiquitination reaction)	signor
+uniprot:Q12933	uniprot:Q13546	2236(up-regulates activity)	signor
+uniprot:P06239	uniprot:P06239	0217(phosphorylation reaction)	signor
+uniprot:P06239	uniprot:P06239	2236(up-regulates activity)	signor
+uniprot:P12931	uniprot:P12931	0217(phosphorylation reaction)	signor
+uniprot:P12931	uniprot:P12931	2235(up-regulates)	signor
+uniprot:P12931	uniprot:P12931	0217(phosphorylation reaction)	signor
+uniprot:P12931	uniprot:P12931	2241(down-regulates activity)	signor
+uniprot:Q06124	uniprot:P42224	0203(dephosphorylation reaction)	signor
+uniprot:Q06124	uniprot:P42224	2241(down-regulates activity)	signor
+uniprot:P45983	uniprot:O43521	0217(phosphorylation reaction)	signor
+uniprot:P45983	uniprot:O43521	2240(down-regulates)	signor
+uniprot:P45983	uniprot:O43521	0217(phosphorylation reaction)	signor
+uniprot:P45983	uniprot:O43521	2235(up-regulates)	signor
+uniprot:Q9HCE7	uniprot:P36897	0220(ubiquitination reaction)	signor
+uniprot:Q9HCE7	uniprot:P36897	2241(down-regulates activity)	signor
+uniprot:P45983	uniprot:Q07812	unknown	signor
+uniprot:P45983	uniprot:Q07812	2235(up-regulates)	signor
+uniprot:Q9HCE7	uniprot:O43541	2256(relocalization reaction)	signor
+uniprot:Q9HCE7	uniprot:O43541	2241(down-regulates activity)	signor
+uniprot:P00533	uniprot:P16333	unknown	signor
+uniprot:P00533	uniprot:P16333	2235(up-regulates)	signor
+uniprot:P01137	uniprot:P01137	0462(bind)	signor
+uniprot:P01137	uniprot:P01137	2236(up-regulates activity)	signor
+uniprot:Q16539	uniprot:P42224	0217(phosphorylation reaction)	signor
+uniprot:Q16539	uniprot:P42224	2236(up-regulates activity)	signor
+uniprot:P01112	uniprot:P15056	0462(bind)	signor
+uniprot:P01112	uniprot:P15056	2236(up-regulates activity)	signor
+uniprot:P01133	uniprot:P00533	0462(bind)	signor
+uniprot:P01133	uniprot:P00533	2236(up-regulates activity)	signor
+uniprot:P04637	uniprot:P48023	2247(transcriptional regulation)	signor
+uniprot:P04637	uniprot:P48023	2238(up-regulates quantity by expression)	signor
+uniprot:O43318	uniprot:O43318	0217(phosphorylation reaction)	signor
+uniprot:O43318	uniprot:O43318	2236(up-regulates activity)	signor
+uniprot:Q9HCE7	uniprot:O15105	0220(ubiquitination reaction)	signor
+uniprot:Q9HCE7	uniprot:O15105	2241(down-regulates activity)	signor
+uniprot:P49841	uniprot:P05412	0217(phosphorylation reaction)	signor
+uniprot:P49841	uniprot:P05412	2241(down-regulates activity)	signor
+uniprot:P12643	uniprot:Q15797	unknown	signor
+uniprot:P12643	uniprot:Q15797	2235(up-regulates)	signor
+uniprot:P01116	uniprot:P04049	0462(bind)	signor
+uniprot:P01116	uniprot:P04049	2235(up-regulates)	signor
+uniprot:Q15797	uniprot:Q13950	0462(bind)	signor
+uniprot:Q15797	uniprot:Q13950	2235(up-regulates)	signor
+uniprot:Q9HCE7	uniprot:Q13485	0220(ubiquitination reaction)	signor
+uniprot:Q9HCE7	uniprot:Q13485	2241(down-regulates activity)	signor
+uniprot:Q9HCE7	uniprot:Q13950	0220(ubiquitination reaction)	signor
+uniprot:Q9HCE7	uniprot:Q13950	2241(down-regulates activity)	signor
+uniprot:O15105	uniprot:P36897	0462(bind)	signor
+uniprot:O15105	uniprot:P36897	2241(down-regulates activity)	signor
+uniprot:O43541	uniprot:P36897	0462(bind)	signor
+uniprot:O43541	uniprot:P36897	2241(down-regulates activity)	signor
+uniprot:P45983	uniprot:P01106	0217(phosphorylation reaction)	signor
+uniprot:P45983	uniprot:P01106	2236(up-regulates activity)	signor
+uniprot:P36897	uniprot:Q9Y4K3	0462(bind)	signor
+uniprot:P36897	uniprot:Q9Y4K3	2236(up-regulates activity)	signor
+uniprot:P12931	uniprot:P40763	0217(phosphorylation reaction)	signor
+uniprot:P12931	uniprot:P40763	2236(up-regulates activity)	signor
+uniprot:P98170	uniprot:P42574	0220(ubiquitination reaction)	signor
+uniprot:P98170	uniprot:P42574	2244(down-regulates quantity by destabilization)	signor
+uniprot:Q13546	uniprot:Q9Y6K9	0462(bind)	signor
+uniprot:Q13546	uniprot:Q9Y6K9	2236(up-regulates activity)	signor
+uniprot:P01112	uniprot:P42336	0462(bind)	signor
+uniprot:P01112	uniprot:P42336	2235(up-regulates)	signor
+uniprot:P04628	uniprot:O75197	0462(bind)	signor
+uniprot:P04628	uniprot:O75197	2236(up-regulates activity)	signor
+uniprot:P46531	uniprot:P01106	2247(transcriptional regulation)	signor
+uniprot:P46531	uniprot:P01106	2238(up-regulates quantity by expression)	signor
+uniprot:P01116	uniprot:P15056	0462(bind)	signor
+uniprot:P01116	uniprot:P15056	2236(up-regulates activity)	signor
+uniprot:P46531	uniprot:P19838	2247(transcriptional regulation)	signor
+uniprot:P46531	uniprot:P19838	2238(up-regulates quantity by expression)	signor
+uniprot:Q9UHD2	uniprot:Q14653	0217(phosphorylation reaction)	signor
+uniprot:Q9UHD2	uniprot:Q14653	2236(up-regulates activity)	signor
+uniprot:O00755	uniprot:O75581	0462(bind)	signor	2
+uniprot:O00755	uniprot:O75581	2236(up-regulates activity)	signor	2
+uniprot:P21580	uniprot:Q9Y4K3	0204(deubiquitination reaction)	signor	2
+uniprot:P21580	uniprot:Q9Y4K3	2241(down-regulates activity)	signor	2
+uniprot:O43524	uniprot:O43521	2247(transcriptional regulation)	signor	2
+uniprot:O43524	uniprot:O43521	2238(up-regulates quantity by expression)	signor	2
+uniprot:P04637	uniprot:Q07817	0462(bind)	signor	2
+uniprot:P04637	uniprot:Q07817	2241(down-regulates activity)	signor	2
+uniprot:P01133	uniprot:P00533	2235(up-regulates)	signor	2
+uniprot:Q15797	uniprot:Q13485	0217(phosphorylation reaction)	signor	2
+uniprot:Q15797	uniprot:Q13485	2235(up-regulates)	signor	2
+uniprot:Q13077	uniprot:Q12933	0462(bind)	signor	2
+uniprot:Q13077	uniprot:Q12933	2235(up-regulates)	signor	2
+uniprot:P98170	uniprot:P42574	0462(bind)	signor	2
+uniprot:P98170	uniprot:P42574	2241(down-regulates activity)	signor	2
+uniprot:P60484	uniprot:P42336	unknown	signor	2
+uniprot:P60484	uniprot:P42336	2241(down-regulates activity)	signor	2
+uniprot:P16220	uniprot:P10415	2247(transcriptional regulation)	signor	2
+uniprot:P16220	uniprot:P10415	2238(up-regulates quantity by expression)	signor	2
+uniprot:P37173	uniprot:P37173	2236(up-regulates activity)	signor	2
+uniprot:P36894	uniprot:Q15797	0217(phosphorylation reaction)	signor	2
+uniprot:P36894	uniprot:Q15797	2235(up-regulates)	signor	2
+uniprot:P56704	uniprot:O75581	0462(bind)	signor	2
+uniprot:P56704	uniprot:O75581	2236(up-regulates activity)	signor	2
+uniprot:P23443	uniprot:P42345	0217(phosphorylation reaction)	signor	2
+uniprot:P23443	uniprot:P42345	2236(up-regulates activity)	signor	2
+uniprot:P01116	uniprot:P15056	2235(up-regulates)	signor	2
+uniprot:P37231	uniprot:P60484	unknown	signor	2
+uniprot:P37231	uniprot:P60484	2241(down-regulates activity)	signor	2
+uniprot:Q14164	uniprot:P25963	0217(phosphorylation reaction)	signor	2
+uniprot:Q14164	uniprot:P25963	2244(down-regulates quantity by destabilization)	signor	2
+uniprot:P48023	uniprot:P25445	0462(bind)	signor	2
+uniprot:P48023	uniprot:P25445	2236(up-regulates activity)	signor	2
+uniprot:P46531	uniprot:P46531	2247(transcriptional regulation)	signor	2
+uniprot:P46531	uniprot:P46531	2238(up-regulates quantity by expression)	signor	2
+uniprot:P56705	uniprot:O75581	0462(bind)	signor	2
+uniprot:P56705	uniprot:O75581	2236(up-regulates activity)	signor	2
+uniprot:P35222	uniprot:P01106	2247(transcriptional regulation)	signor	2
+uniprot:P35222	uniprot:P01106	2238(up-regulates quantity by expression)	signor	2
+uniprot:P61088	uniprot:Q12933	0220(ubiquitination reaction)	signor	2
+uniprot:P61088	uniprot:Q12933	2236(up-regulates activity)	signor	2
+uniprot:P00533	uniprot:P42224	0217(phosphorylation reaction)	signor	2
+uniprot:P00533	uniprot:P42224	2235(up-regulates)	signor	2
+uniprot:O43521	uniprot:Q07817	2241(down-regulates activity)	signor	2
+uniprot:P08151	uniprot:Q13635	2247(transcriptional regulation)	signor	2
+uniprot:P08151	uniprot:Q13635	2238(up-regulates quantity by expression)	signor	2
+uniprot:Q9UHD2	uniprot:P25963	0217(phosphorylation reaction)	signor	2
+uniprot:Q9UHD2	uniprot:P25963	2244(down-regulates quantity by destabilization)	signor	2
+uniprot:P84022	uniprot:Q13485	0462(bind)	signor	2
+uniprot:P84022	uniprot:Q13485	2236(up-regulates activity)	signor	2
+uniprot:O15105	uniprot:Q15797	unknown	signor	2
+uniprot:O15105	uniprot:Q15797	2240(down-regulates)	signor	2
+uniprot:Q9UNE7	uniprot:Q15797	0220(ubiquitination reaction)	signor	2
+uniprot:Q9UNE7	uniprot:Q15797	2240(down-regulates)	signor	2
+uniprot:Q13153	uniprot:Q13153	0462(bind)	signor	2
+uniprot:Q13153	uniprot:Q13153	2241(down-regulates activity)	signor	2
+uniprot:P43403	uniprot:Q16539	0217(phosphorylation reaction)	signor	2
+uniprot:P43403	uniprot:Q16539	2236(up-regulates activity)	signor	2
+uniprot:Q13546	uniprot:Q9Y4K3	0462(bind)	signor	2
+uniprot:Q13546	uniprot:Q9Y4K3	2236(up-regulates activity)	signor	2
+uniprot:Q06124	uniprot:P12931	0203(dephosphorylation reaction)	signor	2
+uniprot:Q06124	uniprot:P12931	2236(up-regulates activity)	signor	2
+uniprot:Q07812	uniprot:Q07812	0462(bind)	signor	2
+uniprot:Q07812	uniprot:Q07812	2236(up-regulates activity)	signor	2
+uniprot:P36897	uniprot:Q15796	0217(phosphorylation reaction)	signor	2
+uniprot:P36897	uniprot:Q15796	2236(up-regulates activity)	signor	2
+uniprot:Q13873	uniprot:P36894	0217(phosphorylation reaction)	signor	2
+uniprot:Q13873	uniprot:P36894	2235(up-regulates)	signor	2
+uniprot:P49137	uniprot:P16220	2236(up-regulates activity)	signor	2
+uniprot:Q13464	uniprot:P45983	0217(phosphorylation reaction)	signor	2
+uniprot:Q13464	uniprot:P45983	2236(up-regulates activity)	signor	2
+uniprot:O43541	uniprot:P84022	0462(bind)	signor	2
+uniprot:O43541	uniprot:P84022	2241(down-regulates activity)	signor	2
+uniprot:Q13253	uniprot:P12643	0462(bind)	signor	2
+uniprot:Q13253	uniprot:P12643	2240(down-regulates)	signor	2
+uniprot:P05412	uniprot:Q13485	0462(bind)	signor	2
+uniprot:P05412	uniprot:Q13485	2236(up-regulates activity)	signor	2
+uniprot:P10275	uniprot:P03372	unknown	slk2
+uniprot:P10275	uniprot:P03372	0624(stimulation)	slk2
+uniprot:P19793	uniprot:P03372	unknown	slk2
+uniprot:P19793	uniprot:P03372	0624(stimulation)	slk2
+uniprot:P46531	uniprot:P84022	unknown	slk2
+uniprot:P46531	uniprot:P84022	directed	slk2
+uniprot:O15105	uniprot:P37023	unknown	slk2
+uniprot:O15105	uniprot:P37023	0624(stimulation)	slk2
+uniprot:Q16539	uniprot:P15336	unknown	slk2
+uniprot:Q16539	uniprot:P15336	0624(stimulation)	slk2
+uniprot:P28482	uniprot:P84022	unknown	slk2
+uniprot:P28482	uniprot:P84022	0624(stimulation)	slk2
+uniprot:P45983	uniprot:P15336	unknown	slk2
+uniprot:P45983	uniprot:P15336	0624(stimulation)	slk2
+uniprot:P46531	uniprot:Q06413	unknown	slk2
+uniprot:P46531	uniprot:Q06413	0624(stimulation)	slk2
+uniprot:P19793	uniprot:Q07869	unknown	slk2
+uniprot:P19793	uniprot:Q07869	0624(stimulation)	slk2
+uniprot:P03372	uniprot:P84022	unknown	slk2
+uniprot:P03372	uniprot:P84022	directed	slk2
+uniprot:P31749	uniprot:O43524	unknown	slk2
+uniprot:P31749	uniprot:O43524	0624(stimulation)	slk2
+uniprot:P84022	uniprot:P03372	unknown	slk2
+uniprot:P84022	uniprot:P03372	0624(stimulation)	slk2
+uniprot:P29350	uniprot:O60674	unknown	slk2
+uniprot:P29350	uniprot:O60674	0624(stimulation)	slk2
+uniprot:O15105	uniprot:Q04771	unknown	slk2
+uniprot:O15105	uniprot:Q04771	0624(stimulation)	slk2
+uniprot:P36897	uniprot:P37023	unknown	slk2
+uniprot:P36897	uniprot:P37023	0624(stimulation)	slk2
+uniprot:O15169	uniprot:P84022	unknown	slk2
+uniprot:O15169	uniprot:P84022	0624(stimulation)	slk2
+uniprot:P15056	uniprot:Q02750	unknown	slk2
+uniprot:P15056	uniprot:Q02750	0624(stimulation)	slk2
+uniprot:P27361	uniprot:Q15797	unknown	slk2
+uniprot:P27361	uniprot:Q15797	0624(stimulation)	slk2
+uniprot:O43541	uniprot:Q15797	unknown	slk2
+uniprot:O43541	uniprot:Q15797	0624(stimulation)	slk2
+uniprot:O15105	uniprot:P84022	unknown	slk2
+uniprot:O15105	uniprot:P84022	0624(stimulation)	slk2
+uniprot:P28482	uniprot:P01106	unknown	slk2
+uniprot:P28482	uniprot:P01106	0624(stimulation)	slk2
+uniprot:P49841	uniprot:P84022	unknown	slk2
+uniprot:P49841	uniprot:P84022	0624(stimulation)	slk2
+uniprot:P28482	uniprot:P04049	unknown	slk2
+uniprot:P28482	uniprot:P04049	0624(stimulation)	slk2
+uniprot:O15530	uniprot:P31751	unknown	slk2
+uniprot:O15530	uniprot:P31751	0624(stimulation)	slk2
+uniprot:P03372	uniprot:P05019	unknown	slk2
+uniprot:P03372	uniprot:P05019	0624(stimulation)	slk2
+uniprot:P60484	uniprot:P31751	unknown	slk2
+uniprot:P60484	uniprot:P31751	0623(inhibition)	slk2
+uniprot:P31749	uniprot:P84022	unknown	slk2
+uniprot:P31749	uniprot:P84022	0624(stimulation)	slk2
+uniprot:P28482	uniprot:P40763	unknown	slk2
+uniprot:P28482	uniprot:P40763	0624(stimulation)	slk2
+uniprot:P40189	uniprot:O60674	unknown	slk2
+uniprot:P40189	uniprot:O60674	0624(stimulation)	slk2
+uniprot:P84022	uniprot:Q9UJU2	unknown	slk2
+uniprot:P84022	uniprot:Q9UJU2	0624(stimulation)	slk2
+uniprot:Q02750	uniprot:P27361	unknown	slk2
+uniprot:Q02750	uniprot:P27361	0624(stimulation)	slk2
+uniprot:P36897	uniprot:P84022	unknown	slk2
+uniprot:P36897	uniprot:P84022	0624(stimulation)	slk2
+uniprot:P10275	uniprot:P19793	unknown	slk2
+uniprot:P10275	uniprot:P19793	0624(stimulation)	slk2
+uniprot:P98082	uniprot:O14641	unknown	slk2
+uniprot:P98082	uniprot:O14641	0624(stimulation)	slk2
+uniprot:Q15796	uniprot:Q9UJU2	unknown	slk2
+uniprot:Q15796	uniprot:Q9UJU2	0624(stimulation)	slk2
+uniprot:P31751	uniprot:P35222	unknown	slk2
+uniprot:P31751	uniprot:P35222	0624(stimulation)	slk2
+uniprot:P60484	uniprot:O15530	unknown	slk2
+uniprot:P60484	uniprot:O15530	0624(stimulation)	slk2
+uniprot:Q8N474	uniprot:P56705	unknown	slk2
+uniprot:Q8N474	uniprot:P56705	0624(stimulation)	slk2
+uniprot:P27361	uniprot:Q15796	unknown	slk2
+uniprot:P27361	uniprot:Q15796	0624(stimulation)	slk2
+uniprot:P31749	uniprot:P35222	unknown	slk2
+uniprot:P31749	uniprot:P35222	0624(stimulation)	slk2
+uniprot:P31751	uniprot:P84022	unknown	slk2
+uniprot:P31751	uniprot:P84022	0624(stimulation)	slk2
+uniprot:O60674	uniprot:P40763	unknown	slk2
+uniprot:O60674	uniprot:P40763	0624(stimulation)	slk2
+uniprot:O15105	uniprot:P36894	unknown	slk2
+uniprot:O15105	uniprot:P36894	0624(stimulation)	slk2
+uniprot:P31751	uniprot:P23443	unknown	slk2
+uniprot:P31751	uniprot:P23443	0624(stimulation)	slk2
+uniprot:P04626	uniprot:P21860	unknown	slk2
+uniprot:P04626	uniprot:P21860	0624(stimulation)	slk2
+uniprot:P01112	uniprot:P04049	unknown	slk2
+uniprot:P01112	uniprot:P04049	0624(stimulation)	slk2
+uniprot:P46531	uniprot:Q06330	unknown	slk2
+uniprot:P46531	uniprot:Q06330	0624(stimulation)	slk2
+uniprot:P49407	uniprot:P28482	unknown	slk2
+uniprot:P49407	uniprot:P28482	0624(stimulation)	slk2
+uniprot:P42684	uniprot:P42345	unknown	slk2
+uniprot:P42684	uniprot:P42345	0624(stimulation)	slk2
+uniprot:Q13485	uniprot:Q9UJU2	unknown	slk2
+uniprot:Q13485	uniprot:Q9UJU2	0624(stimulation)	slk2
+uniprot:P31751	uniprot:O43524	unknown	slk2
+uniprot:P31751	uniprot:O43524	0624(stimulation)	slk2
+uniprot:P19793	uniprot:P37231	unknown	slk2
+uniprot:P19793	uniprot:P37231	0624(stimulation)	slk2
+uniprot:P10276	uniprot:P19793	unknown	slk2
+uniprot:P10276	uniprot:P19793	0624(stimulation)	slk2
+uniprot:P28482	uniprot:Q15796	unknown	slk2
+uniprot:P28482	uniprot:Q15796	0624(stimulation)	slk2
+uniprot:P04049	uniprot:Q02750	unknown	slk2
+uniprot:P04049	uniprot:Q02750	0624(stimulation)	slk2
+uniprot:Q9BXM7	uniprot:P27361	unknown	slk2
+uniprot:Q9BXM7	uniprot:P27361	0624(stimulation)	slk2
+uniprot:P01308	uniprot:P06213	unknown	slk2
+uniprot:P01308	uniprot:P06213	0624(stimulation)	slk2
+uniprot:P36897	uniprot:P60953	unknown	slk2
+uniprot:P36897	uniprot:P60953	0624(stimulation)	slk2
+uniprot:P05230	uniprot:P11362	unknown	slk2
+uniprot:P05230	uniprot:P11362	0624(stimulation)	slk2
+uniprot:P28482	uniprot:Q15797	unknown	slk2
+uniprot:P28482	uniprot:Q15797	0624(stimulation)	slk2
+uniprot:P31751	uniprot:P49841	unknown	slk2
+uniprot:P31751	uniprot:P49841	0624(stimulation)	slk2
+uniprot:P46934	uniprot:P60484	unknown	slk2
+uniprot:P46934	uniprot:P60484	0624(stimulation)	slk2
+uniprot:P31749	uniprot:P49841	unknown	slk2
+uniprot:P31749	uniprot:P49841	0624(stimulation)	slk2
+uniprot:P35222	uniprot:Q9UJU2	unknown	slk2
+uniprot:P35222	uniprot:Q9UJU2	0624(stimulation)	slk2
+uniprot:P29590	uniprot:P84022	unknown	slk2
+uniprot:P29590	uniprot:P84022	0624(stimulation)	slk2
+uniprot:P36897	uniprot:Q9H2X6	unknown	slk2
+uniprot:P36897	uniprot:Q9H2X6	0624(stimulation)	slk2
+uniprot:O60674	uniprot:P42224	unknown	slk2
+uniprot:O60674	uniprot:P42224	0624(stimulation)	slk2
+uniprot:P35222	uniprot:O15105	unknown	slk2
+uniprot:P35222	uniprot:O15105	0624(stimulation)	slk2
+uniprot:P27361	uniprot:P04049	unknown	slk2
+uniprot:P27361	uniprot:P04049	0624(stimulation)	slk2
+uniprot:P84022	uniprot:Q06413	unknown	slk2
+uniprot:P84022	uniprot:Q06413	0624(stimulation)	slk2
+uniprot:P27361	uniprot:Q9BXM7	unknown	slk2
+uniprot:P27361	uniprot:Q9BXM7	directed	slk2
+uniprot:Q06124	uniprot:P42224	unknown	slk2
+uniprot:Q06124	uniprot:P42224	0624(stimulation)	slk2
+uniprot:P84022	uniprot:Q13485	unknown	slk2
+uniprot:P84022	uniprot:Q13485	0624(stimulation)	slk2
+uniprot:O15169	uniprot:P35222	unknown	slk2
+uniprot:O15169	uniprot:P35222	0624(stimulation)	slk2
+uniprot:P10276	uniprot:P03372	unknown	slk2
+uniprot:P10276	uniprot:P03372	0624(stimulation)	slk2
+uniprot:P35222	uniprot:O43524	unknown	slk2
+uniprot:P35222	uniprot:O43524	0624(stimulation)	slk2
+uniprot:P03372	uniprot:P37231	unknown	slk2
+uniprot:P03372	uniprot:P37231	0624(stimulation)	slk2
+uniprot:P18031	uniprot:P40763	unknown	slk2
+uniprot:P18031	uniprot:P40763	0624(stimulation)	slk2
+uniprot:P22681	uniprot:P00533	unknown	slk2
+uniprot:P22681	uniprot:P00533	0624(stimulation)	slk2
+uniprot:P19793	uniprot:P10276	unknown	slk2
+uniprot:P19793	uniprot:P10276	0624(stimulation)	slk2
+uniprot:Q9HCE7	uniprot:O15105	unknown	slk2
+uniprot:Q9HCE7	uniprot:O15105	0624(stimulation)	slk2
+uniprot:P10275	uniprot:Q13285	unknown	slk2
+uniprot:P10275	uniprot:Q13285	0624(stimulation)	slk2
+uniprot:P60484	uniprot:P31749	unknown	slk2
+uniprot:P60484	uniprot:P31749	directed	slk2
+uniprot:P00519	uniprot:O15350	unknown	slk2
+uniprot:P00519	uniprot:O15350	0624(stimulation)	slk2
+uniprot:P01116	uniprot:P04049	unknown	slk2
+uniprot:P01116	uniprot:P04049	0624(stimulation)	slk2
+uniprot:O43541	uniprot:P84022	unknown	slk2
+uniprot:O43541	uniprot:P84022	0624(stimulation)	slk2
+uniprot:P28482	uniprot:Q02750	unknown	slk2
+uniprot:P28482	uniprot:Q02750	directed	slk2
+uniprot:Q13485	uniprot:P01100	unknown	slk2
+uniprot:Q13485	uniprot:P01100	0624(stimulation)	slk2
+uniprot:O15105	uniprot:P36897	unknown	slk2
+uniprot:O15105	uniprot:P36897	0624(stimulation)	slk2
+uniprot:O43541	uniprot:P36897	unknown	slk2
+uniprot:O43541	uniprot:P36897	0624(stimulation)	slk2
+uniprot:P03372	uniprot:P19793	unknown	slk2
+uniprot:P03372	uniprot:P19793	0624(stimulation)	slk2
+uniprot:O43541	uniprot:Q04771	unknown	slk2
+uniprot:O43541	uniprot:Q04771	0624(stimulation)	slk2
+uniprot:Q13315	uniprot:P42684	unknown	slk2
+uniprot:Q13315	uniprot:P42684	0624(stimulation)	slk2
+uniprot:P46531	uniprot:Q16665	unknown	slk2
+uniprot:P46531	uniprot:Q16665	0624(stimulation)	slk2
+uniprot:P27361	uniprot:P84022	unknown	slk2
+uniprot:P27361	uniprot:P84022	0624(stimulation)	slk2
+uniprot:P27361	uniprot:P40763	unknown	slk2
+uniprot:P27361	uniprot:P40763	0624(stimulation)	slk2
+uniprot:P31749	uniprot:Q12778	unknown	slk2
+uniprot:P31749	uniprot:Q12778	0624(stimulation)	slk2
+uniprot:Q16539	uniprot:Q06413	unknown	slk2
+uniprot:Q16539	uniprot:Q06413	0624(stimulation)	slk2
+uniprot:O43541	uniprot:Q15796	unknown	slk2
+uniprot:O43541	uniprot:Q15796	0624(stimulation)	slk2
+uniprot:P27361	uniprot:Q02750	unknown	slk2
+uniprot:P27361	uniprot:Q02750	directed	slk2
+uniprot:P03372	uniprot:P10275	unknown	slk2
+uniprot:P03372	uniprot:P10275	0624(stimulation)	slk2
+uniprot:P03372	uniprot:P06401	unknown	slk2
+uniprot:P03372	uniprot:P06401	0624(stimulation)	slk2
+uniprot:P78504	uniprot:P46531	unknown	slk2	2
+uniprot:P78504	uniprot:P46531	0624(stimulation)	slk2	2
+uniprot:Q15796	uniprot:Q13485	unknown	slk2	2
+uniprot:Q15796	uniprot:Q13485	0624(stimulation)	slk2	2
+uniprot:O15520	uniprot:P21802	unknown	slk2	2
+uniprot:O15520	uniprot:P21802	0624(stimulation)	slk2	2
+uniprot:P37173	uniprot:P36897	unknown	slk2	2
+uniprot:P37173	uniprot:P36897	0624(stimulation)	slk2	2
+uniprot:P40189	uniprot:P40763	unknown	slk2	2
+uniprot:P40189	uniprot:P40763	directed	slk2	2
+uniprot:Q07869	uniprot:P19793	unknown	slk2	2
+uniprot:Q07869	uniprot:P19793	0624(stimulation)	slk2	2
+uniprot:O75197	uniprot:O15169	unknown	slk2	2
+uniprot:O75197	uniprot:O15169	0624(stimulation)	slk2	2
+uniprot:P12643	uniprot:Q13873	unknown	slk2	2
+uniprot:P12643	uniprot:Q13873	0624(stimulation)	slk2	2
+uniprot:P84022	uniprot:P46531	unknown	slk2	2
+uniprot:P84022	uniprot:P46531	0624(stimulation)	slk2	2
+uniprot:Q15797	uniprot:Q13485	unknown	slk2	2
+uniprot:Q15797	uniprot:Q13485	0624(stimulation)	slk2	2
+uniprot:P49841	uniprot:P01106	unknown	slk2	2
+uniprot:P49841	uniprot:P01106	0624(stimulation)	slk2	2
+uniprot:P61812	uniprot:P37173	unknown	slk2	2
+uniprot:P61812	uniprot:P37173	0624(stimulation)	slk2	2
+uniprot:P16220	uniprot:P84022	unknown	slk2	2
+uniprot:P16220	uniprot:P84022	0624(stimulation)	slk2	2
+uniprot:P78536	uniprot:P46531	unknown	slk2	2
+uniprot:P78536	uniprot:P46531	directed	slk2	2
+uniprot:P01127	uniprot:P16234	unknown	slk2	2
+uniprot:P01127	uniprot:P16234	0624(stimulation)	slk2	2
+uniprot:P00519	uniprot:P42345	unknown	slk2	2
+uniprot:P00519	uniprot:P42345	0624(stimulation)	slk2	2
+uniprot:P04049	uniprot:Q9BXM7	unknown	slk2	2
+uniprot:P04049	uniprot:Q9BXM7	0624(stimulation)	slk2	2
+uniprot:P17706	uniprot:P42224	unknown	slk2	2
+uniprot:P17706	uniprot:P42224	0624(stimulation)	slk2	2
+uniprot:P49768	uniprot:P46531	unknown	slk2	2
+uniprot:P49768	uniprot:P46531	0624(stimulation)	slk2	2
+uniprot:P05019	uniprot:P08069	unknown	slk2	2
+uniprot:P05019	uniprot:P08069	0624(stimulation)	slk2	2
+uniprot:P01116	uniprot:P15056	unknown	slk2	2
+uniprot:P01116	uniprot:P15056	0624(stimulation)	slk2	2
+uniprot:P15056	uniprot:Q9BXM7	unknown	slk2	2
+uniprot:P15056	uniprot:Q9BXM7	0624(stimulation)	slk2	2
+uniprot:P04626	uniprot:P27986	unknown	slk2	2
+uniprot:P04626	uniprot:P27986	0624(stimulation)	slk2	2
+uniprot:P12931	uniprot:P37173	unknown	slk2	2
+uniprot:P12931	uniprot:P37173	0624(stimulation)	slk2	2
+uniprot:Q04771	uniprot:Q15797	unknown	slk2	2
+uniprot:Q04771	uniprot:Q15797	0624(stimulation)	slk2	2
+uniprot:P05230	uniprot:P21802	unknown	slk2	2
+uniprot:P05230	uniprot:P21802	0624(stimulation)	slk2	2
+uniprot:P63165	uniprot:Q13485	unknown	slk2	2
+uniprot:P63165	uniprot:Q13485	0624(stimulation)	slk2	2
+uniprot:P46934	uniprot:P08069	unknown	slk2	2
+uniprot:P46934	uniprot:P08069	0624(stimulation)	slk2	2
+uniprot:O15530	uniprot:P31749	unknown	slk2	2
+uniprot:O15530	uniprot:P31749	0624(stimulation)	slk2	2
+uniprot:Q06124	uniprot:O60674	unknown	slk2	2
+uniprot:Q06124	uniprot:O60674	directed	slk2	2
+uniprot:P00533	uniprot:P03372	unknown	slk2	2
+uniprot:P00533	uniprot:P03372	0624(stimulation)	slk2	2
+uniprot:Q03135	uniprot:P16234	unknown	slk2	2
+uniprot:Q03135	uniprot:P16234	0624(stimulation)	slk2	2
+uniprot:P10912	uniprot:O60674	unknown	slk2	2
+uniprot:P10912	uniprot:O60674	0624(stimulation)	slk2	2
+uniprot:P11473	uniprot:P35222	unknown	slk2	2
+uniprot:P11473	uniprot:P35222	0624(stimulation)	slk2	2
+uniprot:P45983	uniprot:P05412	unknown	slk2	2
+uniprot:P45983	uniprot:P05412	0624(stimulation)	slk2	2
+uniprot:P36896	uniprot:Q15796	unknown	slk2	2
+uniprot:P36896	uniprot:Q15796	0624(stimulation)	slk2	2
+uniprot:P09619	uniprot:P16234	unknown	slk2	2
+uniprot:P09619	uniprot:P16234	0624(stimulation)	slk2	2
+uniprot:P29590	uniprot:Q15796	unknown	slk2	2
+uniprot:P29590	uniprot:Q15796	0624(stimulation)	slk2	2
+uniprot:P12644	uniprot:Q13873	unknown	slk2	2
+uniprot:P12644	uniprot:Q13873	0624(stimulation)	slk2	2
+uniprot:P36897	uniprot:Q15796	unknown	slk2	2
+uniprot:P36897	uniprot:Q15796	0624(stimulation)	slk2	2
+uniprot:P10276	uniprot:P35222	unknown	slk2	2
+uniprot:P10276	uniprot:P35222	0624(stimulation)	slk2	2
+uniprot:P17948	uniprot:P19174	unknown	slk2	2
+uniprot:P17948	uniprot:P19174	0624(stimulation)	slk2	2
+uniprot:P10600	uniprot:P37173	unknown	slk2	2
+uniprot:P10600	uniprot:P37173	0624(stimulation)	slk2	2
+uniprot:Q96EB6	uniprot:O15105	unknown	slk2	2
+uniprot:Q96EB6	uniprot:O15105	0624(stimulation)	slk2	2
+uniprot:P29350	uniprot:P40763	unknown	slk2	2
+uniprot:P29350	uniprot:P40763	0623(inhibition)	slk2	2
+uniprot:P31751	uniprot:Q12778	unknown	slk2	2
+uniprot:P31751	uniprot:Q12778	0624(stimulation)	slk2	2
+uniprot:Q6P1J9	uniprot:P35222	unknown	slk2	2
+uniprot:Q6P1J9	uniprot:P35222	0624(stimulation)	slk2	2
+uniprot:P17612	uniprot:P49841	unknown	slk2	2
+uniprot:P17612	uniprot:P49841	directed	slk2	2
+uniprot:Q02750	uniprot:P28482	unknown	slk2	2
+uniprot:Q02750	uniprot:P28482	0624(stimulation)	slk2	2
+uniprot:Q9NZC7	uniprot:Q13485	unknown	slk2	2
+uniprot:Q9NZC7	uniprot:Q13485	0624(stimulation)	slk2	2
+uniprot:Q13153	uniprot:P04049	unknown	slk2	2
+uniprot:Q13153	uniprot:P04049	0624(stimulation)	slk2	2
+uniprot:P06401	uniprot:P03372	unknown	slk2	2
+uniprot:P06401	uniprot:P03372	0624(stimulation)	slk2	2
+uniprot:P46531	uniprot:Q9UJU2	unknown	slk21
+uniprot:P46531	uniprot:Q9UJU2	0624(stimulation)	slk21
+uniprot:P10275	uniprot:P03372	unknown	slk21
+uniprot:P10275	uniprot:P03372	0624(stimulation)	slk21
+uniprot:O14641	uniprot:P63000	unknown	slk21
+uniprot:O14641	uniprot:P63000	0624(stimulation)	slk21
+uniprot:Q9HCE7	uniprot:Q15796	unknown	slk21
+uniprot:Q9HCE7	uniprot:Q15796	0624(stimulation)	slk21
+uniprot:Q16539	uniprot:P15336	unknown	slk21
+uniprot:Q16539	uniprot:P15336	0624(stimulation)	slk21
+uniprot:P28482	uniprot:P84022	unknown	slk21
+uniprot:P28482	uniprot:P84022	0624(stimulation)	slk21
+uniprot:Q15796	uniprot:P16220	unknown	slk21
+uniprot:Q15796	uniprot:P16220	0624(stimulation)	slk21
+uniprot:P19793	uniprot:P03372	unknown	slk21
+uniprot:P19793	uniprot:P03372	0624(stimulation)	slk21
+uniprot:P27361	uniprot:Q99683	unknown	slk21
+uniprot:P27361	uniprot:Q99683	0624(stimulation)	slk21
+uniprot:Q06124	uniprot:P08069	unknown	slk21
+uniprot:Q06124	uniprot:P08069	0624(stimulation)	slk21
+uniprot:P09619	uniprot:P19174	unknown	slk21
+uniprot:P09619	uniprot:P19174	0624(stimulation)	slk21
+uniprot:Q09472	uniprot:O15105	unknown	slk21
+uniprot:Q09472	uniprot:O15105	0624(stimulation)	slk21
+uniprot:P46531	uniprot:P42345	unknown	slk21
+uniprot:P46531	uniprot:P42345	0624(stimulation)	slk21
+uniprot:P48730	uniprot:P35222	unknown	slk21
+uniprot:P48730	uniprot:P35222	0624(stimulation)	slk21
+uniprot:O15105	uniprot:Q04771	unknown	slk21
+uniprot:O15105	uniprot:Q04771	0624(stimulation)	slk21
+uniprot:P49841	uniprot:P10071	unknown	slk21
+uniprot:P49841	uniprot:P10071	0624(stimulation)	slk21
+uniprot:P00533	uniprot:P16333	unknown	slk21
+uniprot:P00533	uniprot:P16333	0624(stimulation)	slk21
+uniprot:P49407	uniprot:Q16539	unknown	slk21
+uniprot:P49407	uniprot:Q16539	0624(stimulation)	slk21
+uniprot:P37173	uniprot:Q9Y4K3	unknown	slk21
+uniprot:P37173	uniprot:Q9Y4K3	0624(stimulation)	slk21
+uniprot:P27361	uniprot:Q15797	unknown	slk21
+uniprot:P27361	uniprot:Q15797	0624(stimulation)	slk21
+uniprot:P17612	uniprot:P49841	unknown	slk21
+uniprot:P17612	uniprot:P49841	directed	slk21
+uniprot:P36896	uniprot:Q15796	unknown	slk21
+uniprot:P36896	uniprot:Q15796	0624(stimulation)	slk21
+uniprot:Q16539	uniprot:P42224	unknown	slk21
+uniprot:Q16539	uniprot:P42224	0624(stimulation)	slk21
+uniprot:O15105	uniprot:P84022	unknown	slk21
+uniprot:O15105	uniprot:P84022	0624(stimulation)	slk21
+uniprot:P28482	uniprot:P40763	unknown	slk21
+uniprot:P28482	uniprot:P40763	0624(stimulation)	slk21
+uniprot:P27361	uniprot:Q07889	unknown	slk21
+uniprot:P27361	uniprot:Q07889	0624(stimulation)	slk21
+uniprot:P28482	uniprot:P04049	unknown	slk21
+uniprot:P28482	uniprot:P04049	0624(stimulation)	slk21
+uniprot:P60484	uniprot:P31751	unknown	slk21
+uniprot:P60484	uniprot:P31751	0623(inhibition)	slk21
+uniprot:P31749	uniprot:P84022	unknown	slk21
+uniprot:P31749	uniprot:P84022	0624(stimulation)	slk21
+uniprot:P40189	uniprot:O60674	unknown	slk21
+uniprot:P40189	uniprot:O60674	0624(stimulation)	slk21
+uniprot:P28482	uniprot:Q99683	unknown	slk21
+uniprot:P28482	uniprot:Q99683	0624(stimulation)	slk21
+uniprot:P10275	uniprot:P19793	unknown	slk21
+uniprot:P10275	uniprot:P19793	0624(stimulation)	slk21
+uniprot:P19793	uniprot:P11473	unknown	slk21
+uniprot:P19793	uniprot:P11473	0624(stimulation)	slk21
+uniprot:P31751	uniprot:P35222	unknown	slk21
+uniprot:P31751	uniprot:P35222	0624(stimulation)	slk21
+uniprot:P60484	uniprot:O15530	unknown	slk21
+uniprot:P60484	uniprot:O15530	0624(stimulation)	slk21
+uniprot:Q07889	uniprot:P01116	unknown	slk21
+uniprot:Q07889	uniprot:P01116	0624(stimulation)	slk21
+uniprot:Q13153	uniprot:Q02750	unknown	slk21
+uniprot:Q13153	uniprot:Q02750	0624(stimulation)	slk21
+uniprot:Q16539	uniprot:P35638	unknown	slk21
+uniprot:Q16539	uniprot:P35638	0624(stimulation)	slk21
+uniprot:P37173	uniprot:O43318	unknown	slk21
+uniprot:P37173	uniprot:O43318	0624(stimulation)	slk21
+uniprot:P00519	uniprot:P16333	unknown	slk21
+uniprot:P00519	uniprot:P16333	0624(stimulation)	slk21
+uniprot:O15105	uniprot:P36894	unknown	slk21
+uniprot:O15105	uniprot:P36894	0624(stimulation)	slk21
+uniprot:O15530	uniprot:P31749	unknown	slk21
+uniprot:O15530	uniprot:P31749	0624(stimulation)	slk21
+uniprot:P31751	uniprot:P23443	unknown	slk21
+uniprot:P31751	uniprot:P23443	0624(stimulation)	slk21
+uniprot:P01112	uniprot:P04049	unknown	slk21
+uniprot:P01112	uniprot:P04049	0624(stimulation)	slk21
+uniprot:P49407	uniprot:P28482	unknown	slk21
+uniprot:P49407	uniprot:P28482	0624(stimulation)	slk21
+uniprot:P42684	uniprot:P42345	unknown	slk21
+uniprot:P42684	uniprot:P42345	0624(stimulation)	slk21
+uniprot:Q13485	uniprot:Q9UJU2	unknown	slk21
+uniprot:Q13485	uniprot:Q9UJU2	0624(stimulation)	slk21
+uniprot:Q03135	uniprot:P09619	unknown	slk21
+uniprot:Q03135	uniprot:P09619	0624(stimulation)	slk21
+uniprot:P31751	uniprot:O43524	unknown	slk21
+uniprot:P31751	uniprot:O43524	0624(stimulation)	slk21
+uniprot:P04626	uniprot:P21860	unknown	slk21
+uniprot:P04626	uniprot:P21860	0624(stimulation)	slk21
+uniprot:O43541	uniprot:Q15796	unknown	slk21
+uniprot:O43541	uniprot:Q15796	0624(stimulation)	slk21
+uniprot:Q02297	uniprot:P04626	unknown	slk21
+uniprot:Q02297	uniprot:P04626	0624(stimulation)	slk21
+uniprot:P49841	uniprot:O75197	unknown	slk21
+uniprot:P49841	uniprot:O75197	0624(stimulation)	slk21
+uniprot:P28482	uniprot:Q15796	unknown	slk21
+uniprot:P28482	uniprot:Q15796	0624(stimulation)	slk21
+uniprot:P98082	uniprot:P36897	unknown	slk21
+uniprot:P98082	uniprot:P36897	0624(stimulation)	slk21
+uniprot:P49841	uniprot:P08151	unknown	slk21
+uniprot:P49841	uniprot:P08151	0624(stimulation)	slk21
+uniprot:P60953	uniprot:P60484	unknown	slk21
+uniprot:P60953	uniprot:P60484	0624(stimulation)	slk21
+uniprot:Q02297	uniprot:Q15303	unknown	slk21
+uniprot:Q02297	uniprot:Q15303	0624(stimulation)	slk21
+uniprot:P04626	uniprot:P27986	unknown	slk21
+uniprot:P04626	uniprot:P27986	0624(stimulation)	slk21
+uniprot:Q96J02	uniprot:Q15796	unknown	slk21
+uniprot:Q96J02	uniprot:Q15796	0624(stimulation)	slk21
+uniprot:Q9BXM7	uniprot:P27361	unknown	slk21
+uniprot:Q9BXM7	uniprot:P27361	0624(stimulation)	slk21
+uniprot:P01308	uniprot:P06213	unknown	slk21
+uniprot:P01308	uniprot:P06213	0624(stimulation)	slk21
+uniprot:P22681	uniprot:P16234	unknown	slk21
+uniprot:P22681	uniprot:P16234	0624(stimulation)	slk21
+uniprot:P45983	uniprot:P40763	unknown	slk21
+uniprot:P45983	uniprot:P40763	0624(stimulation)	slk21
+uniprot:P29350	uniprot:O60674	unknown	slk21
+uniprot:P29350	uniprot:O60674	0624(stimulation)	slk21
+uniprot:P10276	uniprot:P03372	unknown	slk21
+uniprot:P10276	uniprot:P03372	0624(stimulation)	slk21
+uniprot:O15169	uniprot:P35222	unknown	slk21
+uniprot:O15169	uniprot:P35222	0624(stimulation)	slk21
+uniprot:P36897	uniprot:P84022	unknown	slk21
+uniprot:P36897	uniprot:P84022	0624(stimulation)	slk21
+uniprot:P35222	uniprot:Q9UJU2	unknown	slk21
+uniprot:P35222	uniprot:Q9UJU2	0624(stimulation)	slk21
+uniprot:P29590	uniprot:P84022	unknown	slk21
+uniprot:P29590	uniprot:P84022	0624(stimulation)	slk21
+uniprot:P46531	uniprot:O15111	unknown	slk21
+uniprot:P46531	uniprot:O15111	0624(stimulation)	slk21
+uniprot:P12931	uniprot:P19793	unknown	slk21
+uniprot:P12931	uniprot:P19793	0624(stimulation)	slk21
+uniprot:P27361	uniprot:P04049	unknown	slk21
+uniprot:P27361	uniprot:P04049	0624(stimulation)	slk21
+uniprot:P00519	uniprot:Q06609	unknown	slk21
+uniprot:P00519	uniprot:Q06609	0624(stimulation)	slk21
+uniprot:P84022	uniprot:P40763	unknown	slk21
+uniprot:P84022	uniprot:P40763	0624(stimulation)	slk21
+uniprot:P84022	uniprot:Q06413	unknown	slk21
+uniprot:P84022	uniprot:Q06413	0624(stimulation)	slk21
+uniprot:P27361	uniprot:Q9BXM7	unknown	slk21
+uniprot:P27361	uniprot:Q9BXM7	directed	slk21
+uniprot:Q06124	uniprot:P42224	unknown	slk21
+uniprot:Q06124	uniprot:P42224	0624(stimulation)	slk21
+uniprot:P84022	uniprot:Q13485	unknown	slk21
+uniprot:P84022	uniprot:Q13485	0624(stimulation)	slk21
+uniprot:P17252	uniprot:P01116	unknown	slk21
+uniprot:P17252	uniprot:P01116	0624(stimulation)	slk21
+uniprot:Q9HCE7	uniprot:P36897	unknown	slk21
+uniprot:Q9HCE7	uniprot:P36897	0624(stimulation)	slk21
+uniprot:Q92793	uniprot:Q15796	unknown	slk21
+uniprot:Q92793	uniprot:Q15796	0624(stimulation)	slk21
+uniprot:P49407	uniprot:O14641	unknown	slk21
+uniprot:P49407	uniprot:O14641	0624(stimulation)	slk21
+uniprot:P09619	uniprot:Q06124	unknown	slk21
+uniprot:P09619	uniprot:Q06124	0624(stimulation)	slk21
+uniprot:P42684	uniprot:Q06609	unknown	slk21
+uniprot:P42684	uniprot:Q06609	0624(stimulation)	slk21
+uniprot:P18031	uniprot:P40763	unknown	slk21
+uniprot:P18031	uniprot:P40763	0624(stimulation)	slk21
+uniprot:P00519	uniprot:O15350	unknown	slk21
+uniprot:P00519	uniprot:O15350	0624(stimulation)	slk21
+uniprot:O15105	uniprot:P62136	unknown	slk21
+uniprot:O15105	uniprot:P62136	0624(stimulation)	slk21
+uniprot:P35222	uniprot:O15105	unknown	slk21
+uniprot:P35222	uniprot:O15105	0624(stimulation)	slk21
+uniprot:P42684	uniprot:P16333	unknown	slk21
+uniprot:P42684	uniprot:P16333	0624(stimulation)	slk21
+uniprot:P10275	uniprot:Q13285	unknown	slk21
+uniprot:P10275	uniprot:Q13285	0624(stimulation)	slk21
+uniprot:O15105	uniprot:P37023	unknown	slk21
+uniprot:O15105	uniprot:P37023	0624(stimulation)	slk21
+uniprot:P98082	uniprot:P37173	unknown	slk21
+uniprot:P98082	uniprot:P37173	0624(stimulation)	slk21
+uniprot:P01116	uniprot:P04049	unknown	slk21
+uniprot:P01116	uniprot:P04049	0624(stimulation)	slk21
+uniprot:P28482	uniprot:Q02750	unknown	slk21
+uniprot:P28482	uniprot:Q02750	directed	slk21
+uniprot:Q09472	uniprot:Q15796	unknown	slk21
+uniprot:Q09472	uniprot:Q15796	0624(stimulation)	slk21
+uniprot:O15105	uniprot:P36897	unknown	slk21
+uniprot:O15105	uniprot:P36897	0624(stimulation)	slk21
+uniprot:P98082	uniprot:Q92997	unknown	slk21
+uniprot:P98082	uniprot:Q92997	0624(stimulation)	slk21
+uniprot:P60484	uniprot:P63000	unknown	slk21
+uniprot:P60484	uniprot:P63000	0624(stimulation)	slk21
+uniprot:P36897	uniprot:Q9Y4K3	unknown	slk21
+uniprot:P36897	uniprot:Q9Y4K3	0624(stimulation)	slk21
+uniprot:P31749	uniprot:P17612	unknown	slk21
+uniprot:P31749	uniprot:P17612	0624(stimulation)	slk21
+uniprot:Q06124	uniprot:O60674	unknown	slk21
+uniprot:Q06124	uniprot:O60674	directed	slk21
+uniprot:O43541	uniprot:Q04771	unknown	slk21
+uniprot:O43541	uniprot:Q04771	0624(stimulation)	slk21
+uniprot:Q16539	uniprot:P84022	unknown	slk21
+uniprot:Q16539	uniprot:P84022	0624(stimulation)	slk21
+uniprot:Q13485	uniprot:P16220	unknown	slk21
+uniprot:Q13485	uniprot:P16220	0624(stimulation)	slk21
+uniprot:P31749	uniprot:Q12778	unknown	slk21
+uniprot:P31749	uniprot:Q12778	0624(stimulation)	slk21
+uniprot:P06730	uniprot:P84022	unknown	slk21
+uniprot:P06730	uniprot:P84022	0624(stimulation)	slk21
+uniprot:Q16539	uniprot:P40763	unknown	slk21
+uniprot:Q16539	uniprot:P40763	0624(stimulation)	slk21
+uniprot:Q02750	uniprot:P27361	unknown	slk21
+uniprot:Q02750	uniprot:P27361	0624(stimulation)	slk21
+uniprot:P09619	uniprot:O43639	unknown	slk21
+uniprot:P09619	uniprot:O43639	0624(stimulation)	slk21
+uniprot:P35222	uniprot:P15884	unknown	slk21
+uniprot:P35222	uniprot:P15884	0624(stimulation)	slk21
+uniprot:P35222	uniprot:Q12778	unknown	slk21
+uniprot:P35222	uniprot:Q12778	0624(stimulation)	slk21
+uniprot:P45983	uniprot:P15336	unknown	slk21
+uniprot:P45983	uniprot:P15336	0624(stimulation)	slk21
+uniprot:P46531	uniprot:P84022	unknown	slk21
+uniprot:P46531	uniprot:P84022	directed	slk21
+uniprot:P60484	uniprot:P31749	unknown	slk21
+uniprot:P60484	uniprot:P31749	directed	slk21
+uniprot:P49841	uniprot:P84022	unknown	slk21
+uniprot:P49841	uniprot:P84022	0624(stimulation)	slk21
+uniprot:Q92793	uniprot:P84022	unknown	slk21
+uniprot:Q92793	uniprot:P84022	0624(stimulation)	slk21
+uniprot:P19793	uniprot:Q07869	unknown	slk21
+uniprot:P19793	uniprot:Q07869	0624(stimulation)	slk21
+uniprot:P03372	uniprot:P84022	unknown	slk21
+uniprot:P03372	uniprot:P84022	directed	slk21
+uniprot:P31749	uniprot:O43524	unknown	slk21
+uniprot:P31749	uniprot:O43524	0624(stimulation)	slk21
+uniprot:P12931	uniprot:P37173	unknown	slk21
+uniprot:P12931	uniprot:P37173	0624(stimulation)	slk21
+uniprot:P84022	uniprot:P03372	unknown	slk21
+uniprot:P84022	uniprot:P03372	0624(stimulation)	slk21
+uniprot:Q9H2X6	uniprot:Q13363	unknown	slk21
+uniprot:Q9H2X6	uniprot:Q13363	0624(stimulation)	slk21
+uniprot:P28482	uniprot:Q15797	unknown	slk21
+uniprot:P28482	uniprot:Q15797	0624(stimulation)	slk21
+uniprot:P27361	uniprot:Q15796	unknown	slk21
+uniprot:P27361	uniprot:Q15796	0624(stimulation)	slk21
+uniprot:O60674	uniprot:P40763	unknown	slk21
+uniprot:O60674	uniprot:P40763	0624(stimulation)	slk21
+uniprot:P36897	uniprot:P37023	unknown	slk21
+uniprot:P36897	uniprot:P37023	0624(stimulation)	slk21
+uniprot:O15169	uniprot:P84022	unknown	slk21
+uniprot:O15169	uniprot:P84022	0624(stimulation)	slk21
+uniprot:P15056	uniprot:Q02750	unknown	slk21
+uniprot:P15056	uniprot:Q02750	0624(stimulation)	slk21
+uniprot:Q13315	uniprot:P42684	unknown	slk21
+uniprot:Q13315	uniprot:P42684	0624(stimulation)	slk21
+uniprot:Q9UER7	uniprot:Q99683	unknown	slk21
+uniprot:Q9UER7	uniprot:Q99683	0624(stimulation)	slk21
+uniprot:O15169	uniprot:P49841	unknown	slk21
+uniprot:O15169	uniprot:P49841	directed	slk21
+uniprot:P17706	uniprot:P42224	unknown	slk21
+uniprot:P17706	uniprot:P42224	0624(stimulation)	slk21
+uniprot:Q13153	uniprot:P16333	unknown	slk21
+uniprot:Q13153	uniprot:P16333	0624(stimulation)	slk21
+uniprot:P00533	uniprot:P03372	unknown	slk21
+uniprot:P00533	uniprot:P03372	0624(stimulation)	slk21
+uniprot:O43541	uniprot:Q15797	unknown	slk21
+uniprot:O43541	uniprot:Q15797	0624(stimulation)	slk21
+uniprot:P28482	uniprot:Q13153	unknown	slk21
+uniprot:P28482	uniprot:Q13153	0623(inhibition)	slk21
+uniprot:Q13177	uniprot:P42684	unknown	slk21
+uniprot:Q13177	uniprot:P42684	0624(stimulation)	slk21
+uniprot:P28482	uniprot:P01106	unknown	slk21
+uniprot:P28482	uniprot:P01106	0624(stimulation)	slk21
+uniprot:Q13153	uniprot:P04049	unknown	slk21
+uniprot:Q13153	uniprot:P04049	0624(stimulation)	slk21
+uniprot:O15530	uniprot:P31751	unknown	slk21
+uniprot:O15530	uniprot:P31751	0624(stimulation)	slk21
+uniprot:P03372	uniprot:P05019	unknown	slk21
+uniprot:P03372	uniprot:P05019	0624(stimulation)	slk21
+uniprot:Q15796	uniprot:Q02078	unknown	slk21
+uniprot:Q15796	uniprot:Q02078	0624(stimulation)	slk21
+uniprot:P46934	uniprot:P60484	unknown	slk21
+uniprot:P46934	uniprot:P60484	0624(stimulation)	slk21
+uniprot:P84022	uniprot:Q9UJU2	unknown	slk21
+uniprot:P84022	uniprot:Q9UJU2	0624(stimulation)	slk21
+uniprot:P60953	uniprot:Q13177	unknown	slk21
+uniprot:P60953	uniprot:Q13177	0624(stimulation)	slk21
+uniprot:Q96J02	uniprot:O15105	unknown	slk21
+uniprot:Q96J02	uniprot:O15105	0624(stimulation)	slk21
+uniprot:P17706	uniprot:P06213	unknown	slk21
+uniprot:P17706	uniprot:P06213	0624(stimulation)	slk21
+uniprot:P16234	uniprot:P46108	unknown	slk21
+uniprot:P16234	uniprot:P46108	0624(stimulation)	slk21
+uniprot:P98082	uniprot:O14641	unknown	slk21
+uniprot:P98082	uniprot:O14641	0624(stimulation)	slk21
+uniprot:Q15796	uniprot:Q9UJU2	unknown	slk21
+uniprot:Q15796	uniprot:Q9UJU2	0624(stimulation)	slk21
+uniprot:P03372	uniprot:P19793	unknown	slk21
+uniprot:P03372	uniprot:P19793	0624(stimulation)	slk21
+uniprot:P09619	uniprot:P16333	unknown	slk21
+uniprot:P09619	uniprot:P16333	0624(stimulation)	slk21
+uniprot:Q8N474	uniprot:P56705	unknown	slk21
+uniprot:Q8N474	uniprot:P56705	0624(stimulation)	slk21
+uniprot:P31749	uniprot:P35222	unknown	slk21
+uniprot:P31749	uniprot:P35222	0624(stimulation)	slk21
+uniprot:P84022	uniprot:P10275	unknown	slk21
+uniprot:P84022	uniprot:P10275	0624(stimulation)	slk21
+uniprot:P31751	uniprot:P84022	unknown	slk21
+uniprot:P31751	uniprot:P84022	0624(stimulation)	slk21
+uniprot:P06239	uniprot:P43403	unknown	slk21
+uniprot:P06239	uniprot:P43403	0624(stimulation)	slk21
+uniprot:P28482	uniprot:Q07889	unknown	slk21
+uniprot:P28482	uniprot:Q07889	0624(stimulation)	slk21
+uniprot:P18031	uniprot:P06213	unknown	slk21
+uniprot:P18031	uniprot:P06213	0624(stimulation)	slk21
+uniprot:P18031	uniprot:P08069	unknown	slk21
+uniprot:P18031	uniprot:P08069	0624(stimulation)	slk21
+uniprot:P46531	uniprot:Q06330	unknown	slk21
+uniprot:P46531	uniprot:Q06330	0624(stimulation)	slk21
+uniprot:Q02750	uniprot:P28482	unknown	slk21
+uniprot:Q02750	uniprot:P28482	0624(stimulation)	slk21
+uniprot:P19793	uniprot:P37231	unknown	slk21
+uniprot:P19793	uniprot:P37231	0624(stimulation)	slk21
+uniprot:P01133	uniprot:P04626	unknown	slk21
+uniprot:P01133	uniprot:P04626	0624(stimulation)	slk21
+uniprot:Q9H2X6	uniprot:Q9UER7	unknown	slk21
+uniprot:Q9H2X6	uniprot:Q9UER7	0624(stimulation)	slk21
+uniprot:Q9HCE7	uniprot:P84022	unknown	slk21
+uniprot:Q9HCE7	uniprot:P84022	0624(stimulation)	slk21
+uniprot:P10276	uniprot:P19793	unknown	slk21
+uniprot:P10276	uniprot:P19793	0624(stimulation)	slk21
+uniprot:P04629	uniprot:P00519	unknown	slk21
+uniprot:P04629	uniprot:P00519	0624(stimulation)	slk21
+uniprot:P10275	uniprot:P21860	unknown	slk21
+uniprot:P10275	uniprot:P21860	0624(stimulation)	slk21
+uniprot:P04049	uniprot:Q02750	unknown	slk21
+uniprot:P04049	uniprot:Q02750	0624(stimulation)	slk21
+uniprot:Q13177	uniprot:P00519	unknown	slk21
+uniprot:Q13177	uniprot:P00519	0624(stimulation)	slk21
+uniprot:P17612	uniprot:P10071	unknown	slk21
+uniprot:P17612	uniprot:P10071	0624(stimulation)	slk21
+uniprot:P63000	uniprot:Q13177	unknown	slk21
+uniprot:P63000	uniprot:Q13177	0624(stimulation)	slk21
+uniprot:P10276	uniprot:P00533	unknown	slk21
+uniprot:P10276	uniprot:P00533	0624(stimulation)	slk21
+uniprot:P49841	uniprot:P35222	unknown	slk21
+uniprot:P49841	uniprot:P35222	0623(inhibition)	slk21
+uniprot:P36897	uniprot:P60953	unknown	slk21
+uniprot:P36897	uniprot:P60953	0624(stimulation)	slk21
+uniprot:P05230	uniprot:P11362	unknown	slk21
+uniprot:P05230	uniprot:P11362	0624(stimulation)	slk21
+uniprot:O00141	uniprot:O43524	unknown	slk21
+uniprot:O00141	uniprot:O43524	0624(stimulation)	slk21
+uniprot:P31749	uniprot:P49841	unknown	slk21
+uniprot:P31749	uniprot:P49841	0624(stimulation)	slk21
+uniprot:P36897	uniprot:Q9H2X6	unknown	slk21
+uniprot:P36897	uniprot:Q9H2X6	0624(stimulation)	slk21
+uniprot:O60674	uniprot:P42224	unknown	slk21
+uniprot:O60674	uniprot:P42224	0624(stimulation)	slk21
+uniprot:P27361	uniprot:P40763	unknown	slk21
+uniprot:P27361	uniprot:P40763	0624(stimulation)	slk21
+uniprot:P27361	uniprot:Q13153	unknown	slk21
+uniprot:P27361	uniprot:Q13153	0623(inhibition)	slk21
+uniprot:P49841	uniprot:O15169	unknown	slk21
+uniprot:P49841	uniprot:O15169	0624(stimulation)	slk21
+uniprot:P31751	uniprot:P49841	unknown	slk21
+uniprot:P31751	uniprot:P49841	0624(stimulation)	slk21
+uniprot:P84022	uniprot:P46531	unknown	slk21
+uniprot:P84022	uniprot:P46531	0624(stimulation)	slk21
+uniprot:Q92997	uniprot:P63000	unknown	slk21
+uniprot:Q92997	uniprot:P63000	0624(stimulation)	slk21
+uniprot:Q9BXM7	uniprot:P28482	unknown	slk21
+uniprot:Q9BXM7	uniprot:P28482	0624(stimulation)	slk21
+uniprot:P04629	uniprot:P42684	unknown	slk21
+uniprot:P04629	uniprot:P42684	0624(stimulation)	slk21
+uniprot:P46531	uniprot:Q06413	unknown	slk21
+uniprot:P46531	uniprot:Q06413	0624(stimulation)	slk21
+uniprot:Q09472	uniprot:Q13485	unknown	slk21
+uniprot:Q09472	uniprot:Q13485	0624(stimulation)	slk21
+uniprot:Q9HCE7	uniprot:O43541	unknown	slk21
+uniprot:Q9HCE7	uniprot:O43541	0624(stimulation)	slk21
+uniprot:P35222	uniprot:O43524	unknown	slk21
+uniprot:P35222	uniprot:O43524	0624(stimulation)	slk21
+uniprot:P00533	uniprot:P19174	unknown	slk21
+uniprot:P00533	uniprot:P19174	0624(stimulation)	slk21
+uniprot:P03372	uniprot:P37231	unknown	slk21
+uniprot:P03372	uniprot:P37231	0624(stimulation)	slk21
+uniprot:Q9UM47	uniprot:Q06330	unknown	slk21
+uniprot:Q9UM47	uniprot:Q06330	0624(stimulation)	slk21
+uniprot:P22681	uniprot:P00533	unknown	slk21
+uniprot:P22681	uniprot:P00533	0624(stimulation)	slk21
+uniprot:P48730	uniprot:O75581	unknown	slk21
+uniprot:P48730	uniprot:O75581	0624(stimulation)	slk21
+uniprot:Q16539	uniprot:Q06413	unknown	slk21
+uniprot:Q16539	uniprot:Q06413	0624(stimulation)	slk21
+uniprot:Q9HCE7	uniprot:O15105	unknown	slk21
+uniprot:Q9HCE7	uniprot:O15105	0624(stimulation)	slk21
+uniprot:P49841	uniprot:P05412	unknown	slk21
+uniprot:P49841	uniprot:P05412	0624(stimulation)	slk21
+uniprot:P63000	uniprot:Q13153	unknown	slk21
+uniprot:P63000	uniprot:Q13153	0624(stimulation)	slk21
+uniprot:P17612	uniprot:P08151	unknown	slk21
+uniprot:P17612	uniprot:P08151	0624(stimulation)	slk21
+uniprot:O43541	uniprot:P84022	unknown	slk21
+uniprot:O43541	uniprot:P84022	0624(stimulation)	slk21
+uniprot:O14641	uniprot:O15169	unknown	slk21
+uniprot:O14641	uniprot:O15169	directed	slk21
+uniprot:Q13485	uniprot:P01100	unknown	slk21
+uniprot:Q13485	uniprot:P01100	0624(stimulation)	slk21
+uniprot:P22681	uniprot:P00519	unknown	slk21
+uniprot:P22681	uniprot:P00519	0624(stimulation)	slk21
+uniprot:P17612	uniprot:O75581	unknown	slk21
+uniprot:P17612	uniprot:O75581	0624(stimulation)	slk21
+uniprot:P31751	uniprot:P17612	unknown	slk21
+uniprot:P31751	uniprot:P17612	0624(stimulation)	slk21
+uniprot:O43541	uniprot:P36897	unknown	slk21
+uniprot:O43541	uniprot:P36897	0624(stimulation)	slk21
+uniprot:P03372	uniprot:P10275	unknown	slk21
+uniprot:P03372	uniprot:P10275	0624(stimulation)	slk21
+uniprot:P01106	uniprot:Q15796	unknown	slk21
+uniprot:P01106	uniprot:Q15796	0624(stimulation)	slk21
+uniprot:P16220	uniprot:P84022	unknown	slk21
+uniprot:P16220	uniprot:P84022	0624(stimulation)	slk21
+uniprot:P04626	uniprot:P03372	unknown	slk21
+uniprot:P04626	uniprot:P03372	0624(stimulation)	slk21
+uniprot:P46531	uniprot:Q16665	unknown	slk21
+uniprot:P46531	uniprot:Q16665	0624(stimulation)	slk21
+uniprot:P27361	uniprot:P84022	unknown	slk21
+uniprot:P27361	uniprot:P84022	0624(stimulation)	slk21
+uniprot:P49841	uniprot:P01106	unknown	slk21
+uniprot:P49841	uniprot:P01106	0624(stimulation)	slk21
+uniprot:Q92997	uniprot:Q5S007	unknown	slk21
+uniprot:Q92997	uniprot:Q5S007	0624(stimulation)	slk21
+uniprot:Q92793	uniprot:O15105	unknown	slk21
+uniprot:Q92793	uniprot:O15105	0624(stimulation)	slk21
+uniprot:P49841	uniprot:Q15797	unknown	slk21
+uniprot:P49841	uniprot:Q15797	0624(stimulation)	slk21
+uniprot:P19793	uniprot:P10276	unknown	slk21
+uniprot:P19793	uniprot:P10276	0624(stimulation)	slk21
+uniprot:P27361	uniprot:Q02750	unknown	slk21
+uniprot:P27361	uniprot:Q02750	directed	slk21
+uniprot:P11473	uniprot:P35222	unknown	slk21
+uniprot:P11473	uniprot:P35222	0624(stimulation)	slk21
+uniprot:P29350	uniprot:P06239	unknown	slk21
+uniprot:P29350	uniprot:P06239	0624(stimulation)	slk21
+uniprot:P09619	uniprot:P16234	unknown	slk21
+uniprot:P09619	uniprot:P16234	0624(stimulation)	slk21
+uniprot:P03372	uniprot:P06401	unknown	slk21
+uniprot:P03372	uniprot:P06401	0624(stimulation)	slk21
+uniprot:P78504	uniprot:P46531	unknown	slk21	2
+uniprot:P78504	uniprot:P46531	0624(stimulation)	slk21	2
+uniprot:Q15796	uniprot:Q13485	unknown	slk21	2
+uniprot:Q15796	uniprot:Q13485	0624(stimulation)	slk21	2
+uniprot:O15520	uniprot:P21802	unknown	slk21	2
+uniprot:O15520	uniprot:P21802	0624(stimulation)	slk21	2
+uniprot:P84022	uniprot:P05412	unknown	slk21	2
+uniprot:P84022	uniprot:P05412	0624(stimulation)	slk21	2
+uniprot:P16234	uniprot:P19174	unknown	slk21	2
+uniprot:P16234	uniprot:P19174	0624(stimulation)	slk21	2
+uniprot:Q15797	uniprot:Q13485	unknown	slk21	2
+uniprot:Q15797	uniprot:Q13485	0624(stimulation)	slk21	2
+uniprot:P01137	uniprot:P37173	unknown	slk21	2
+uniprot:P01137	uniprot:P37173	0624(stimulation)	slk21	2
+uniprot:P63104	uniprot:P35222	unknown	slk21	2
+uniprot:P63104	uniprot:P35222	0624(stimulation)	slk21	2
+uniprot:P17252	uniprot:P04049	unknown	slk21	2
+uniprot:P17252	uniprot:P04049	0624(stimulation)	slk21	2
+uniprot:O75197	uniprot:O15169	unknown	slk21	2
+uniprot:O75197	uniprot:O15169	0624(stimulation)	slk21	2
+uniprot:P46531	uniprot:Q15797	unknown	slk21	2
+uniprot:P46531	uniprot:Q15797	0624(stimulation)	slk21	2
+uniprot:P37023	uniprot:Q15797	unknown	slk21	2
+uniprot:P37023	uniprot:Q15797	0624(stimulation)	slk21	2
+uniprot:Q9NZC7	uniprot:Q13485	unknown	slk21	2
+uniprot:Q9NZC7	uniprot:Q13485	0624(stimulation)	slk21	2
+uniprot:P04628	uniprot:O75581	unknown	slk21	2
+uniprot:P04628	uniprot:O75581	0624(stimulation)	slk21	2
+uniprot:P01116	uniprot:P15056	unknown	slk21	2
+uniprot:P01116	uniprot:P15056	0624(stimulation)	slk21	2
+uniprot:O75581	uniprot:O15169	unknown	slk21	2
+uniprot:O75581	uniprot:O15169	0624(stimulation)	slk21	2
+uniprot:P15056	uniprot:Q9BXM7	unknown	slk21	2
+uniprot:P15056	uniprot:Q9BXM7	0624(stimulation)	slk21	2
+uniprot:P04629	uniprot:P19174	unknown	slk21	2
+uniprot:P04629	uniprot:P19174	0624(stimulation)	slk21	2
+uniprot:P46937	uniprot:O15105	unknown	slk21	2
+uniprot:P46937	uniprot:O15105	0624(stimulation)	slk21	2
+uniprot:P37173	uniprot:P36897	unknown	slk21	2
+uniprot:P37173	uniprot:P36897	0624(stimulation)	slk21	2
+uniprot:Q04771	uniprot:Q15797	unknown	slk21	2
+uniprot:Q04771	uniprot:Q15797	0624(stimulation)	slk21	2
+uniprot:P29590	uniprot:Q15796	unknown	slk21	2
+uniprot:P29590	uniprot:Q15796	0624(stimulation)	slk21	2
+uniprot:Q92793	uniprot:Q13485	unknown	slk21	2
+uniprot:Q92793	uniprot:Q13485	0624(stimulation)	slk21	2
+uniprot:P10276	uniprot:P35222	unknown	slk21	2
+uniprot:P10276	uniprot:P35222	0624(stimulation)	slk21	2
+uniprot:P17948	uniprot:P19174	unknown	slk21	2
+uniprot:P17948	uniprot:P19174	0624(stimulation)	slk21	2
+uniprot:P10600	uniprot:P37173	unknown	slk21	2
+uniprot:P10600	uniprot:P37173	0624(stimulation)	slk21	2
+uniprot:P54762	uniprot:P16333	unknown	slk21	2
+uniprot:P54762	uniprot:P16333	0624(stimulation)	slk21	2
+uniprot:P17706	uniprot:P40763	unknown	slk21	2
+uniprot:P17706	uniprot:P40763	directed	slk21	2
+uniprot:P29350	uniprot:P40763	unknown	slk21	2
+uniprot:P29350	uniprot:P40763	0623(inhibition)	slk21	2
+uniprot:Q02750	uniprot:P08151	unknown	slk21	2
+uniprot:Q02750	uniprot:P08151	0624(stimulation)	slk21	2
+uniprot:Q13177	uniprot:P04049	unknown	slk21	2
+uniprot:Q13177	uniprot:P04049	0624(stimulation)	slk21	2
+uniprot:O15105	uniprot:Q15796	unknown	slk21	2
+uniprot:O15105	uniprot:Q15796	0624(stimulation)	slk21	2
+uniprot:P63000	uniprot:P40763	unknown	slk21	2
+uniprot:P63000	uniprot:P40763	0624(stimulation)	slk21	2
+uniprot:P06239	uniprot:P46531	unknown	slk21	2
+uniprot:P06239	uniprot:P46531	0624(stimulation)	slk21	2
+uniprot:P40189	uniprot:P40763	unknown	slk21	2
+uniprot:P40189	uniprot:P40763	directed	slk21	2
+uniprot:Q07869	uniprot:P19793	unknown	slk21	2
+uniprot:Q07869	uniprot:P19793	0624(stimulation)	slk21	2
+uniprot:Q9H2X6	uniprot:Q15797	unknown	slk21	2
+uniprot:Q9H2X6	uniprot:Q15797	0624(stimulation)	slk21	2
+uniprot:P12643	uniprot:Q13873	unknown	slk21	2
+uniprot:P12643	uniprot:Q13873	0624(stimulation)	slk21	2
+uniprot:P61812	uniprot:P37173	unknown	slk21	2
+uniprot:P61812	uniprot:P37173	0624(stimulation)	slk21	2
+uniprot:Q02297	uniprot:P21860	unknown	slk21	2
+uniprot:Q02297	uniprot:P21860	0624(stimulation)	slk21	2
+uniprot:P01127	uniprot:P16234	unknown	slk21	2
+uniprot:P01127	uniprot:P16234	0624(stimulation)	slk21	2
+uniprot:P12931	uniprot:P37231	unknown	slk21	2
+uniprot:P12931	uniprot:P37231	0624(stimulation)	slk21	2
+uniprot:P00519	uniprot:P42345	unknown	slk21	2
+uniprot:P00519	uniprot:P42345	0624(stimulation)	slk21	2
+uniprot:P04049	uniprot:Q9BXM7	unknown	slk21	2
+uniprot:P04049	uniprot:Q9BXM7	0624(stimulation)	slk21	2
+uniprot:P10912	uniprot:O60674	unknown	slk21	2
+uniprot:P10912	uniprot:O60674	0624(stimulation)	slk21	2
+uniprot:P49768	uniprot:P46531	unknown	slk21	2
+uniprot:P49768	uniprot:P46531	0624(stimulation)	slk21	2
+uniprot:Q96J02	uniprot:P46531	unknown	slk21	2
+uniprot:Q96J02	uniprot:P46531	0624(stimulation)	slk21	2
+uniprot:P78536	uniprot:P46531	unknown	slk21	2
+uniprot:P78536	uniprot:P46531	directed	slk21	2
+uniprot:P05230	uniprot:P21802	unknown	slk21	2
+uniprot:P05230	uniprot:P21802	0624(stimulation)	slk21	2
+uniprot:P63165	uniprot:Q13485	unknown	slk21	2
+uniprot:P63165	uniprot:Q13485	0624(stimulation)	slk21	2
+uniprot:P48730	uniprot:P49841	unknown	slk21	2
+uniprot:P48730	uniprot:P49841	0624(stimulation)	slk21	2
+uniprot:P46934	uniprot:P08069	unknown	slk21	2
+uniprot:P46934	uniprot:P08069	0624(stimulation)	slk21	2
+uniprot:Q03135	uniprot:P16234	unknown	slk21	2
+uniprot:Q03135	uniprot:P16234	0624(stimulation)	slk21	2
+uniprot:P98082	uniprot:Q15796	unknown	slk21	2
+uniprot:P98082	uniprot:Q15796	0624(stimulation)	slk21	2
+uniprot:P16220	uniprot:P35222	unknown	slk21	2
+uniprot:P16220	uniprot:P35222	0624(stimulation)	slk21	2
+uniprot:P36896	uniprot:P84022	unknown	slk21	2
+uniprot:P36896	uniprot:P84022	0624(stimulation)	slk21	2
+uniprot:P45983	uniprot:P05412	unknown	slk21	2
+uniprot:P45983	uniprot:P05412	0624(stimulation)	slk21	2
+uniprot:P61586	uniprot:P19174	unknown	slk21	2
+uniprot:P61586	uniprot:P19174	0624(stimulation)	slk21	2
+uniprot:Q13153	uniprot:Q9BXM7	unknown	slk21	2
+uniprot:Q13153	uniprot:Q9BXM7	0624(stimulation)	slk21	2
+uniprot:P11473	uniprot:P19793	unknown	slk21	2
+uniprot:P11473	uniprot:P19793	0624(stimulation)	slk21	2
+uniprot:Q96PU5	uniprot:O15105	unknown	slk21	2
+uniprot:Q96PU5	uniprot:O15105	0624(stimulation)	slk21	2
+uniprot:P36897	uniprot:Q15796	unknown	slk21	2
+uniprot:P36897	uniprot:Q15796	0624(stimulation)	slk21	2
+uniprot:P12644	uniprot:Q13873	unknown	slk21	2
+uniprot:P12644	uniprot:Q13873	0624(stimulation)	slk21	2
+uniprot:Q96EB6	uniprot:O15105	unknown	slk21	2
+uniprot:Q96EB6	uniprot:O15105	0624(stimulation)	slk21	2
+uniprot:P31751	uniprot:Q12778	unknown	slk21	2
+uniprot:P31751	uniprot:Q12778	0624(stimulation)	slk21	2
+uniprot:Q13315	uniprot:P00519	unknown	slk21	2
+uniprot:Q13315	uniprot:P00519	0624(stimulation)	slk21	2
+uniprot:Q6P1J9	uniprot:P35222	unknown	slk21	2
+uniprot:Q6P1J9	uniprot:P35222	0624(stimulation)	slk21	2
+uniprot:P05019	uniprot:P08069	unknown	slk21	2
+uniprot:P05019	uniprot:P08069	0624(stimulation)	slk21	2
+uniprot:P07949	uniprot:P40763	unknown	slk21	2
+uniprot:P07949	uniprot:P40763	0624(stimulation)	slk21	2
+uniprot:P06730	uniprot:Q13485	unknown	slk21	2
+uniprot:P06730	uniprot:Q13485	0624(stimulation)	slk21	2
+uniprot:Q09472	uniprot:P84022	unknown	slk21	2
+uniprot:Q09472	uniprot:P84022	0624(stimulation)	slk21	2
+uniprot:P06401	uniprot:P03372	unknown	slk21	2
+uniprot:P06401	uniprot:P03372	0624(stimulation)	slk21	2
+uniprot:Q99873	uniprot:O43541	0213(methylation reaction)	slk3
+uniprot:Q99873	uniprot:O43541	0623(inhibition)	slk3
