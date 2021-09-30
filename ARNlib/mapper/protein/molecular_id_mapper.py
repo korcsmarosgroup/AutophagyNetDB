@@ -6,7 +6,7 @@
 import sqlite3
 import io
 
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 
 
 class MolecularIDMapper:
@@ -22,7 +22,7 @@ class MolecularIDMapper:
 
         # Declaring, and assigning constants
         self.DICTIONARY_DB_LOCATION = PROT_DBname
-        self.SQL_SEED_LOCATION = '../../SLKlib/SQLiteDBApi/network-db-seed.sql'
+        self.SQL_SEED_LOCATION = '../../ARNlib/SQLiteDBApi/network-db-seed.sql'
         self.source_db_map = {
             "acsn": 'ACSN',
             "innatedb": 'InnateDB',
@@ -49,7 +49,7 @@ class MolecularIDMapper:
         # The db we want to map
         self.SOURCE_DB_LOCATION = 'all_output/' + db + '.db'
         # Saving location
-        self.DESTINATION_DB_LOCATION = '../../SLKlib/mapper/protein/output/' + db + '_mapped.db'
+        self.DESTINATION_DB_LOCATION = '../../ARNlib/mapper/protein/output/' + db + '_mapped.db'
         # Protein map db
         self.DICTIONARY_DB = sqlite3.connect(self.DICTIONARY_DB_LOCATION)
         self.DICTIONARY_DB_CURSOR = self.DICTIONARY_DB.cursor()

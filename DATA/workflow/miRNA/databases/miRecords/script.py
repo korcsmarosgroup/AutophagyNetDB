@@ -7,10 +7,10 @@ Parses the miRecords database
 """
 
 # Imports
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 
 # Defining constants
-SQL_SEED = '../../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
+SQL_SEED = '../../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
 DATA_FILE = 'files/miRecords_version4.txt'
 DB_DESTINATION = '../../output/miRecords'
 SPECIES_DICT = {

@@ -1,8 +1,8 @@
 
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 
 # Defining constants
-SQL_SEED = '../../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
+SQL_SEED = '../../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
 DB_TYPE = 'PSSMprediction'
 EXPORT_DB_LOCATION = '../../output/TFBS'
 DATA_FILE = 'files/HITSallbodyresults.txt'

@@ -21,7 +21,7 @@ import pickle
 class DirScore:
     def __init__(self):
         # Defining constants
-        self.REACTOME_DB = '../../SLKlib/mapper/protein/output/reactome_mapped.db'
+        self.REACTOME_DB = '../../ARNlib/mapper/protein/output/reactome_mapped.db'
         self.PFAM_FILE = ['../prediction/direction/files/uniprot-pfam_human.tab',
                           '../prediction/direction/files/uniprot-pfam_drosi.tab',
                           '../prediction/direction/files/uniprot-pfam_danio.tab',

@@ -7,18 +7,19 @@ import sqlite3
 from collections import OrderedDict as od
 
 # Building mock data set
-DB = od([('signor','layer0'),
-        ('PSP','layer1'),
-        ('PhosphoSite','layer2'),
-        ('OmniPath','layer3'),
-        ('miRDeathDB','layer5'),
-        ('starbase','layer7')])
+DB = od([('signor', 'SLK_Core'),
+         ('PSP', 'layer1'),
+         ('PhosphoSite', 'PTM'),
+         ('OmniPath', 'ATG_Reg'),
+         ('miRDeathDB', 'miRNA'),
+         ('starbase', 'lncRNA')])
 
 
 def get_mockdata():
     with open('mockdata.tsv', 'w') as mockfile:
         # Adding header
-        mockfile.write('id\tinteractor_node_a_id\tinteractor_node_b_id\tinteractor_node_a_name\tinteractor_node_b_name\tinteraction_detection_method\tfirst_author\tpublication_ids\tinteraction_types\tsource_db\tinteraction_identifier\tconfidence_score\tlayer\n' )
+        mockfile.write(
+            'id\tinteractor_node_a_id\tinteractor_node_b_id\tinteractor_node_a_name\tinteractor_node_b_name\tinteraction_detection_method\tfirst_author\tpublication_ids\tinteraction_types\tsource_db\tinteraction_identifier\tconfidence_score\tlayer\n')
         path = 'merger.db'
 
         conn1 = sqlite3.connect(path)

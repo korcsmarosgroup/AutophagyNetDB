@@ -3,11 +3,11 @@
 """
 
 # Imports
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 import sqlite3, os
 
 # Defining constants
-SQL_SEED = '../../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
+SQL_SEED = '../../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
 DATA_FILE = 'files/manual_curation_ARN2.csv'
 DB_DESTINATION = '../../../all_output/coremancur.db'
 

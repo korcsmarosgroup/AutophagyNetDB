@@ -4,11 +4,11 @@
 
 # Imports
 import re
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 
 # Defining constants
-SQL_SEED = '../../../../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
-path = '../../../layer3/databases/biogrid/files/BIOGRID-SYSTEM-3.4.145.mitab/'
+SQL_SEED = '../../../../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
+path = '../../../ATG_Reg/databases/biogrid/files/BIOGRID-SYSTEM-3.4.145.mitab/'
 RAW_FILE_LIST = [path + 'BIOGRID-SYSTEM-Positive_Genetic-3.4.145.mitab.txt']
 DB_TYPE = 'biogrid'
 EXPORT_DB_LOCATION = '../../output/'

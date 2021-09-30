@@ -6,11 +6,11 @@ Parses HPRD data files
 """
 
 # Imports
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 import re
 
 # Defining constants
-SQL_SEED = '../../../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
+SQL_SEED = '../../../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
 INTERACTION_FILE = '../HPRD/files/HPRD_Release9_062910/BINARY_PROTEIN_PROTEIN_INTERACTIONS.txt'
 EXPORT_DB_LOCATION = '../../output/HPRD'
 DB_TYPE = 'hprd'

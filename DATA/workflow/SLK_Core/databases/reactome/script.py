@@ -8,11 +8,11 @@
     :argument: UNI_TO_PATHWAY: files with uniprot ids and their pathways from: https://reactome.org/download/current/UniProt2Reactome_All_Levels.txt
 """
 
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 import sys
 import sqlite3
 #Defining constants
-SQL_SEED = '../../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
+SQL_SEED = '../../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
 DATA_FILE = '../../../layer0/databases/reactome/files/reactome.homo_sapiens.interactions.psi-mitab.txt'
 DB_TYPE = 'Reactome'
 PATHWAY_FILE_LOCATION = '../../../layer0/databases/reactome/files/pathway_map.txt'

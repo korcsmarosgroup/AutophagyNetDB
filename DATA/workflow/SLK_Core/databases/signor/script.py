@@ -18,10 +18,10 @@
 
 import csv, sys
 
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 
 #Defining constants
-SQL_SEED = '../../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
+SQL_SEED = '../../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
 DB_TYPE = 'Signor'
 DB_DESTINATION = '../../../layer0/output/signor'
 CSV_LIST = ['files/SIGNOR_WNT.csv',

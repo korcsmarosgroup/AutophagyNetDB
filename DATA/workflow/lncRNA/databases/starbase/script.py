@@ -3,10 +3,10 @@
 '''
 
 # Imports
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 
 # Defining constants
-SQL_SEED = '../../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
+SQL_SEED = '../../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
 
 
 DB_DESTINATION = '../../output/starbase'
@@ -85,14 +85,14 @@ def main(logger):
                 columns = line.split('\t')
                 taxid = FILE_TO_TAXID[file]
                 if len(columns) != 1:
-                    if file == 'layer7/databases/starbase/files/starbase_v3_miRNAlncRNA.txt':
+                    if file == 'lncRNA/databases/starbase/files/starbase_v3_miRNAlncRNA.txt':
                         mirna_name = columns[1]
                         lncrna_name = columns[3]
-                    elif file == 'layer7/databases/starbase/files/starbase_v3_ncRNA_degradome_human.txt' \
-                            or file == 'layer7/databases/starbase/files/starbase_v3_ncRNA_degradome_worm.txt':
+                    elif file == 'lncRNA/databases/starbase/files/starbase_v3_ncRNA_degradome_human.txt' \
+                            or file == 'lncRNA/databases/starbase/files/starbase_v3_ncRNA_degradome_worm.txt':
                         mirna_name = columns[1]
                         lncrna_name = columns[2]
-                    elif file == 'layer7/databases/starbase/files/starbase_v3_lncRNA_valid.txt':
+                    elif file == 'lncRNA/databases/starbase/files/starbase_v3_lncRNA_valid.txt':
                         mirna_name = columns[1]
                         lncrna_name = columns[4]
                     else:

@@ -8,7 +8,7 @@ import itertools as it
 from collections import defaultdict
 
 # Defining constants
-SQL_SEED = '../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
+SQL_SEED = '../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
 noncode_file = 'noncode.tsv'
 ens_file = 'ensembl.tsv'
 mir_file = 'mirbase.dat'

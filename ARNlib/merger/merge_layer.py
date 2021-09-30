@@ -3,7 +3,7 @@ import sqlite3
 import sys, logging
 
 # Adding the psimi_to_sql module to sys
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 
 # Declaring constants
 SQL_SEED_LOCATION = '../SQLiteDBApi/network-db-seed.sql'

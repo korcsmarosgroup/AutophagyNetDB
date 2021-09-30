@@ -12,10 +12,10 @@ This script parses the signalink 2.1 csv files to a Psi-Mi formatted SQLite data
 
 # Imports
 import csv
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 
 # Defining constants
-SQL_SEED = '../../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
+SQL_SEED = '../../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
 DB_TYPE = 'slk21'
 SLK_21_FILE_LOCATION = 'files/SLK21.txt'
 TAX_ID_MAP_FILE_LOCATION = 'files/entrytotaxid.txt'

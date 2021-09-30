@@ -4,12 +4,12 @@
 
 # Imports
 import csv, logging
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 
 # Constants
-SQL_SEED = '../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
+SQL_SEED = '../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
 DATA_FILE = 'ARN_chip-ms_Behrends.csv'
-DB_DESTINATION = '../output/chip_behrends'
+EXPORT_DB_DESTINATION = '../output/chip_behrends'
 DB_TYPE = 'manual curation'
 
 # Initiating logger

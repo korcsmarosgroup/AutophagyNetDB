@@ -7,11 +7,11 @@ Parses NPInter database
 """
 
 # Imports
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 import re, sys
 
 # Defining constants
-SQL_SEED = '../../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
+SQL_SEED = '../../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
 DATA_FILE = 'files/interaction_NPInter[v3.0].txt'
 DB_DESTINATION = '../../output/NPInter'
 

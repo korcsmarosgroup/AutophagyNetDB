@@ -6,11 +6,11 @@ Parses IntAct data files
 """
 
 # Imports
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 import re
 
 # Defining constants
-SQL_SEED = '../../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
+SQL_SEED = '../../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
 DB_TYPE = 'intact'
 EXPORT_DB_LOCATION = '../../output/IntAct'
 DATA_FILE = 'files/intact-micluster.txt'

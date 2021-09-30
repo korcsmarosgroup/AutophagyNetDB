@@ -2,10 +2,10 @@
  :argument: DATA_FILE: from SLK 2.0 endocytosis data
 '''
 
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 
 # Defining constants
-SQL_SEED = '../../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
+SQL_SEED = '../../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
 DB_TYPE = 'SignaFish'
 EXPORT_DB_LOCATION = '../../output/signafish'
 DATA_FILE = 'files/signafish-L0.csv'

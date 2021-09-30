@@ -1,8 +1,8 @@
 from distutils.core import setup
 
-setup(name='SLKlib',
+setup(name='ARNlib',
       version='1.0',
-      packages=['SLKlib'],
+      packages=['ARNlib'],
      )
 
 

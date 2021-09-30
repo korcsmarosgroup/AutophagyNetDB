@@ -11,11 +11,11 @@ Parses miRTarBase database
 """
 
 # Imports
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 import csv
 
 # Defining constants
-SQL_SEED = '../../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
+SQL_SEED = '../../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
 DATA_FILE_LIST = ['files/dme_MTI.txt']
 DB_DESTINATION = '../../output/TarBase'
 SPECIES_DICT = {

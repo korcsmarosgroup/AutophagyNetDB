@@ -8,12 +8,12 @@
     :argument: XGMML_LIST: list of .xgmml files for each pathway
 """
 
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 import xml.etree.ElementTree as ET
 import csv
 
 #Defining constants
-SQL_SEED = '../../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
+SQL_SEED = '../../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
 DATA_FILE = 'files/innatedb_ppi.mitab'
 DB_TYPE = 'InnateDB'
 EXPORT_DB_LOCATION = '../../../layer0/output/innatedb'

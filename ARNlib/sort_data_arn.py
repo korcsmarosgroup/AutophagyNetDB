@@ -5,7 +5,7 @@ mapper_location = '../../DATA/workflow/casesense_mapper.db'
 
 json_mapper_file = '../../DATA/workflow/uniprot_id_mapping.json'
 
-layers_list = ['SLK_Core',
+layers_list = ['SLK_core',
                'layer1',
                'PTM',
                'ATG_Reg',

@@ -2,11 +2,11 @@
   http://ptmcode.embl.de/data.cgi
 """
 
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 import re
 
 # Defining constants
-SQL_SEED = '../../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
+SQL_SEED = '../../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
 DB_TYPE = 'PTMCode2'
 EXPORT_DB_LOCATION = '../../output/PTMCode2'
 DATA_FILE = 'files/PTMcode2_associations_between_proteins.txt'

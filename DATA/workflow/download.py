@@ -98,7 +98,7 @@ def dwld_layer1(db, log, path):
                 datafile.write('\t'.join(line) + '\n')
 
 
-def dwld_layer2(db, log, path):
+def dwld_PTM(db, log, path):
 
     if db == 'ELMpred':
         # Assigning output file
@@ -120,7 +120,7 @@ def dwld_layer2(db, log, path):
             interactions.write(f.text)
 
 
-def dwld_layer3(db, log, path):
+def dwld_ATG_Reg(db, log, path):
 
     if db == 'biogrid':
         # Assigning output file
@@ -150,7 +150,7 @@ def dwld_layer3(db, log, path):
             datafile.write(f.text)
 
 
-def dwld_layer5(db, log, path):
+def dwld_miRNA(db, log, path):
 
     if db == 'miRecords':
         # Assigning output file
@@ -270,7 +270,7 @@ def dwld_layer5(db, log, path):
                 drosifile.write('\t'.join(line) + '\n')
 
 
-def dwld_layer7(db, log, path):
+def dwld_lncRNA(db, log, path):
 
     if db == 'NPInter':
         # Assigning output file
@@ -343,13 +343,13 @@ for layer in DB_DICT.keys():
             dwld_layer0(db, log=logger, path=dwldpath)
         elif layer == 'layer1':
             dwld_layer1(db, log=logger, path=dwldpath)
-        elif layer == 'layer2':
-            dwld_layer2(db, log=logger, path=dwldpath)
-        elif layer == 'layer3':
-            dwld_layer3(db, log=logger, path=dwldpath)
-        if layer == 'layer5':
-            dwld_layer5(db, log=logger, path=dwldpath)
-        elif layer == 'layer7':
-            dwld_layer7(db, log=logger, path=dwldpath)
+        elif layer == 'PTM':
+            dwld_PTM(db, log=logger, path=dwldpath)
+        elif layer == 'ATG_Reg':
+            dwld_ATG_Reg(db, log=logger, path=dwldpath)
+        if layer == 'miRNA':
+            dwld_miRNA(db, log=logger, path=dwldpath)
+        elif layer == 'lncRNA':
+            dwld_lncRNA(db, log=logger, path=dwldpath)
 
 logger.debug('Downloading done.')

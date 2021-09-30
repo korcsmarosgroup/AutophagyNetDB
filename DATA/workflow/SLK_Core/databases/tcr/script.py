@@ -8,10 +8,10 @@ This script parses the TCR signalling database .tsv files and inserts the extrac
     :argument: EFFECT_MAP: dictionary of effect to MI ids
 """
 
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 
 #Defining constants
-SQL_SEED = '../../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
+SQL_SEED = '../../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
 TCR_DATA_LOC = 'files/T_cell_activation_signaling_pathway.txt'
 DESTINATION = '../../../layer0/output/tcr'
 DB_TYPE = 'tcr'

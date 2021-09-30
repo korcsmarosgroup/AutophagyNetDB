@@ -2,10 +2,10 @@
  :argument: DATA_FILE: from http://www.cell.com/trends/cell-biology/fulltext/S0962-8924(09)00271-2 article: potential scaffold proteins
 '''
 
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 
 # Defining constants
-SQL_SEED = '../../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
+SQL_SEED = '../../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
 DB_TYPE = 'PSP'
 EXPORT_DB_LOCATION = '../../output/PSP'
 DATA_FILE = 'files/mmc2.txt'

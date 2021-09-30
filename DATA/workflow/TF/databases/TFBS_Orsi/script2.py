@@ -2,10 +2,10 @@
   Parses TF data from Orsi
 """
 
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 
 # Defining constants
-SQL_SEED = '../../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
+SQL_SEED = '../../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
 DB_TYPE = 'TFlink'
 EXPORT_DB_LOCATION = '../../output/TFBS_Orsi'
 DATA_FILE = 'files/allInteractionData_v3_fixed.tsv'

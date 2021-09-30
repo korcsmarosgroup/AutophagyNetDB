@@ -5,7 +5,7 @@ import os
 import re
 
 #adding the psimi_to_sql module to sys
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 
 #declaring constants
 SQL_SEED_LOCATION = '../SQLiteDBApi/network-db-seed.sql'

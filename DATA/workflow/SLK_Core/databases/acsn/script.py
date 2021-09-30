@@ -11,11 +11,11 @@
     :argument: DB_TYPE: name of the source db
 """
 
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 import requests
 
 #Defining constants
-SQL_SEED = '../../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
+SQL_SEED = '../../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
 PATHWAY_FILE_LOCATION = 'files/pathways.tsv'
 EXPORT_DB_LOCATION = '../../../layer0/output/acsn'
 CURATED_PROTEIN_LIST_FILE_LOCATION = 'files/acsn_ppi_ver2.txt'

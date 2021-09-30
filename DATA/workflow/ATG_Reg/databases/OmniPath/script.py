@@ -7,12 +7,12 @@
 """
 
 # Imports
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 import re
 
 # Defining constants
-SQL_SEED = '../../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
-DATA_FILE = '../../../layer3/databases/OmniPath/files/interactions.txt'
+SQL_SEED = '../../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
+DATA_FILE = '../../../ATG_Reg/databases/OmniPath/files/interactions.txt'
 EXPORT_DB_LOCATION = '../output/OmniPath'
 DB_TYPE = 'omnipath'
 

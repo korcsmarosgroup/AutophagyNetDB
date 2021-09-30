@@ -4,13 +4,13 @@
 
 # Imports
 import logging
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 
 # Defining constants
-SQL_SEED = '../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
+SQL_SEED = '../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
 DATA_FILE_LIST = ['files/Autofágia Regulatory Network - TD-nek_2013. 09. 26..txt',
                   'files/Autofágia Regulatory Network - TD-nek_v2.txt']
-DB_DESTINATION = '../output/manualcur'
+EXPORT_DB_DESTINATION = '../output/manualcur'
 DB_TYPE = 'manual curation'
 
 # Initiating logger

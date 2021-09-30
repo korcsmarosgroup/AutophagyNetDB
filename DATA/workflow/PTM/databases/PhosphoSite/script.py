@@ -3,10 +3,10 @@ Parses Phosphosite Kinase-substarate data
  :argument: DATA_FILE: http://www.phosphosite.org/staticDownloads.action: Kinase_Substrate_Dataset.gz files
 '''
 
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 
 # Defining constants
-SQL_SEED = '../../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
+SQL_SEED = '../../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
 DB_TYPE = 'PhosphoSite'
 EXPORT_DB_LOCATION = '../../output/PhosphoSite'
 DATA_FILE = 'files/Kinase_Substrate_Dataset'

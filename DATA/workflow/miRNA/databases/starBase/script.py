@@ -5,10 +5,10 @@
 '''
 
 # Imports
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 
 # Defining constants
-SQL_SEED = '../../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
+SQL_SEED = '../../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
 DATA_FILE_LIST = ['files/starbase_v3_miRNAmRNA.txt',
                   'files/starbase_v3_miRNA_degradome_human.txt',
                   'files/starbase_v3_miRNA_degradome_worm.txt',
@@ -88,14 +88,14 @@ def main(logger):
                 columns = line.split('\t')
                 taxid = FILE_TO_TAXID[file]
                 if len(columns) != 1:
-                    if file == 'layer5/databases/starBase/files/starbase_v3_miRNAmRNA.txt':
+                    if file == 'miRNA/databases/starBase/files/starbase_v3_miRNAmRNA.txt':
                         mirna_name = columns[1]
                         gene_name = columns[3]
-                    elif file == 'layer5/databases/starBase/files/starbase_v3_degradome_human.txt'\
-                            or file == 'layer5/databases/starBase/files/starbase_v3_degradome_worm.txt':
+                    elif file == 'miRNA/databases/starBase/files/starbase_v3_degradome_human.txt'\
+                            or file == 'miRNA/databases/starBase/files/starbase_v3_degradome_worm.txt':
                         mirna_name = columns[1]
                         gene_name = columns[2]
-                    elif file == 'layer5/databases/starBase/files/starbase_v3_miRNA_valid.txt':
+                    elif file == 'miRNA/databases/starBase/files/starbase_v3_miRNA_valid.txt':
                         mirna_name = columns[1]
                         gene_name = columns[4]
                     else:

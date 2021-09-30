@@ -9,11 +9,11 @@ This script parses the automatically downloaded Biogrid (psimi-tab) files to a S
 
 # Imports
 import sys, os
-from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 
 # Defining constants
-SQL_SEED = '../../../../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
-RAW_FILE = '../../../layer3/databases/biogrid/files/BIOGRID-SYSTEM-3.4.145.mitab/BIOGRID-SYSTEM-Affinity_Capture-Luminescence-3.4.145.mitab.txt'  # BioGRID (psimi-tab)
+SQL_SEED = '../../../../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
+RAW_FILE = '../../../ATG_Reg/databases/biogrid/files/BIOGRID-SYSTEM-3.4.145.mitab/BIOGRID-SYSTEM-Affinity_Capture-Luminescence-3.4.145.mitab.txt'  # BioGRID (psimi-tab)
 DB_TYPE = 'biogrid'
 DB_DESTINATION = '../../output/'
 
