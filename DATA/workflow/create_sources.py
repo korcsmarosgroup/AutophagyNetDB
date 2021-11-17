@@ -401,7 +401,7 @@ def run_lncRNA(db, log, path):
         return script.main(logger=log)
 
 
-DB_DICT = json.load(open('test_sources.json'), object_pairs_hook=OrderedDict)
+DB_DICT = json.load(open('sources.json'), object_pairs_hook=OrderedDict)
 
 # Initiating logger
 logger = logging.getLogger()
