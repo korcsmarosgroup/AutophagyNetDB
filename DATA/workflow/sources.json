@@ -1,5 +1,5 @@
 {
-  "ATG_core": ["ARN1Core", "manual_curation"]
+  "ATG_core": ["ARN1Core", "manual_curation"],
   "ATG_Reg": ["ComPPI", "HPRD", "IntAct", "biogrid", "OmniPath", "manual_curation", "chip_behrends"]
   "PTM": ["PhosphoSite", "PTMCode2"],
   "miRNA": ["miRDeathDB", "miRecords", "miR2Disease", "TarBase", "starbase_mirna"],
