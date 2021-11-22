@@ -1,8 +1,8 @@
-from distutils.core import setup
+from setuptools import setup, find_packages
 
-setup(name='ARNlib',
+setup(name='ARN2DataBase',
       version='1.0',
-      packages=['ARNlib'],
+      packages=['ARNlib', 'DATA', 'DATA.workflow'],
      )
 
 

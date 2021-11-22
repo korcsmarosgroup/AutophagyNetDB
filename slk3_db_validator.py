@@ -69,10 +69,11 @@ accepted_source_databases = "|".join([
     "ComPPI", "HPRD", "IntAct", "TheBiogrid", "OmniPath",                                             # layer 3
     "miRDeathDB", "miRecords", "miR2Disease", "TarBase", "StarBase",                                  # layer 5
     "PSSMprediction", "TFlink",                                                                       # layer 6
-    "NPInter", "lncRInter", "miRSponge", "StarBase"                                                   # layer 7
+    "NPInter", "lncRInter", "miRSponge", "StarBase",                                                   # layer 7
+    "ADB", "Behrends", "manual curation", "Behrends predicted"
 ])
 
-accepted_layers = "|".join(['0', '1', '2', '3', '5', '6', '7'])
+accepted_layers = "|".join(['0', '1', '2', '3', '5', '6', '7', '8'])
 
 mi_pattern = "MI:\\d{4}(\\(\\w[\\(\\)/ \\w-]+\\w\\))?"
 mi_pattern_or_interaction_type = "|".join([

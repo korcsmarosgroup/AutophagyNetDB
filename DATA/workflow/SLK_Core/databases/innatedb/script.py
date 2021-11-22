@@ -45,10 +45,10 @@ def main(logger):
 
     for file in XGMML_LIST:
         for node in ET.parse(file).findall('.//{http://www.cs.rpi.edu/XGMML}node'):
-            ids[node.get('id')] = FILENAME_TO_PATHWAY_MAP[file.replace('layer0/databases/innatedb/', '')]
+            ids[node.get('id')] = FILENAME_TO_PATHWAY_MAP[file.replace('SLK_Core/databases/innatedb/', '')]
             for att in node.findall('.//{http://www.cs.rpi.edu/XGMML}att'):
                 if att.get('name') == 'Cross-references' and att.get('value') != '':
-                    ens_id[(att.get('value')).split('|')[2]] = FILENAME_TO_PATHWAY_MAP[file.replace('layer0/databases/innatedb/', '')]
+                    ens_id[(att.get('value')).split('|')[2]] = FILENAME_TO_PATHWAY_MAP[file.replace('SLK_Core/databases/innatedb/', '')]
 
     def insert_or_get_node_dict(id, alt_id, alias, taxid, node_names_to_id, db_api, node):
 
@@ -146,7 +146,7 @@ def main(logger):
 
                 edge_dict = {
                     'publication_ids': "|".join(pubmed_ids),
-                    'layer': '0',
+                    'layer': '8',
                     'source_db': 'InnateDB',  # ontology database citation
                     'interaction_identifiers': None,
                     'confidence_scores': "|".join(new_scores),  # if available

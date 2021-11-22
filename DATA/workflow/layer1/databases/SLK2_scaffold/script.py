@@ -108,7 +108,7 @@ def main(logger):
 
             edge_dict = {
                 'publication_ids': 'pubmed:' + pub_id,
-                'layer': '1',
+                'layer': '3',
                 'source_db': 'SLKv2.0',
                 'interaction_identifiers': None,
                 'confidence_scores': None,
