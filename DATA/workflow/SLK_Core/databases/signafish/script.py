@@ -127,7 +127,7 @@ def main(logger):
                                     % (isdirected, isdirect)
             edge_dict = {
                 'publication_ids': 'pubmed:' + pub_id,
-                'layer': '0',
+                'layer': '8',
                 'source_db': 'SignaFish',
                 'interaction_identifiers': None,
                 'confidence_scores': None,

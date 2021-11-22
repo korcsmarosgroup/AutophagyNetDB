@@ -191,10 +191,10 @@ def main(logger):
             db_api.insert_edge(source_dict, target_dict, edge_dict)
 
             # Saving the to a DB_TYPE.db file
-        db_api.save_db_to_file(DB_DESTINATION)
+        db_api.save_db_to_file(EXPORT_DB_DESTINATION)
 
 
 if __name__ == '__main__':
     print("Parsing database...")
     main(logger=None)
-    print("Parsing database is completed. SQLite database is saved to: " + DB_DESTINATION)
+    print("Parsing database is completed. SQLite database is saved to: " + EXPORT_DB_DESTINATION)

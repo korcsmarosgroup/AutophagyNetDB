@@ -90,7 +90,7 @@ def main(logger):
                     'source_db' : 'biogrid',
                     'interaction_identifiers': None,
                     'confidence_scores' : cells[14],
-                    'layer' : "3"
+                    'layer' : "1"
                 }
 
                 # Inserting interactor a to the node table

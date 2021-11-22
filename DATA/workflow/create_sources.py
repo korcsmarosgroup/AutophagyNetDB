@@ -400,6 +400,23 @@ def run_lncRNA(db, log, path):
 
         return script.main(logger=log)
 
+def run_ATG_core(db, log, path):
+    if db == 'ARN1Core':
+        from DATA.workflow.ATG_core.databases.ARN1Core import script
+        script.SQL_SEED = '../../ARNlib/SQLiteDBApi/network-db-seed.sql'
+        script.DATA_FILE = path + 'Layer0.csv'
+        script.DB_DESTINATION = 'all_output/ARN1Core'
+
+        return script.main(logger=log)
+
+    elif db == 'manual_curation':
+        from DATA.workflow.ATG_core.databases.manual_curation import script
+        script.SQL_SEED = '../../ARNlib/SQLiteDBApi/network-db-seed.sql'
+        script.DATA_FILE = path + 'manual_curation_ARN2.csv'
+        script.DB_DESTINATION = 'all_output/coremancur'
+
+        return script.main(logger=log)
+
 
 DB_DICT = json.load(open('sources.json'), object_pairs_hook=OrderedDict)
 
@@ -433,5 +450,7 @@ for layer in DB_DICT.keys():
             run_TF(db, log=logger, path=runpath)
         elif layer == 'lncRNA':
             run_lncRNA(db, log=logger, path=runpath)
+        elif layer == 'ATG_core':
+            run_ATG_core(db, log=logger, path=runpath)
 
 

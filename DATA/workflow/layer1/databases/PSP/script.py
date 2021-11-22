@@ -82,7 +82,7 @@ def main(logger):
                                 % ('MI:0190(interaction type)', "false", 'false')
             edge_dict = {
                 'publication_ids': 'pubmed:20005715',
-                'layer': '1',
+                'layer': '3',
                 'source_db': DB_TYPE,
                 'interaction_identifiers': None,
                 'confidence_scores': None,

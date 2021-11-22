@@ -238,7 +238,7 @@ def main(logger):
             'source_db' : 'SLKv2.1',
             'interaction_identifiers' : None,
             'confidence_scores' : None,
-            'layer' : "0"
+            'layer' : "8"
         }
 
         db_api.insert_edge(source_dict, target_dict, edge_dict)
