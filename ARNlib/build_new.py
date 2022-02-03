@@ -44,7 +44,7 @@ def main(log, path):
     # Creating output table for EDGES
     # path = '../DATA/workflow/merger.db'
 
-    conn = sqlite3.connect('SLK3_layers.db')
+    conn = sqlite3.connect('ARN2_layers.db')
     # log.debug("Started connection to '%s'" % conn)
     with conn:
         c = conn.cursor()
@@ -86,7 +86,7 @@ def main(log, path):
         layer_counter = {0: 0, 1: 0, 2: 0, 3: 0, 5: 0, 6: 0, 7: 0}
         layer_remaining_counter = {1: 0, 2: 0, 3: 0, 5: 0, 6: 0, 7: 0}
         current_layer = 0
-
+        l3_nodes = set()
         while True:
             line = c1.fetchone()
             counter += 1
@@ -129,6 +129,14 @@ def main(log, path):
                         nodes_added_in_current_layer.add(line['interactor_b_node_name'])
                         insert_new_edge(c, line)
 
+                    if layer == 3:
+                        if line['interactor_a_node_name'] in nodes_added_in_previous_layers or line[
+                            'interactor_b_node_name'] in nodes_added_in_previous_layers:
+                            layer_remaining_counter[layer] += 1
+                            l3_nodes.add(line['interactor_a_node_name'])
+                            l3_nodes.add(line['interactor_b_node_name'])
+                            insert_new_edge(c, line)
+
                     else:
                         if line['interactor_a_node_name'] in nodes_added_in_previous_layers or line['interactor_b_node_name'] in nodes_added_in_previous_layers:
                             layer_remaining_counter[layer] += 1
@@ -136,23 +144,39 @@ def main(log, path):
                             nodes_added_in_current_layer.add(line['interactor_b_node_name'])
                             insert_new_edge(c, line)
 
+        if layer == 3:
+            # also store the nodes from l3
 
-        # also store the nodes from the last layer
-        nodes_added_in_previous_layers.update(nodes_added_in_current_layer)
+            c1.execute('SELECT * FROM node ORDER BY name')
+            number_of_nodes_added = 0
+            while True:
+                line = c1.fetchone()
 
-        c1.execute('SELECT * FROM node ORDER BY name')
-        number_of_nodes_added = 0
-        while True:
-            line = c1.fetchone()
+                if line is None:
+                    print("total number of unique nodes found during build: %d" % len(l3_nodes))
+                    print("total number of unique nodes added to the output file: %d" % number_of_nodes_added)
+                    break
 
-            if line is None:
-                print("total number of unique nodes found during build: %d" % len(nodes_added_in_previous_layers))
-                print("total number of unique nodes added to the output file: %d" % number_of_nodes_added)
-                break
+                if line['name'] in l3_nodes:
+                    insert_new_node(c, line)
+                    number_of_nodes_added += 1
+        else:
+            # also store the nodes from the last layer
+            nodes_added_in_previous_layers.update(nodes_added_in_current_layer)
 
-            if line['name'] in nodes_added_in_previous_layers:
-                insert_new_node(c, line)
-                number_of_nodes_added += 1
+            c1.execute('SELECT * FROM node ORDER BY name')
+            number_of_nodes_added = 0
+            while True:
+                line = c1.fetchone()
+
+                if line is None:
+                    print("total number of unique nodes found during build: %d" % len(nodes_added_in_previous_layers))
+                    print("total number of unique nodes added to the output file: %d" % number_of_nodes_added)
+                    break
+
+                if line['name'] in nodes_added_in_previous_layers:
+                    insert_new_node(c, line)
+                    number_of_nodes_added += 1
 
 
 
