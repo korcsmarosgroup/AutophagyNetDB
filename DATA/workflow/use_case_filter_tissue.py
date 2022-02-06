@@ -1,54 +1,53 @@
-"""
-Use case 1: Select proteins from ATG core annotated to xenophagy - select their connections in core + their regulators
-
-Use case 2: ATG regulation in 3 tissues - intestine, skin and brain
-
-"""
-
-import csv
 import sqlite3
+import csv
 import pandas as pd
 
-# UC1
-xeno_list = []
-# Open ATG type file and select xenophagy proteins
-with open('../../ARNlib/GO-AP-and-regulators.csv') as infile:
-    infile.readline()
-    for line in infile:
-        line = line.strip().split(';')
-        if line[1] == 'xenophagy':
-            xeno_list.append(line[0])
+# UC2
+def get_L0_filter(tissue, outfile_name, outdb_name):
+    # Select nodes annotated to selected tissues (skin, brain, intestine)
+    tissue_conn = sqlite3.connect('ARN2_layers.db')
+    tissue_cur = tissue_conn.cursor()
+    brain_list = []
+    tissue_cur.execute("SELECT name FROM node WHERE topology LIKE '%%%s%%'" %(tissue))
+    while True:
+        tissue_prot = tissue_cur.fetchone()
+        if tissue_prot is None:
+            break
+        else:
+            brain_list.append(tissue_prot[0])
 
-# Get interactions of xenophagy proteins in core
-xeno_int_list = []
-with open('ARN2_core.csv') as corefile:
-    header = corefile.readline()
-    for line in corefile:
-        line= line.strip().split(',')
-        source = line[0].split(':')[1]
-        target = line[1].split(':')[1]
-        for xenoprot in xeno_list:
-            if source == xenoprot or target == xenoprot:
-                xeno_int_list.append(line)
+    brain_int_list = []
 
-with open('xeno_core.csv', 'w+', newline='') as outfile:
-    outfile.write(header)
-    write = csv.writer(outfile)
-    write.writerows(xeno_int_list)
+    with open('ARN2_core.csv') as corefile:
+        header = corefile.readline()
+        for line in corefile:
+            line= line.strip().split(',')
+            source = line[0]
+            target = line[1]
+            for brainprot in brain_list:
+                if source == brainprot or target == brainprot:
+                    brain_int_list.append(line)
 
-# Open sql db file
-conn = sqlite3.connect("XENO_layers.db") # change to 'sqlite:///your_filename.db'
-cur = conn.cursor()
-# Add l0 interactions to db
-df = pd.read_csv('xeno_core.csv')
-df.to_sql('layer0', conn, if_exists='append', index=False)
+    print(brain_int_list)
 
+    with open(outfile_name, 'w+', newline='') as outfile:
+        outfile.write(header)
+        write = csv.writer(outfile)
+        write.writerows(brain_int_list)
 
-def main(log, path):
+    # Open sql db file
+    conn = sqlite3.connect(outdb_name) # change to 'sqlite:///your_filename.db'
+    # Add l0 interactions to db
+    df = pd.read_csv(outfile_name)
+    out = df.to_sql('layer0', conn, if_exists='append', index=False)
+
+    return out
+
+def main(log, path, outdb_name):
     # Creating output table for EDGES
     # path = '../DATA/workflow/merger.db'
 
-    conn = sqlite3.connect('XENO_layers.db')
+    conn = sqlite3.connect(outdb_name)
     # log.debug("Started connection to '%s'" % conn)
     with conn:
         c = conn.cursor()
@@ -94,7 +93,7 @@ def main(log, path):
         l3_nodes = set()
         l0_nodes = set()
 
-        conn_xeno = sqlite3.connect('XENO_layers.db')
+        conn_xeno = sqlite3.connect(outdb_name)
         conn_xeno.row_factory = sqlite3.Row
         cur_xeno = conn_xeno.cursor()
         cur_xeno.execute('SELECT * FROM layer0 ORDER BY layer')
@@ -240,5 +239,9 @@ def insert_new_node(c, node_dict):
     ))
 
 
-# if __name__ == '__main__':
-#     main(log=None, path='merger.db')
+# brain UBERON:0000955
+get_L0_filter('UBERON:0000955', 'brain_core.csv', 'BRAIN_layers.db')
+
+if __name__ == '__main__':
+    main(log=None, path='merger.db', outdb_name='BRAIN_layers.db')
+
