@@ -240,5 +240,20 @@ def insert_new_node(c, node_dict):
     ))
 
 
-# if __name__ == '__main__':
-#     main(log=None, path='merger.db')
+main(log=None, path='merger.db')
+
+def save_db_as_csv(db_name, out_csv):
+    conn = sqlite3.connect(db_name)
+    df = pd.read_sql_query("SELECT * FROM layer0", conn)
+    df = pd.concat([df, pd.read_sql_query("SELECT * FROM layer1", conn)])
+    df = pd.concat([df, pd.read_sql_query("SELECT * FROM layer2", conn)])
+    df = pd.concat([df, pd.read_sql_query("SELECT * FROM layer3", conn)])
+    df = pd.concat([df, pd.read_sql_query("SELECT * FROM layer5", conn)])
+    df = pd.concat([df, pd.read_sql_query("SELECT * FROM layer6", conn)])
+    df = pd.concat([df, pd.read_sql_query("SELECT * FROM layer7", conn)])
+
+    outfile = df.to_csv(out_csv, index=False)
+
+    return outfile
+
+save_db_as_csv('XENO_layers.db', 'xeno_UC.csv')

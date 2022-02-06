@@ -43,6 +43,21 @@ def get_L0_filter(tissue, outfile_name, outdb_name):
 
     return out
 
+def save_db_as_csv(db_name, out_csv):
+    conn = sqlite3.connect(db_name)
+    df = pd.read_sql_query("SELECT * FROM layer0", conn)
+    df = pd.concat([df, pd.read_sql_query("SELECT * FROM layer1", conn)])
+    df = pd.concat([df, pd.read_sql_query("SELECT * FROM layer2", conn)])
+    df = pd.concat([df, pd.read_sql_query("SELECT * FROM layer3", conn)])
+    df = pd.concat([df, pd.read_sql_query("SELECT * FROM layer5", conn)])
+    df = pd.concat([df, pd.read_sql_query("SELECT * FROM layer6", conn)])
+    df = pd.concat([df, pd.read_sql_query("SELECT * FROM layer7", conn)])
+
+    outfile = df.to_csv(out_csv, index=False)
+
+    return outfile
+
+
 def main(log, path, outdb_name):
     # Creating output table for EDGES
     # path = '../DATA/workflow/merger.db'
@@ -240,8 +255,20 @@ def insert_new_node(c, node_dict):
 
 
 # brain UBERON:0000955
-get_L0_filter('UBERON:0000955', 'brain_core.csv', 'BRAIN_layers.db')
+# get_L0_filter('UBERON:0000955', 'brain_core.csv', 'BRAIN_layers.db')
+#
+# main(log=None, path='merger.db', outdb_name='BRAIN_layers.db')
+save_db_as_csv('BRAIN_layers.db', 'brain_UC.csv')
 
-if __name__ == '__main__':
-    main(log=None, path='merger.db', outdb_name='BRAIN_layers.db')
+# intestine UBERON:0000160
+# get_L0_filter('UBERON:0000160', 'intestine_core.csv', 'INTESTINE_layers.db')
+#
+# main(log=None, path='merger.db', outdb_name='INTESTINE_layers.db')
+save_db_as_csv('INTESTINE_layers.db', 'intestine_UC.csv')
 
+
+# skin epidermis UBERON:0001003
+# get_L0_filter('UBERON:0001003', 'skin_core.csv', 'SKIN_layers.db')
+#
+# main(log=None, path='merger.db', outdb_name='SKIN_layers.db')
+save_db_as_csv('SKIN_layers.db', 'skin_UC.csv')
