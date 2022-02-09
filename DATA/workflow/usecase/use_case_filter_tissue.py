@@ -5,7 +5,7 @@ import pandas as pd
 # UC2
 def get_L0_filter(tissue, outfile_name, outdb_name):
     # Select nodes annotated to selected tissues (skin, brain, intestine)
-    tissue_conn = sqlite3.connect('ARN2_layers.db')
+    tissue_conn = sqlite3.connect('../ARN2_layers.db')
     tissue_cur = tissue_conn.cursor()
     brain_list = []
     tissue_cur.execute("SELECT name FROM node WHERE topology LIKE '%%%s%%'" %(tissue))
@@ -255,20 +255,20 @@ def insert_new_node(c, node_dict):
 
 
 # brain UBERON:0000955
-# get_L0_filter('UBERON:0000955', 'brain_core.csv', 'BRAIN_layers.db')
-#
-# main(log=None, path='merger.db', outdb_name='BRAIN_layers.db')
+get_L0_filter('UBERON:0000955', 'brain_core.csv', 'BRAIN_layers.db')
+
+main(log=None, path='../merger.db', outdb_name='BRAIN_layers.db')
 save_db_as_csv('BRAIN_layers.db', 'brain_UC.csv')
 
 # intestine UBERON:0000160
-# get_L0_filter('UBERON:0000160', 'intestine_core.csv', 'INTESTINE_layers.db')
-#
-# main(log=None, path='merger.db', outdb_name='INTESTINE_layers.db')
+get_L0_filter('UBERON:0000160', 'intestine_core.csv', 'INTESTINE_layers.db')
+
+main(log=None, path='../merger.db', outdb_name='INTESTINE_layers.db')
 save_db_as_csv('INTESTINE_layers.db', 'intestine_UC.csv')
 
 
 # skin epidermis UBERON:0001003
 # get_L0_filter('UBERON:0001003', 'skin_core.csv', 'SKIN_layers.db')
 #
-# main(log=None, path='merger.db', outdb_name='SKIN_layers.db')
-save_db_as_csv('SKIN_layers.db', 'skin_UC.csv')
+# main(log=None, path='../merger.db', outdb_name='SKIN_layers.db')
+# save_db_as_csv('SKIN_layers.db', 'skin_UC.csv')

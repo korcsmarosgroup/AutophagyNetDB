@@ -12,7 +12,7 @@ import pandas as pd
 # UC1
 xeno_list = []
 # Open ATG type file and select xenophagy proteins
-with open('../../ARNlib/GO-AP-and-regulators.csv') as infile:
+with open('../../../ARNlib/GO-AP-and-regulators.csv') as infile:
     infile.readline()
     for line in infile:
         line = line.strip().split(';')
@@ -240,7 +240,7 @@ def insert_new_node(c, node_dict):
     ))
 
 
-main(log=None, path='merger.db')
+main(log=None, path='../merger.db')
 
 def save_db_as_csv(db_name, out_csv):
     conn = sqlite3.connect(db_name)

@@ -127,6 +127,14 @@ def run_layer0(db, log, path):
         script.DESTINATION = 'all_output/tcr'
         return script.main(logger=log)
 
+    elif db == 'SLK3_core':
+        from DATA.workflow.SLK_Core.databases.SLK3_core import script
+        script.SQL_SEED = '../../ARNlib/SQLiteDBApi/network-db-seed.sql'
+
+        script.DATA_FILE = path + 'SLK3_human_core.csv'
+        script.EXPORT_DB_LOCATION = 'all_output/SLK3_core'
+        return script.main(logger=log)
+
 
 def run_layer1(db, log, path):
     if db == 'PSP':
@@ -218,9 +226,11 @@ def run_ATG_Reg(db, log, path):
     if db == 'manual_curation':
         from DATA.workflow.ATG_Reg.databases.manual_curation import script
         script.SQL_SEED =  '../../ARNlib/SQLiteDBApi/network-db-seed.sql'
-        script.DATA_FILE_LIST = [path + 'files/Autofágia Regulatory Network - TD-nek_2013. 09. 26..txt',
-                          path + 'files/Autofágia Regulatory Network - TD-nek_v2.txt']
-        script.EXPORT_DB_DESTINATION = '.all_output/manualcur'
+        script.DATA_FILE_LIST = [path + 'Autofágia Regulatory Network - TD-nek_2013. 09. 26..txt',
+                          path + 'Autofágia Regulatory Network - TD-nek_v2.txt']
+        script.EXPORT_DB_DESTINATION = 'all_output/manual_curation'
+        return script.main(logger=log)
+
 
     if db == 'biogrid':
         from DATA.workflow.ATG_Reg.databases.biogrid import new_script
@@ -409,8 +419,8 @@ def run_ATG_core(db, log, path):
 
         return script.main(logger=log)
 
-    elif db == 'manual_curation':
-        from DATA.workflow.ATG_core.databases.manual_curation import script
+    elif db == 'coremancur':
+        from DATA.workflow.ATG_core.databases.coremancur import script
         script.SQL_SEED = '../../ARNlib/SQLiteDBApi/network-db-seed.sql'
         script.DATA_FILE = path + 'manual_curation_ARN2.csv'
         script.DB_DESTINATION = 'all_output/coremancur'
@@ -418,7 +428,7 @@ def run_ATG_core(db, log, path):
         return script.main(logger=log)
 
 
-DB_DICT = json.load(open('sources.json'), object_pairs_hook=OrderedDict)
+DB_DICT = json.load(open('test_sources.json'), object_pairs_hook=OrderedDict)
 
 # Initiating logger
 logger = logging.getLogger()

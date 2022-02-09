@@ -19,7 +19,6 @@ from DATA.prediction.tissue.pred_script_new import tissue_prediction
 from DATA.prediction.subcell.script import subcell_prediction
 from DATA.prediction.direction.pred_script import DirScore
 from DATA.prediction.RNAipred.pred_script import main
-from DATA.prediction.drugtarget.DrugBank.script import drugbank
 
 DB_DICT = json.load(open('sources.json'), object_pairs_hook=OrderedDict)
 
@@ -38,7 +37,7 @@ logger.addHandler(handler)
 # logger.debug('Creating mapping dbs')
 # MDB = create_mapping_db.CreateMappingDB(mappingDBfile='mapper.db', debug=False)
 # MDB.add_species('9606')
-
+#
 #
 # # For miRNAs
 # lncmap_new.SQL_SEED = '../../ARNlib/SQLiteDBApi/network-db-seed.sql'
@@ -88,6 +87,7 @@ logger.debug('Deleting noconn nodes')
 noconn.main(logger=logger, merger_path='merger.db')
 
 # Building all layers
+# Building all layers
 logger.debug('Started building')
 builder.main(log=logger, path='merger.db')
 logger.debug('Building done')
@@ -104,8 +104,6 @@ test.apply_to_db()
 logger.debug('Direction prediction done')
 # RNAi
 main(logger)
-# Drug-target
-drugbank(logger)
 # Subcellular localization
 subcell_prediction(logger)
 
