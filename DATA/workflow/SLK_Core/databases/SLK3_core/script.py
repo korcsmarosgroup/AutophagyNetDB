@@ -6,12 +6,12 @@ from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 
 # Defining constants
 SQL_SEED = '../../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
-DB_TYPE = 'SignaFish'
-EXPORT_DB_LOCATION = '../../output/signafish'
-DATA_FILE = 'files/signafish-L0.csv'
+DB_TYPE = 'SignaLink3'
+EXPORT_DB_LOCATION = '../../output/signalink3'
+DATA_FILE = 'files/SLK3_human_core.csv'
 
 
-def get_node_a(name, taxid, pathway, topology, psi_mi_to_sql_object):
+def get_node_a(name, taxid, alt_acc, pathway, topology, psi_mi_to_sql_object):
     """
     This function sets up a node dict and returns it. If the node is already in the SQLite database it fetches that node from the db, so it won't be inserted multiple times
     """
@@ -23,7 +23,7 @@ def get_node_a(name, taxid, pathway, topology, psi_mi_to_sql_object):
         node_dict = {
             "name" : 'Uniprot:' + name,
             "tax_id": taxid,
-            "alt_accession": None,
+            "alt_accession": alt_acc,
             'pathways': pathway,
             "aliases": None,
             "topology": topology
@@ -32,7 +32,7 @@ def get_node_a(name, taxid, pathway, topology, psi_mi_to_sql_object):
     return node_dict
 
 
-def get_node_b(name, taxid, pathway, topology, psi_mi_to_sql_object):
+def get_node_b(name, taxid, alt_acc, pathway, topology, psi_mi_to_sql_object):
     """
     This function sets up a node dict and returns it. If the node is already in the SQLite database it fetches that node from the db, so it won't be inserted multiple times.
 
@@ -45,7 +45,7 @@ def get_node_b(name, taxid, pathway, topology, psi_mi_to_sql_object):
         node_dict = {
             "name": 'Uniprot:' + name,
             "tax_id": taxid,
-            "alt_accession": None,
+            "alt_accession": alt_acc,
             'pathways': pathway,
             "aliases": None,
             "topology": topology
@@ -64,32 +64,11 @@ def main(logger):
         data.readline()
 
         for line in data:
-            columns = line.strip().split(';')
-            taxid = 'taxid:7955'
-
-            source_path = []
-            for item in columns[5].split(','):
-                if '(' in item:
-                    sp = item.split('(')[0]
-                else:
-                    sp = item
-                source_path.append(sp)
-
-            source_path_final = '|'.join(source_path)
-
-            target_path = []
-            for item in columns[11].split(','):
-                if '(' in item:
-                    tp = item.split('(')[0]
-                else:
-                    tp = item
-                source_path.append(tp)
-
-            target_path_final = '|'.join(target_path)
+            columns = line.strip().split(',')
 
             # Creating the node dicts, if the node is already in the db assigning that to the node dict
-            source_dict = get_node_a(columns[1], taxid, source_path_final,'|'.join(columns[4].replace('d ', 'd').split(',')), db_api)
-            target_dict = get_node_b(columns[7], taxid, target_path_final,'|'.join(columns[10].replace('d ', 'd').split(',')), db_api)
+            source_dict = get_node_a('Uniprot:' + columns[1], 'taxid:' + columns[2], columns[0], columns[5], columns[4], db_api)
+            target_dict = get_node_b('Uniprot:' + columns[7], 'taxid:' + columns[6], columns[8], columns[11], columns[10], db_api)
 
             # Nodes are inserted to the db if they are not in it yet
             if not 'id' in source_dict:
@@ -102,33 +81,15 @@ def main(logger):
             pub_id = '|pubmed:'.join(columns[16].split('|'))
 
             # Directedness
-            if columns[14] == 'direct':
-                isdirect = 'true'
-            else:
-                isdirect = 'false'
+            effect = columns[13]
 
-            if columns[13] == 'PPI directed':
-                isdirected = 'true'
-            else:
-                isdirected = 'false'
+            interaction_types = "%s|is_directed:truw|is_direct:true" \
+                                % effect
 
-            # Effect
-            if columns[15] == 'stimulation':
-                effect = 'MI:0624(stimulation)'
-                interaction_types = "%s|is_directed:%s|is_direct:%s" \
-                                    % (effect, isdirected, isdirect)
-            elif columns[15] == 'inhibition':
-                effect = 'MI:0623(inhibition)'
-
-                interaction_types = "%s|is_directed:%s|is_direct:%s" \
-                                    % (effect, isdirected, isdirect)
-            else:
-                interaction_types = "is_directed:%s|is_direct:%s" \
-                                    % (isdirected, isdirect)
             edge_dict = {
-                'publication_ids': 'pubmed:' + pub_id,
+                'publication_ids': columns[16],
                 'layer': '3',
-                'source_db': 'SignaFish',
+                'source_db': 'SignaLink3',
                 'interaction_identifiers': None,
                 'confidence_scores': None,
                 'interaction_detection_method': None,

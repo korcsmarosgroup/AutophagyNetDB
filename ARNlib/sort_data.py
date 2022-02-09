@@ -11,26 +11,18 @@ layers_list = ['layer0',
                'layer3',
                'layer5',
                'layer6',
-               'layer7']
+               'layer7',
+               'layer8']
 
 SPEC_MAP = {
-     "taxid:9606": "H. sapiens",
-     "taxid:7227": "D. melanogaster",
-     "taxid:6239": "C. elegans",
-     "taxid:7955": "D. rerio"
+     "taxid:9606": "H. sapiens"
 }
 SPEC_SHORT ={
-     "taxid:9606": "human",
-     "taxid:7227": "fly",
-     "taxid:6239": "worm",
-     "taxid:7955": "fish"
+     "taxid:9606": "human"
 
 }
 SPEC_LONG = {
-     "taxid:9606": "Homo sapiens",
-     "taxid:7227": "Drosophila melanogaster",
-     "taxid:6239": "Caenorhabditis elegans",
-     "taxid:7955": "Danio rerio"
+     "taxid:9606": "Homo sapiens"
 }
 
 # Initiating logger

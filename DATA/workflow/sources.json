@@ -2,8 +2,8 @@
   "ATG_core": ["ARN1Core", "manual_curation"],
   "ATG_Reg": ["ComPPI", "HPRD", "IntAct", "biogrid", "OmniPath", "manual_curation", "chip_behrends"],
   "PTM": ["PhosphoSite", "PTMCode2"],
-  "miRNA": ["miRDeathDB", "miRecords", "miR2Disease", "TarBase", "starbase_mirna"],
+  "miRNA": ["miRDeathDB", "miRecords", "miR2Disease", "TarBase"],
   "TF": ["TFBS", "TFBS_Orsi"],
-  "lncRNA": ["NPInter", "lncRInter", "starbase_lncrna"],
-  "SLK_Core": ["acsn", "innatedb", "reactome", "signafish", "signor", "slk2", "slk3", "slk21", "tcr"]
+  "lncRNA": ["NPInter", "lncRInter"],
+  "SLK_Core": ["SLK3_core"]
 }

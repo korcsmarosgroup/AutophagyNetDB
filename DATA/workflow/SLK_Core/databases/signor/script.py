@@ -209,7 +209,7 @@ def main(logger):
                         'source_db': 'Signor',
                         'interaction_identifiers': None,
                         'confidence_scores': None,
-                        'layer': "8"
+                        'layer': "3"
                     }
 
                     db_api.insert_edge(node_a_dict,node_b_dict,edge_dict)

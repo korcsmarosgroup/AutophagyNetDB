@@ -20,9 +20,8 @@ import numpy as np
 import logging
 
 # Defining constants
-DATA_FILE = ['../prediction/RNAipred/files/GenomeRNAi_v16_Drosophila_melanogaster.txt',
-             '../prediction/RNAipred/files/GenomeRNAi_v16_Homo_sapiens.txt']
-BUILDER_SET = 'SLK3_layers.db'
+DATA_FILE = ['../prediction/RNAipred/files/GenomeRNAi_v16_Homo_sapiens.txt']
+BUILDER_SET = 'ARN2_layers.db'
 MAPPER_DB = 'mapper.db'
 SPECIES_DICT = {
     "Homo sapiens": "taxid:9606",

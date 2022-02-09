@@ -146,7 +146,7 @@ def main(logger):
 
                 edge_dict = {
                     'publication_ids': "|".join(pubmed_ids),
-                    'layer': '8',
+                    'layer': '3',
                     'source_db': 'InnateDB',  # ontology database citation
                     'interaction_identifiers': None,
                     'confidence_scores': "|".join(new_scores),  # if available

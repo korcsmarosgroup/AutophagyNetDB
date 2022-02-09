@@ -272,7 +272,7 @@ def main(logger):
                 'source_db': DB_TYPE,
                 'interaction_identifiers': None,
                 'confidence_scores': None,
-                'layer': "8"
+                'layer': "3"
             }
 
             parser.insert_edge(interactor_a, interactor_b, edge_dict)

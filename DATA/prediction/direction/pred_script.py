@@ -22,10 +22,7 @@ class DirScore:
     def __init__(self):
         # Defining constants
         self.REACTOME_DB = '../../ARNlib/mapper/protein/output/reactome_mapped.db'
-        self.PFAM_FILE = ['../prediction/direction/files/uniprot-pfam_human.tab',
-                          '../prediction/direction/files/uniprot-pfam_drosi.tab',
-                          '../prediction/direction/files/uniprot-pfam_danio.tab',
-                          '../prediction/direction/files/uniprot-pfam_celegans.tab']
+        self.PFAM_FILE = ['../prediction/direction/files/uniprot-pfam_human.tab']
         logging.basicConfig(level=logging.DEBUG)
         self.pfam_dict = {}
         self.dir_score_dict = {}
@@ -140,7 +137,7 @@ class DirScore:
     def apply_to_db(self):
         #logger.debug(self.pfam_dict)
         #logger.debug(self.dir_score_dict)
-        conn2 = sqlite3.connect('SLK3_layers.db')
+        conn2 = sqlite3.connect('ARN2_layers.db')
         # logger.debug("Connected to '%s" % conn2)
         with conn2:
             c2 = conn2.cursor()

@@ -9,12 +9,10 @@ import logging
 
 # Constants
 FILE_LIST = [
-    '../prediction/subcell/files/comppi--proteins_locs--tax_celegans_loc_all.txt',
-    '../prediction/subcell/files/comppi--proteins_locs--tax_dmelanogaster_loc_all.txt',
     '../prediction/subcell/files/comppi--proteins_locs--tax_hsapiens_loc_all.txt'
 ]
 GO_FILE = '../prediction/subcell/files/go_daily-termdb-tables/term.txt'
-builder = 'SLK3_layers.db'
+builder = 'ARN2_layers.db'
 
 def subcell_prediction(logger):
     conn = sqlite3.connect(builder)

@@ -107,8 +107,7 @@ def main(log):
         # executing a query that selects everything (but the node id) from the current SQLite .db files
         db = sqlite3.connect(db_file)
         cursor = db.cursor()
-        cursor.execute("SELECT * FROM node WHERE tax_id = 'taxid:9606' OR "
-                       "tax_id = 'taxid:6239' OR tax_id = 'taxid:7227' OR tax_id = 'taxid:7955'")
+        cursor.execute("SELECT * FROM node WHERE tax_id = 'taxid:9606'")
 
         # iterating trough the db row by row
         while True:

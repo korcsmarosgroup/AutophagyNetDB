@@ -140,7 +140,7 @@ def main(logger):
 
                 edge_dict = {
                     'publication_ids': pubmed_ids,
-                    'layer': '8',
+                    'layer': '3',
                     'source_db': 'Reactome',
                     'interaction_identifiers': None,
                     'confidence_scores': columns[14].split("(")[0],

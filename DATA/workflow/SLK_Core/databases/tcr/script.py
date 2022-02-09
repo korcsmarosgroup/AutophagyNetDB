@@ -117,7 +117,7 @@ def main(logger):
             'source_db' : "TCRcuration",
             'interaction_identifiers' : None,
             'confidence_scores' : None,
-            'layer' : '8'
+            'layer' : '3'
         }
 
         parser.insert_edge(node_a_dict,node_b_dict,edge_dict)

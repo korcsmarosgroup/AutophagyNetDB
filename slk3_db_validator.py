@@ -70,7 +70,8 @@ accepted_source_databases = "|".join([
     "miRDeathDB", "miRecords", "miR2Disease", "TarBase", "StarBase",                                  # layer 5
     "PSSMprediction", "TFlink",                                                                       # layer 6
     "NPInter", "lncRInter", "miRSponge", "StarBase",                                                   # layer 7
-    "ADB", "Behrends", "manual curation", "Behrends predicted"
+    "ADB", "Behrends", "manual curation", "Behrends predicted", "ARN1Core", "coremancur", "manual_curation",
+    "chip_behrends"
 ])
 
 accepted_layers = "|".join(['0', '1', '2', '3', '5', '6', '7', '8'])

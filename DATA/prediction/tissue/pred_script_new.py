@@ -26,10 +26,7 @@ def tissue_prediction(logger):
     #                'files/Caenorhabditis_elegans_expr_simple_development.tsv',
     #                'files/Drosophila_melanogaster_expr_simple_development.tsv',
     #                'files/Danio_rerio_expr_simple_development.tsv']
-    INFILE_LIST = ['../prediction/tissue/files//Homo_sapiens_expr_simple_development.tsv',
-                    '../prediction/tissue/files/Caenorhabditis_elegans_expr_simple_development.tsv',
-                    '../prediction/tissue/files/Drosophila_melanogaster_expr_simple_development.tsv',
-                    '../prediction/tissue/files/Danio_rerio_expr_simple_development.tsv']
+    INFILE_LIST = ['../prediction/tissue/files//Homo_sapiens_expr_simple_development.tsv']
 
     # Initiating mapper
     logger.debug('Initiating mapper')
@@ -92,7 +89,7 @@ def tissue_prediction(logger):
 
         # Connecting to builder node table, adding data
         #conn2 = sqlite3.connect('../../workflow/SLK3_layers.db')
-        conn2 = sqlite3.connect('SLK3_layers.db')
+        conn2 = sqlite3.connect('ARN2_layers.db')
         with conn2:
             c3 = conn2.cursor()
             c4 = conn2.cursor()

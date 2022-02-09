@@ -100,7 +100,7 @@ def build_base(log, merger_path):
     # log.debug("Started connection to '%s'" % build_conn)
     with build_conn:
         build_cur = build_conn.cursor()
-        for layer in [0, 1, 2, 3, 5, 6, 7, 8]:
+        for layer in [0, 1, 2, 5, 6, 7, 8]:
             build_cur.execute("DROP TABLE IF EXISTS layer%d" % layer)
             build_cur.execute("DROP TABLE IF EXISTS node")
 
@@ -139,7 +139,7 @@ def build_base(log, merger_path):
         layer_remaining_counter = {1: 0, 2: 0, 3: 0, 5: 0, 6: 0, 7: 0, 8: 0}
         current_layer = 0
 
-        layers = [0, 1, 2, 3]
+        layers = [0, 1, 2]
 
         for eachlayer in layers:
 
@@ -247,12 +247,13 @@ def build_whole(log, merger_path):
     nodes_added_in_current_layer = set()
     all_nodes_to_add = set()
     layer_counter = {0: 0, 1: 0, 2: 0, 3: 0, 5: 0, 6: 0, 7: 0, 8: 0}
-    layer_remaining_counter = {1: 0, 2: 0, 3: 0, 5: 0, 6: 0, 7: 0, 8: 0}
-    layers = [2, 3, 5, 6, 7]
+    layer_remaining_counter = {0:0, 1: 0, 2: 0, 3: 0, 5: 0, 6: 0, 7: 0, 8: 0}
+    layers = [1, 2, 5, 6, 7]
 
     dirreg_dict = {}
 
     with build_conn:
+        build_conn.row_factory = sqlite3.Row
         build_cur = build_conn.cursor()
         # Select all direct regulators from builder table
         build_cur.execute('SELECT * FROM layer1 ORDER BY layer')
@@ -358,11 +359,10 @@ def build_pth_conns(log, merger_path):
         # Select all edges from builder
         build_cur.execute('''SELECT * FROM layer1,
                                            layer2,
-                                           layer3,
                                            layer5,
                                            layer6,
                                            layer7
-                            ORDER BY layer, id''')
+                            ORDER BY layer''')
         while True:
             int_row = build_cur.fetchone()
             if int_row is None:

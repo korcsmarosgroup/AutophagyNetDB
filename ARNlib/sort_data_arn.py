@@ -1,36 +1,27 @@
 
 import sqlite3, json, io, logging, functools
 logger_output_location = 'SLK3.log'
-mapper_location = '../../DATA/workflow/casesense_mapper.db'
+mapper_location = '../../DATA/workflow/mapper.db'
 
 json_mapper_file = '../../DATA/workflow/uniprot_id_mapping.json'
 
-layers_list = ['SLK_core',
+layers_list = ['layer0',
                'layer1',
-               'PTM',
-               'ATG_Reg',
-               'miRNA',
-               'TF',
-               'lncRNA']
+               'layer2',
+               'layer3',
+               'layer5',
+               'layer6',
+               'layer7']
 
 SPEC_MAP = {
-     "taxid:9606": "H. sapiens",
-     "taxid:7227": "D. melanogaster",
-     "taxid:6239": "C. elegans",
-     "taxid:7955": "D. rerio"
+     "taxid:9606": "H. sapiens"
 }
 SPEC_SHORT ={
-     "taxid:9606": "human",
-     "taxid:7227": "fly",
-     "taxid:6239": "worm",
-     "taxid:7955": "fish"
+     "taxid:9606": "human"
 
 }
 SPEC_LONG = {
-     "taxid:9606": "Homo sapiens",
-     "taxid:7227": "Drosophila melanogaster",
-     "taxid:6239": "Caenorhabditis elegans",
-     "taxid:7955": "Danio rerio"
+     "taxid:9606": "Homo sapiens"
 }
 
 # Initiating logger
@@ -328,7 +319,7 @@ def get_node_data(builder_location):
                 # External ref
                 node_dict['externalReferences'] = []
                 # Autophagy function
-                func_data_file = 'AP_function.csv'
+                func_data_file = '../../ARNlib/AP_function.csv'
                 with open(func_data_file) as func_data:
                     func_data.readline()
                     for line in func_data:
@@ -345,17 +336,17 @@ def get_node_data(builder_location):
                             }
 
                 # Gene ontology annotation
-                GO_data_file = 'GO-AP-and-regulators.csv'
+                GO_data_file = '../../ARNlib/GO-AP-and-regulators.csv'
                 with open(GO_data_file) as GO_data:
                     for line in GO_data:
                         line = line.strip().split(';')
                         AC = line[0]
                         annot = line[1]
-                        GO_ID = line[2].split('[')[1].replace(']', '')
+                        # GO_ID = line[2].split('[')[1].replace(']', '')
 
                         if uniprot_id == AC:
                             node_dict['geneOntologyAnnotation'] = {
-                                "value": GO_ID + '(' + annot + ')',
+                                "value": annot,
                                 "db": None,
                                 "url": 'http://www.geneontology.org/',
                                 "searchable": False
@@ -508,8 +499,8 @@ def get_edge_data(builder_location):
                                     edge_dict['target'] = uniprot_source
                                 else:
                                     # L1, PTMs, TFs, miRNAs and lncRNAs are directed
-                                    if layer == 'layer1' or layer == 'PTM' or layer == 'miRNA' \
-                                            or layer == 'TF' or layer == 'lncRNA':
+                                    if layer == 'layer1' or layer == 'layer2' or layer == 'layer5' \
+                                            or layer == 'layer6' or layer == 'layer7':
                                         # Uniprot
                                         edge_dict['source'] = uniprot_source
                                         edge_dict['target'] = uniprot_target
@@ -522,14 +513,14 @@ def get_edge_data(builder_location):
 
                     else:
                         # L1, PTMs, TFs, miRNAs and lncRNAs are directed
-                        if layer == 'layer1' or layer == 'PTM' or layer == 'miRNA' \
-                                or layer == 'TF' or layer == 'lncRNA':
+                        if layer == 'layer1' or layer == 'layer2' or layer == 'layer5' \
+                                or layer == 'layer6' or layer == 'layer7':
                             # Uniprot
                             edge_dict['source'] = uniprot_source
                             edge_dict['target'] = uniprot_target
                             edge_dict['isDirected'] = True
                         # everything in L0 is directed except for TCR
-                        elif layer == 'SLK_core':
+                        elif layer == 'layer3':
                             for i in range(len(row['source_db'].split('|'))):
                                 sourcedb_raw = row['source_db'].split('|')[i].replace('source database:', '')
                                 if sourcedb_raw == 'tcr':
@@ -606,7 +597,7 @@ def get_edge_data(builder_location):
                                     }
                                 )
                     # Adding stimulaton to effect of every interaction in TF layer
-                    if layer == 'TF':
+                    if layer == 'layer6':
                         edge_dict['interactionType'].append(
                             {
                                 "value": 'MI:0624(stimulation)',
@@ -616,7 +607,7 @@ def get_edge_data(builder_location):
                             }
                         )
                     # Adding inhibition to effect of every interaction in miRNA, lncRNA layer
-                    elif layer == 'miRNA' or layer == 'lncRNA':
+                    elif layer == 'layer5' or layer == 'layer7':
                         edge_dict['interactionType'].append(
                             {
                                 "value": 'MI:0623(inhibition)',
@@ -736,13 +727,22 @@ def get_edge_data(builder_location):
                     }
                     for i in range(len(row['source_db'].split('|'))):
                         sourcedb_raw = row['source_db'].split('|')[i].replace('source database:', '')
-                        if sourcedb_raw in sourcedb_map.values():
+                        if sourcedb_raw not in sourcedb_map:
+                            edge_dict['sourceDatabases'].append({
+                                "value": sourcedb_raw,
+                                "db": "",
+                                "url": "",
+                                "searchable": False
+                            }, )
+
+                        elif sourcedb_raw in sourcedb_map.values():
                             edge_dict['sourceDatabases'].append({
                                 "value": sourcedb_raw.strip(),
                                 "db": "",
                                 "url": "",
                                 "searchable": False
                             }, )
+
                         else:
                             edge_dict['sourceDatabases'].append({
                                 "value": sourcedb_map[sourcedb_raw],
