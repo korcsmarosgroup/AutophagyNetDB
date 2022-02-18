@@ -162,39 +162,42 @@ def main(log, path):
                                 nodes_added_in_current_layer.add(line['interactor_b_node_name'])
                                 insert_new_edge(c, line)
 
-        if layer == 3:
-            # also store the nodes from the last layer
-            c1.execute('SELECT * FROM node ORDER BY name')
-            number_of_nodes_added = 0
-            while True:
-                line = c1.fetchone()
+        # if layer == 3:
+        #     # also store the nodes from the last layer
+        #     c1.execute('SELECT * FROM node ORDER BY name')
+        #     number_of_nodes_added = 0
+        #     while True:
+        #         line = c1.fetchone()
+        #
+        #         if line is None:
+        #             print("total number of unique nodes found during build: %d" % len(l3_nodes))
+        #             print("total number of unique nodes added to the output file: %d" % number_of_nodes_added)
+        #             break
+        #
+        #         if line['name'] in l3_nodes:
+        #             insert_new_node(c, line)
+        #             number_of_nodes_added += 1
+        # else:
+        # also store the nodes from the last layer
+        nodes_added_in_previous_layers.update(nodes_added_in_current_layer)
 
-                if line is None:
-                    print("total number of unique nodes found during build: %d" % len(l3_nodes))
-                    print("total number of unique nodes added to the output file: %d" % number_of_nodes_added)
-                    break
+        nodes_added_in_previous_layers.update(l0_nodes)
+        nodes_added_in_previous_layers.update(l3_nodes)
 
-                if line['name'] in l3_nodes:
-                    insert_new_node(c, line)
-                    number_of_nodes_added += 1
-        else:
-            # also store the nodes from the last layer
-            nodes_added_in_previous_layers.update(nodes_added_in_current_layer)
 
-            c1.execute('SELECT * FROM node ORDER BY name')
-            number_of_nodes_added = 0
-            while True:
-                line = c1.fetchone()
+        c1.execute('SELECT * FROM node ORDER BY name')
+        number_of_nodes_added = 0
+        while True:
+            line = c1.fetchone()
 
-                if line is None:
-                    print("total number of unique nodes found during build: %d" % len(nodes_added_in_previous_layers))
-                    print("total number of unique nodes added to the output file: %d" % number_of_nodes_added)
-                    break
+            if line is None:
+                print("total number of unique nodes found during build: %d" % len(nodes_added_in_previous_layers))
+                print("total number of unique nodes added to the output file: %d" % number_of_nodes_added)
+                break
 
-                if line['name'] in nodes_added_in_previous_layers:
-                    insert_new_node(c, line)
-                    number_of_nodes_added += 1
-
+            if line['name'] in nodes_added_in_previous_layers:
+                insert_new_node(c, line)
+                number_of_nodes_added += 1
 
 
 def insert_new_edge(c, edge_dict):
