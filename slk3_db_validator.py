@@ -66,7 +66,7 @@ accepted_source_databases = "|".join([
     "ACSN", "InnateDB", "Reactome", "Signor", "SLKv2\\.0", "SLKv3\\.0", "SLKv2\\.1", "TCRcuration", "SignaFish", "SignaLink3", "SLK3_core",   # layer 0
     "PSP",                                                                                            # layer 1
     "PhosphoSite", "PTMCode2",                                                                        # layer 2
-    "ComPPI", "HPRD", "IntAct", "TheBiogrid", "OmniPath",                                             # layer 3
+    "ComPPI", "HPRD", "IntAct", "TheBiogrid", "OmniPath", 'HumanAutophagyDB',                                           # layer 3
     "miRDeathDB", "miRecords", "miR2Disease", "TarBase", "StarBase",                                  # layer 5
     "PSSMprediction", "TFlink",                                                                       # layer 6
     "NPInter", "lncRInter", "miRSponge", "StarBase",                                                   # layer 7

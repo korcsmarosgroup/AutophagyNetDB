@@ -8,7 +8,7 @@ from ARNlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 SQL_SEED = '../../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
 DB_TYPE = 'SignaLink3'
 EXPORT_DB_LOCATION = '../../output/signalink3'
-DATA_FILE = 'files/SLK3_human_core.csv'
+DATA_FILE = 'files/slk3_human_core.csv'
 
 
 def get_node_a(name, taxid, alt_acc, pathway, topology, psi_mi_to_sql_object):

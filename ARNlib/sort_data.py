@@ -237,7 +237,7 @@ def get_node_data(builder_location):
                     'T-cell receptor': 'TCR',
                     'B-cell receptor': 'BCR',
                     'TNF pathway': 'TNF',
-                    'Nuclear hormone receptor': 'IIP',
+                    'Nuclear hormone receptor': 'NHR',
 
                 }
                 if row['pathways'] is not None:

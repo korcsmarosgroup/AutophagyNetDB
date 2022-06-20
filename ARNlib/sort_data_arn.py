@@ -253,7 +253,7 @@ def get_node_data(builder_location):
                                 "db": "",
                                 "url": "",
                                 "searchable": False
-                            }, )
+                            })
 
 
                 # Tissue
@@ -316,9 +316,12 @@ def get_node_data(builder_location):
                                     "url": 'https://www.drugbank.ca/',
                                     "searchable": False
                                 })
+
                 # External ref
                 node_dict['externalReferences'] = []
+
                 # Autophagy function
+                node_dict['autophagyState'] = []
                 func_data_file = '../../ARNlib/AP_function.csv'
                 with open(func_data_file) as func_data:
                     func_data.readline()
@@ -328,14 +331,15 @@ def get_node_data(builder_location):
                         func = line[1]
 
                         if gene_name == name:
-                            node_dict['autophagyState'] = {
+                            node_dict['autophagyState'].append({
                                 "value": func,
                                 "db": None,
                                 "url": None,
                                 "searchable": False
-                            }
+                            })
 
                 # Gene ontology annotation
+                node_dict['geneOntologyAnnotation'] = []
                 GO_data_file = '../../ARNlib/GO-AP-and-regulators.csv'
                 with open(GO_data_file) as GO_data:
                     for line in GO_data:
@@ -345,12 +349,12 @@ def get_node_data(builder_location):
                         # GO_ID = line[2].split('[')[1].replace(']', '')
 
                         if uniprot_id == AC:
-                            node_dict['geneOntologyAnnotation'] = {
+                            node_dict['geneOntologyAnnotation'].append({
                                 "value": annot,
                                 "db": None,
-                                "url": 'http://www.geneontology.org/',
+                                "url": "http://www.geneontology.org/",
                                 "searchable": False
-                            }
+                            })
 
                 # Molecule type
                 # If RNA
@@ -359,7 +363,7 @@ def get_node_data(builder_location):
                                                   "db": "Molecular Interactions Controlled Vocabulary",
                                                   "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0320",
                                                   "searchable": False
-                                                  }, ]
+                                                  }]
 
                     # adding the RNACentral primary ID
                     node_dict['externalReferences'].append({
@@ -396,7 +400,7 @@ def get_node_data(builder_location):
                                                   "db": "Molecular Interactions Controlled Vocabulary",
                                                   "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
                                                   "searchable": False
-                                                  }, ]
+                                                  }]
                     # adding the uniprot primary ID
                     node_dict['externalReferences'].append({
                         "value": uniprot_id,
@@ -438,7 +442,7 @@ def get_node_data(builder_location):
 
     # Adding data to json files
     with open('nodes.json', 'w') as outfile:
-        json.dump(nodes, outfile, indent=4, sort_keys=True)
+        json.dump(nodes, outfile, indent=4, sort_keys=False)
 
 
 # EDGES
@@ -733,7 +737,7 @@ def get_edge_data(builder_location):
                                 "db": "",
                                 "url": "",
                                 "searchable": False
-                            }, )
+                            })
 
                         elif sourcedb_raw in sourcedb_map.values():
                             edge_dict['sourceDatabases'].append({
@@ -741,7 +745,7 @@ def get_edge_data(builder_location):
                                 "db": "",
                                 "url": "",
                                 "searchable": False
-                            }, )
+                            } )
 
                         else:
                             edge_dict['sourceDatabases'].append({
@@ -749,7 +753,7 @@ def get_edge_data(builder_location):
                                 "db": "",
                                 "url": "",
                                 "searchable": False
-                            },)
+                            })
 
                     # Layer
                     edge_dict['layer'] = [
@@ -777,7 +781,7 @@ def get_edge_data(builder_location):
 
     #  Adding data to json files
     with open('edges.json', 'w') as outfile2:
-        json.dump(edges, outfile2, indent=4, sort_keys=True)
+        json.dump(edges, outfile2, indent=4, sort_keys=False)
 
 
 # ATTRIBUTES
@@ -923,6 +927,40 @@ def get_attribute_data(builder_location):
 
     attrib = []
 
+    # Gene ontology
+    attrib.append({
+        "key": 'geneOntologyAnnotation',
+        "displayedName": "Gene Ontology Annotation",
+        "dataType": "string",
+        "possibleValues": [
+            "macroautophagy",
+            "mitophagy",
+            "xenophagy",
+            "chaperon-mediated autophagy",
+            "aggrephagy",
+            'lipophagy',
+            "glycophagy",
+            "reticulaophagy",
+            "nucleophagy",
+            "selective autophagy"
+        ],
+        "searchable": False,
+        "isNode": True
+    })
+    # Autophagy state
+    attrib.append({
+        "key": "autophagyState",
+        "displayedName": "Autophagy state",
+        "dataType": "string",
+        "possibleValues": [
+            'Initiation',
+            'Autophagosome formation',
+            'Fusion with lysosome',
+            'Autophagy receptor'
+        ],
+        "searchable": False,
+        "isNode": True
+    })
     # Topology
     attrib.append({
         "key": "topologicalFeatures",
@@ -937,7 +975,23 @@ def get_attribute_data(builder_location):
         "key": "pathways",
         "displayedName": "Pathways",
         "dataType": "string",
-        "possibleValues": pathways,
+        "possibleValues": [
+            'TCR',
+            'BCR',
+            'TLR',
+            'IIP',
+            'JAK/STAT',
+            'NHR',
+            'RTK',
+            'Rho/Cytoskeleton',
+            'TGF',
+            'Notch',
+            'GPCR',
+            'WNT/Wingless',
+            'HIPPO',
+            'HH',
+            'TNF/Apoptosis'
+        ],
         "searchable": False,
         "isNode": True
     })
