@@ -131,7 +131,7 @@ def run_layer0(db, log, path):
         from DATA.workflow.SLK_Core.databases.SLK3_core import script
         script.SQL_SEED = '../../ARNlib/SQLiteDBApi/network-db-seed.sql'
 
-        script.DATA_FILE = path + 'SLK3_human_core.csv'
+        script.DATA_FILE = path + 'slk3_human_core.csv'
         script.EXPORT_DB_LOCATION = 'all_output/SLK3_core'
         return script.main(logger=log)
 
@@ -140,7 +140,7 @@ def run_layer1(db, log, path):
     if db == 'PSP':
         data_file_loc = path + 'psp_2009.11.003_datafile.txt'
 
-        from DATA.workflow.layer1.databases.PSP import script
+        from DATA.workflow.PTM.databases.PSP import script
         script.SQL_SEED = '../../ARNlib/SQLiteDBApi/network-db-seed.sql'
         script.DATA_FILE = data_file_loc
         script.EXPORT_DB_LOCATION = 'all_output/PSP'
@@ -215,13 +215,14 @@ def run_ATG_Reg(db, log, path):
         chip_script.EXPORT_DB_DESTINATION = 'all_output/chip_behrends'
         return chip_script.main(logger=log)
 
-    # TODO finish import script
-    # if db == 'HumanAutophagyDB':
-    #     from DATA.workflow.ATG_Reg.databases.HumanAutophagyDB import script
-    #     script.SQL_SEED = '../../ARNlib/SQLiteDBApi/network-db-seed.sql'
-    #     script.HA_DATA_FILE = path + 'HAdb_mapped.txt'
-    #     script.ATG_DATA_FILE = path + 'atg_mapped.txt'
-    #     script.mergerdb = '../../merger.db'
+    if db == 'HumanAutophagyDB':
+        from DATA.workflow.ATG_Reg.databases.HumanAutophagyDB import script
+        script.SQL_SEED = '../../ARNlib/SQLiteDBApi/network-db-seed.sql'
+        script.HA_DATA_FILE = path + 'HAdb_mapped.txt'
+        script.ATG_DATA_FILE = path + 'atg_mapped.txt'
+        script.l3_file = path + 'ARN2_merged_L1.csv'
+        script.EXPORT_DB_LOCATION = 'all_output/HumanAutophagyDB'
+        return script.main(logger=log)
 
     if db == 'manual_curation':
         from DATA.workflow.ATG_Reg.databases.manual_curation import script
@@ -235,7 +236,7 @@ def run_ATG_Reg(db, log, path):
     if db == 'biogrid':
         from DATA.workflow.ATG_Reg.databases.biogrid import new_script
         new_script.SQL_SEED = '../../ARNlib/SQLiteDBApi/network-db-seed.sql'
-        new_script.RAW_FILE_LIST = [path + 'BIOGRID-ALL-3.5.170.mitab.txt']
+        new_script.RAW_FILE_LIST = [path + 'BIOGRID-ALL-4.4.214.mitab.txt']
         new_script.EXPORT_DB_LOCATION = 'all_output/biogrid'
         return new_script.main(logger=log)
 

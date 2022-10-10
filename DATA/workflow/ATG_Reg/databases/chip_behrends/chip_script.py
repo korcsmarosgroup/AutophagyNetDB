@@ -176,17 +176,28 @@ def main(logger):
                     dblist.append(mysourcedb)
 
             final_source = '|'.join(dblist)
-
-            edge_dict = {
-                'publication_ids': 'pubmed:' + pubs,
-                'layer': layer_dict[line[16]],
-                'source_db': final_source,
-                'interaction_identifiers': None,
-                'confidence_scores': None,
-                'interaction_detection_method': None,
-                'interaction_types': int_types,
-                'first_author': None
-            }
+            if 'is_directed:false' in int_types:
+                edge_dict = {
+                    'publication_ids': 'pubmed:' + pubs,
+                    'layer': '2',
+                    'source_db': final_source,
+                    'interaction_identifiers': None,
+                    'confidence_scores': None,
+                    'interaction_detection_method': None,
+                    'interaction_types': int_types,
+                    'first_author': None
+                }
+            else:
+                edge_dict = {
+                    'publication_ids': 'pubmed:' + pubs,
+                    'layer': layer_dict[line[16]],
+                    'source_db': final_source,
+                    'interaction_identifiers': None,
+                    'confidence_scores': None,
+                    'interaction_detection_method': None,
+                    'interaction_types': int_types,
+                    'first_author': None
+                }
 
             db_api.insert_edge(source_dict, target_dict, edge_dict)
 

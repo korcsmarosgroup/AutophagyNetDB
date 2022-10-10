@@ -19,7 +19,7 @@ def insert_or_get_node_dict(id, taxid, node_names_to_id, db_api):
         "alt_accession": None,
         'pathways': None,
         "aliases": None,
-        "topology": None
+        "topology": 'Transcription factor'
     }
 
     if node_dict['name'] in node_names_to_id:
@@ -44,7 +44,7 @@ def main(logger):
             taxid_a = line[8].split('(')[0]
             taxid_b = line[9].split('(')[0]
 
-            accepted_tax_ids = ['9606', '7227', '6239', '7955']
+            accepted_tax_ids = ['9606']
 
             if (taxid_a.split(":")[1] in accepted_tax_ids) and (taxid_b.split(":")[1] in accepted_tax_ids):
 

@@ -36,7 +36,7 @@ def insert_or_get_node_dict(name, taxid, node_names_to_id, db_api):
         "alt_accession": "|".join(alt_node_names),
         'pathways': None,
         "aliases": None,
-        "topology": None
+        "topology": "Transcription factor"
     }
 
     if node_dict['name'] in node_names_to_id:
