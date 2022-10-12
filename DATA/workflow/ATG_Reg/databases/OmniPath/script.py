@@ -88,9 +88,11 @@ def main(logger):
             pubmed_ids.add("27898060")  # OmniPath publication
             pubmed_ids = map(lambda x: "pubmed:" + x, pubmed_ids)
 
-            edge_dict = {
+            # If not direct interaction, it will be layer 2
+            if 'is_direct:false' in interaction_types:
+                edge_dict = {
                     'publication_ids': "|".join(pubmed_ids),
-                    'layer': '1',
+                    'layer': '2',
                     'source_db': 'OmniPath',
                     'interaction_identifiers': None,
                     'confidence_scores': None,
@@ -98,6 +100,17 @@ def main(logger):
                     'interaction_types': interaction_types,
                     'first_author': None
                 }
+            else:
+                edge_dict = {
+                        'publication_ids': "|".join(pubmed_ids),
+                        'layer': '1',
+                        'source_db': 'OmniPath',
+                        'interaction_identifiers': None,
+                        'confidence_scores': None,
+                        'interaction_detection_method': None,
+                        'interaction_types': interaction_types,
+                        'first_author': None
+                    }
 
             db_api.insert_edge(source_dict, target_dict, edge_dict)
 

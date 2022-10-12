@@ -178,20 +178,20 @@ class CreateMappingDB():
 
     def uni_to_xml(self, taxID):
         local_filename = taxID + '.xml.gz'
-        query_term = 'organism:%s' % str(taxID)
+        query_term = '%28organism_id%3A9606%29'
         download_params = {
-            'sort':'score',
-            'compress':'yes',
+            'compressed':'true',
             'query':query_term,
             'format':'xml',
-            'force':'yes'
+            'download': 'true'
         }
         if self.debug:
             download_params['limit'] = '1000'
 
-        r = requests.get(
-            "http://www.uniprot.org/uniprot/",
-            stream=True, params=download_params)
+        # r = requests.get(
+        #     "http://rest.uniprot.org/uniprotkb/",
+        #     stream=True, params=download_params)
+        r=requests.get("https://rest.uniprot.org/uniprotkb/stream?compressed=true&download=true&format=xml&query=%28organism_id%3A9606%29")
 
         with open(local_filename, 'wb') as f:
             for chunk in r.iter_content(chunk_size=1024):

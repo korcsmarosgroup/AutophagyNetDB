@@ -82,16 +82,28 @@ def main(logger):
                                     % (effect, "directed", is_direct)
 
                 # Extracting the edge's properties
-                edge_dict = {
-                    'interaction_detection_method' : cells[6].replace('psi-mi:', '').replace('"', ''),
-                    'first_author' : cells[7],
-                    'publication_ids' : cells[8],
-                    'interaction_types' : interaction_types,
-                    'source_db' : 'biogrid',
-                    'interaction_identifiers': None,
-                    'confidence_scores' : cells[14],
-                    'layer' : "1"
-                }
+                if 'is_direct:unknown' in interaction_types:
+                    edge_dict = {
+                        'interaction_detection_method': cells[6].replace('psi-mi:', '').replace('"', ''),
+                        'first_author': cells[7],
+                        'publication_ids': cells[8],
+                        'interaction_types': interaction_types,
+                        'source_db': 'biogrid',
+                        'interaction_identifiers': None,
+                        'confidence_scores': cells[14],
+                        'layer': "2"
+                    }
+                else:
+                    edge_dict = {
+                        'interaction_detection_method' : cells[6].replace('psi-mi:', '').replace('"', ''),
+                        'first_author' : cells[7],
+                        'publication_ids' : cells[8],
+                        'interaction_types' : interaction_types,
+                        'source_db' : 'biogrid',
+                        'interaction_identifiers': None,
+                        'confidence_scores' : cells[14],
+                        'layer' : "1"
+                    }
 
                 # Inserting interactor a to the node table
                 parser.insert_node(node_a_dict)
