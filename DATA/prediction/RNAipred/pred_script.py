@@ -24,11 +24,7 @@ DATA_FILE = ['../prediction/RNAipred/files/GenomeRNAi_v16_Homo_sapiens.txt']
 BUILDER_SET = 'ARN2_layers.db'
 MAPPER_DB = 'mapper.db'
 SPECIES_DICT = {
-    "Homo sapiens": "taxid:9606",
-    "Drosophila melanogaster": "taxid:7227",
-    "Caenorhabditis elegans": "taxid:6239",
-    "Danio rerio": "taxid:7955"
-}
+    "Homo sapiens": "taxid:9606"}
 
 # # Initiating logger
 # logger = logging.getLogger()
@@ -100,8 +96,8 @@ def main(logger):
                         score_list = []
                         entry_counter += 1
                         # Limit
-                        #if entry_counter == 26:
-                            #break
+                        # if entry_counter == 26:
+                        #     break
                     # Iterating the entry
                     else:
                         for line in group:
@@ -223,7 +219,8 @@ def main(logger):
                                     score_value = -1
                                 else:
                                     score_value = 0
-                                df.at[gene, pheno_dict[gene]] = score_value
+                                if gene in mapped_genes_dict:
+                                    df.at[mapped_genes_dict[gene], pheno_dict[gene]] = score_value
                             # If score is a valid number
                             except ValueError:
                                 error_count += 1
@@ -236,6 +233,7 @@ def main(logger):
     with conn:
         for layer in layer_list:
             logging.debug('Adding scores to layer' + str(layer))
+
             c = conn.cursor()
             c2 = conn.cursor()
             c.execute("SELECT interactor_a_node_name, interactor_b_node_name FROM layer%d"
@@ -276,15 +274,14 @@ def main(logger):
                             sign_score = ((pos_corr - neg_corr) / pheno_match_counter) * weight_factor
                             #print(sign_score)
                             # Adding scores to our dataset
-                            c2.execute("UPDATE layer%d SET confidence_scores = layer%d.confidence_scores || %s"
+                            c2.execute("UPDATE layer%d SET confidence_scores = confidence_scores || '%s'"
                                        "WHERE layer%d.interactor_a_node_name = '%s' AND layer%d.interactor_b_node_name = '%s'"
-                                       % (layer, layer, '|sign_pred:' + str(sign_score) + '|', layer, edge[0], layer, edge[1]))
+                                       % (layer, '|sign_pred:' + str(sign_score) + '|', layer, edge[0], layer, edge[1]))
                             notcut_count += 1
                         else:
                             cutoff_count += 1
 
     logging.debug('Sign prediction done')
-
     logging.debug('good', str(good_score_count))
     logging.debug('null score', str(null_score_count))
     logging.debug('cutoff allowed', str(notcut_count))

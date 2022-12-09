@@ -133,7 +133,7 @@ class DirScore:
             #return self.dir_score_dict, self.pfam_dict
 
 
-    # LAYER 3
+    # LAYER 2
     def apply_to_db(self):
         #logger.debug(self.pfam_dict)
         #logger.debug(self.dir_score_dict)
@@ -142,7 +142,7 @@ class DirScore:
         with conn2:
             c2 = conn2.cursor()
             c22 = conn2.cursor()
-            c2.execute("SELECT interactor_a_node_name, interactor_b_node_name FROM layer3")
+            c2.execute("SELECT interactor_a_node_name, interactor_b_node_name FROM layer2")
             while True:
                 row = c2.fetchone()
                 if row is None:
@@ -166,8 +166,8 @@ class DirScore:
                         else:
                             dir_score_final_PPI = dir_score_sum / (len(self.pfam_dict[prot_a]) * len(self.pfam_dict[prot_b]))
                         #logging.debug("Updating scores")
-                        c22.execute("UPDATE layer3 SET confidence_scores = '%s' "
-                                    "WHERE layer3.interactor_a_node_name = '%s' AND layer3.interactor_b_node_name = '%s'"
+                        c22.execute("UPDATE layer2 SET confidence_scores = '%s' "
+                                    "WHERE layer2.interactor_a_node_name = '%s' AND layer2.interactor_b_node_name = '%s'"
                                     % ('|dir_pred:' + str(dir_score_final_PPI), row[0], row[1]))
 
 
