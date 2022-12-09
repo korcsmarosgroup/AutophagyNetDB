@@ -18,7 +18,7 @@ class CreateMappingDB():
         self.db_blacklist = ['PubMed', 'DOI', 'PDBsum', 'PDB', 'EMBL', 'CCDS', 'GO', 'InterPro', 'PROSITE', 'Pfam', 'MIM', 'CCDS']
         self.db_whitelist = ['ELM', 'BioGrid', 'Ensembl', 'EnsemblMetazoa', 'FlyBase',
                           'GenBank', 'GeneCards', 'GeneID', 'HGNC', 'IntAct', 'MINT',
-                          'Reactome', 'SIGNOR', 'SignaLink', 'WormBase', 'RefSeq']
+                          'Reactome', 'SIGNOR', 'SignaLink', 'WormBase', 'RefSeq', 'BioGRID']
 
         self.current_species = ""
         self.DB_species = {}
@@ -187,6 +187,7 @@ class CreateMappingDB():
     def uni_to_xml(self, taxID):
         local_filename = taxID + '.xml.gz'
         query_term = 'organism:%s' % str(taxID)
+        query_term = '%28organism_id%3A9606%29'
         download_params = {
             'sort':'score',
             'compress':'yes',
@@ -197,9 +198,11 @@ class CreateMappingDB():
         if self.debug:
             download_params['limit'] = '1000'
 
-        r = requests.get(
-            "http://www.uniprot.org/uniprot/",
-            stream=True, params=download_params)
+        # r = requests.get(
+        #     "http://www.uniprot.org/uniprot/",
+        #     stream=True, params=download_params)
+        r=requests.get("https://rest.uniprot.org/uniprotkb/stream?compressed=true&download=true&format=xml&query=%28organism_id%3A9606%29")
+
 
         with open(local_filename, 'wb') as f:
             for chunk in r.iter_content(chunk_size=1024):

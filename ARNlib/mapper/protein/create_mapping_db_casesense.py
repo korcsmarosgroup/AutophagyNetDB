@@ -18,7 +18,7 @@ class CreateMappingDB():
         self.db_blacklist = ['PubMed', 'DOI', 'PDBsum', 'PDB', 'EMBL', 'CCDS', 'GO', 'InterPro', 'PROSITE', 'Pfam', 'MIM', 'CCDS']
         self.db_whitelist = ['ELM', 'BioGrid', 'Ensembl', 'EnsemblMetazoa', 'FlyBase',
                           'GenBank', 'GeneCards', 'GeneID', 'HGNC', 'IntAct', 'MINT',
-                          'Reactome', 'SIGNOR', 'SignaLink', 'WormBase', 'RefSeq']
+                          'Reactome', 'SIGNOR', 'SignaLink', 'WormBase', 'RefSeq', 'BioGRID']
 
         #
         self.current_species = ""
