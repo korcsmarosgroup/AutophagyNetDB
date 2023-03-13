@@ -11,7 +11,7 @@ import re
 
 # Defining constants
 SQL_SEED = '../../../../../ARNlib/SQLiteDBApi/network-db-seed.sql'
-DATA_FILE_LIST = ['files/comppi--compartments--tax_celegans_loc_all.txt']
+DATA_FILE_LIST = ['files/comppi--interactions--tax_hsapiens_loc_all.txt']
 EXPORT_DB_LOCATION = '../../output/ComPPI'
 DB_TYPE = 'comppi'
 MI_TREM_ONTOLOGY_FILE = '../mi.owl'
@@ -143,7 +143,7 @@ def main(logger):
 
                 edge_dict = {
                     'publication_ids': '|'.join(pubmed_ids),
-                    'layer': '1',
+                    'layer': '2',
                     'source_db': 'ComPPI',
                     'interaction_identifiers': None,
                     'confidence_scores': None,

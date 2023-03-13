@@ -79,7 +79,7 @@ def main(logger):
                     effect = inttype
 
                 interaction_types = "effect:%s|is_directed:%s|is_direct:%s" \
-                                    % (effect, "directed", is_direct)
+                                    % (effect, "true", is_direct)
 
                 # Extracting the edge's properties
                 if 'is_direct:unknown' in interaction_types:
@@ -91,7 +91,7 @@ def main(logger):
                         'source_db': 'biogrid',
                         'interaction_identifiers': None,
                         'confidence_scores': cells[14],
-                        'layer': "2"
+                        'layer': "1"
                     }
                 else:
                     edge_dict = {

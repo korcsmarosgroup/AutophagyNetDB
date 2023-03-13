@@ -94,8 +94,8 @@ def main(logger):
             tax_id_a = columns[9][:10]
             tax_id_b = columns[10][:10]
 
-            if tax_id_a not in ('taxid:9606', 'taxid:7227', 'taxid:6239', 'taxid:7955') or \
-               tax_id_b not in ('taxid:9606', 'taxid:7227', 'taxid:6239', 'taxid:7955'):
+            if tax_id_a not in ('taxid:9606') or \
+               tax_id_b not in ('taxid:9606'):
                 continue
 
             edges_in_known_taxes += 1
@@ -154,7 +154,7 @@ def main(logger):
 
                 edge_dict = {
                     'publication_ids': "|".join(pubmed_ids),
-                    'layer': '1',
+                    'layer': '2',
                     'source_db': "IntAct",
                     'interaction_identifiers': None,
                     'confidence_scores':  "|".join(confidence_scores),

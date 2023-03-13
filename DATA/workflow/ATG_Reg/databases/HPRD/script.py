@@ -79,7 +79,7 @@ def main(logger):
 
             edge_dict = {
                 'publication_ids': '|'.join(pubmed_ids),
-                'layer': '1',
+                'layer': '2',
                 'source_db': 'HPRD',
                 'interaction_identifiers': None,
                 'confidence_scores': None,

@@ -93,8 +93,8 @@ def main(logger):
             }
             # Directedness mapping
             direct_map_dict = {
-                "direct": "MI:0407(directed)",
-                "indirect": "MI:2246(indirect)",
+                "direct": "true",
+                "indirect": "false",
             }
             # Setting up identifiers
             directness = direct_map_dict[line[5]]

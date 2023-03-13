@@ -80,8 +80,8 @@ def main(logger):
                     tax_id_a = columns[9].strip().lower()
                     tax_id_b = columns[10].strip().lower()
 
-                    if tax_id_a in ('taxid:9606', 'taxid:7227', 'taxid:6239', 'taxid:7955') and \
-                       tax_id_b in ('taxid:9606', 'taxid:7227', 'taxid:6239', 'taxid:7955'):
+                    if tax_id_a in ('taxid:9606') and \
+                       tax_id_b in ('taxid:9606'):
 
                         biogrid_ids_a = filter(lambda x: x.strip().lower().startswith("biogrid:"), columns[2].split("|"))
                         biogrid_id_a = list(biogrid_ids_a)[0][8:]
@@ -116,7 +116,7 @@ def main(logger):
                         if "MI:0407" in output_mi_string:
                             output_mi_string = ""
 
-                        interaction_types = "is_directed:false|is_direct:%s%s" % (str(is_direct).lower(), output_mi_string)
+                        interaction_types = "is_directed:true|is_direct:%s%s" % (str(is_direct).lower(), output_mi_string)
 
                         # Interaction detection methods: psi-mi:"MI:0018"(two hybrid)
                         detection_methods = columns[6].split("|")
@@ -131,7 +131,20 @@ def main(logger):
                         pubmed_ids.add("30476227")  # latest biogrid publication
                         pubmed_ids = map(lambda x: "pubmed:"+x, pubmed_ids)
 
-                        edge_dict = {
+                        if 'is_direct:false' in interaction_types:
+                            edge_dict = {
+                            'publication_ids': "|".join(pubmed_ids),
+                            'layer': '2',
+                            'source_db': 'TheBiogrid',
+                            'interaction_identifiers': None,
+                            'confidence_scores': None,
+                            'interaction_detection_method': "|".join(detection_methods),
+                            'interaction_types': interaction_types,
+                            'first_author': None
+
+                            }
+                        else:
+                            edge_dict = {
                             'publication_ids': "|".join(pubmed_ids),
                             'layer': '1',
                             'source_db': 'TheBiogrid',

@@ -89,7 +89,7 @@ def main(logger):
             pubmed_ids = map(lambda x: "pubmed:" + x, pubmed_ids)
 
             # If not direct interaction, it will be layer 2
-            if 'is_direct:false' in interaction_types:
+            if 'is_directed:false' in interaction_types:
                 edge_dict = {
                     'publication_ids': "|".join(pubmed_ids),
                     'layer': '2',
