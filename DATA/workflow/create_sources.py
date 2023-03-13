@@ -428,6 +428,14 @@ def run_ATG_core(db, log, path):
 
         return script.main(logger=log)
 
+    elif db == 'updated_curation':
+        from DATA.workflow.ATG_core.databases.updated_curation import script
+        script.SQL_SEED = '../../ARNlib/SQLiteDBApi/network-db-seed.sql'
+        script.DATA_FILE = path + 'autophagynet_updated_curation_TH_LG.csv'
+        script.DB_DESTINATION = 'all_output/updated_curation'
+
+        return script.main(logger=log)
+
 
 DB_DICT = json.load(open('test_sources.json'), object_pairs_hook=OrderedDict)
 

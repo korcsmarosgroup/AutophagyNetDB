@@ -12,7 +12,7 @@ from DATA.workflow.lncRNA.mapper import lncmap_new
 from ARNlib.merger import merge_layer
 from ARNlib import build_new as builder
 from ARNlib import noconn_check as noconn
-from ARNlib import sort_data_arn as sorter
+# from ARNlib import sort_data_arn as sorter
 
 # predictions
 from DATA.prediction.tissue.pred_script_new import tissue_prediction
@@ -69,28 +69,28 @@ logger.addHandler(handler)
 #     print("db: %s     total edges: %d    edges failed to map: %d    failure rate: %s" % (db_name, total_edges, failed_edges, rate))
 # print("\n\n")
 
-# Merge layers
-merge_layer.SQL_SEED_LOCATION = '../../ARNlib/SQLiteDBApi/network-db-seed.sql'
-merge_layer.DESTINATION = 'merger'
-path = '../../ARNlib/mapper/protein/output/'
-dblist = []
-for layer in DB_DICT.keys():
-    for db in DB_DICT[layer]:
-        dblist.append(path + db + '_mapped.db')
-merge_layer.SOURCE_DB_FILE_LIST = dblist
-logger.debug('Started merging')
-merge_layer.main(log=logger)
-logger.debug('Merging done')
+# # Merge layers
+# merge_layer.SQL_SEED_LOCATION = '../../ARNlib/SQLiteDBApi/network-db-seed.sql'
+# merge_layer.DESTINATION = 'merger'
+# path = '../../ARNlib/mapper/protein/output/'
+# dblist = []
+# for layer in DB_DICT.keys():
+#     for db in DB_DICT[layer]:
+#         dblist.append(path + db + '_mapped.db')
+# merge_layer.SOURCE_DB_FILE_LIST = dblist
+# logger.debug('Started merging')
+# merge_layer.main(log=logger)
+# logger.debug('Merging done')
 
-# Deleting nodes from merger that have no connections
-logger.debug('Deleting noconn nodes')
-noconn.main(logger=logger, merger_path='merger.db')
-
-# Building all layers
-# Building all layers
-logger.debug('Started building')
-builder.main(log=logger, path='merger.db')
-logger.debug('Building done')
+# # Deleting nodes from merger that have no connections
+# logger.debug('Deleting noconn nodes')
+# noconn.main(logger=logger, merger_path='merger.db')
+#
+# # Building all layers
+# # Building all layers
+# logger.debug('Started building')
+# builder.main(log=logger, path='merger.db')
+# logger.debug('Building done')
 
 # Predictions
 # Tissue
@@ -107,18 +107,21 @@ main(logger)
 # Subcellular localization
 subcell_prediction(logger)
 
-# Creating case sensitive mapping db for gene name and protein name mapping
-# For proteins
-logger.debug('Creating mapping dbs')
-MDB = create_mapping_db_casesense.CreateMappingDB(mappingDBfile='casesense_mapper.db', debug=False)
-MDB.add_species('9606')
-
-# Sorting data into json format
-logger.debug('Started sorting')
-sorter.mapper_location = 'mapper.db'
-sorter.json_mapper_file = 'uniprot_id_mapping.json'
-sorter.logger_output_location = 'SLK3_build.log'
-sorter.get_node_data(builder_location='ARN2_layers.db')
-sorter.get_edge_data(builder_location='ARN2_layers.db')
-sorter.get_attribute_data(builder_location='ARN2_layers.db')
-logger.debug('Sorting done')
+# # Creating case sensitive mapping db for gene name and protein name mapping
+# # For proteins
+# logger.debug('Creating mapping dbs')
+# MDB = create_mapping_db_casesense.CreateMappingDB(mappingDBfile='casesense_mapper.db', debug=False)
+# MDB.add_species('9606')
+#
+# # Sorting data into json format
+# logger.debug('Started sorting')
+# sorter.mapper_location = 'mapper.db'
+# sorter.json_mapper_file = 'uniprot_id_mapping.json'
+# sorter.logger_output_location = 'SLK3_build.log'
+# sorter.get_node_data(builder_location='ARN2_layers.db')
+# sorter.get_edge_data(builder_location='ARN2_layers.db')
+# sorter.get_attribute_data(builder_location='ARN2_layers.db')
+#
+#
+#
+# logger.debug('Sorting done')

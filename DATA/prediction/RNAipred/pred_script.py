@@ -229,7 +229,7 @@ def main(logger):
 
     # SIGN PREDICTION
     conn = sqlite3.connect(BUILDER_SET)
-    layer_list = [0, 1, 2, 3, 5, 6, 7]
+    layer_list = [1, 2]
     with conn:
         for layer in layer_list:
             logging.debug('Adding scores to layer' + str(layer))

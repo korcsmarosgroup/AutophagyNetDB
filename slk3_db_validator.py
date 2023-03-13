@@ -71,7 +71,7 @@ accepted_source_databases = "|".join([
     "PSSMprediction", "TFlink",                                                                       # layer 6
     "NPInter", "lncRInter", "miRSponge", "StarBase",                                                   # layer 7
     "ADB", "Behrends", "manual curation", "Behrends predicted", "ARN1Core", "coremancur", "manual_curation",
-    "chip_behrends"
+    "chip_behrends", "updated_curation"
 ])
 
 accepted_layers = "|".join(['0', '1', '2', '3', '5', '6', '7', '8'])
@@ -80,7 +80,7 @@ mi_pattern = "MI:\\d{4}(\\(\\w[\\(\\)/ \\w-]+\\w\\))?"
 mi_pattern_or_interaction_type = "|".join([
     "(%s)" % mi_pattern,
     "(is_direct:(true|false))",
-    "(is_directed:(true|false))",
+    "(is_directed:(true|false|directed))",
 ])
 pubmed_pattern = "pubmed:\\d+"
 name_pattern = "(%s):[/\\.\\w-]+" % accepted_id_types

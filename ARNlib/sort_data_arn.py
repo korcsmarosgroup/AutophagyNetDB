@@ -321,7 +321,7 @@ def get_node_data(builder_location):
                 node_dict['externalReferences'] = []
 
                 # Autophagy function
-                node_dict['autophagyState'] = []
+                node_dict['autophagyPhase'] = []
                 func_data_file = '../../ARNlib/AP_function.csv'
                 with open(func_data_file) as func_data:
                     func_data.readline()
@@ -331,10 +331,10 @@ def get_node_data(builder_location):
                         func = line[1]
 
                         if gene_name == name:
-                            node_dict['autophagyState'].append({
+                            node_dict['autophagyPhase'].append({
                                 "value": func,
-                                "db": None,
-                                "url": None,
+                                "db": "",
+                                "url": "",
                                 "searchable": False
                             })
 
@@ -351,8 +351,25 @@ def get_node_data(builder_location):
                         if uniprot_id == AC:
                             node_dict['geneOntologyAnnotation'].append({
                                 "value": annot,
-                                "db": None,
+                                "db": "",
                                 "url": "http://www.geneontology.org/",
+                                "searchable": False
+                            })
+
+                # Autophagy phenotype
+                pheno_data_file = '../../ARNlib/Effects of autophagy regulators.csv'
+                with open(pheno_data_file) as pheno_data:
+                    for line in pheno_data:
+                        line = line.strip().split('\t')
+                        name = line[0]
+                        annot = line[2]
+                        # GO_ID = line[2].split('[')[1].replace(']', '')
+
+                        if gene_name == name:
+                            node_dict['phenotypeAnnotation'].append({
+                                "value": annot,
+                                "db": "",
+                                "url": line[4],
                                 "searchable": False
                             })
 
@@ -483,6 +500,21 @@ def get_edge_data(builder_location):
                     source_name = map_uniprot_to_gene(uniprot_source)
                     target_name = map_uniprot_to_gene(uniprot_target)
 
+                    # Name
+                    if map_uniprot_to_protein(uniprot_source):
+                        edge_dict['sourceFullName'] = map_uniprot_to_protein(uniprot_source)
+                    # If uniprot id doesn't map to protein name, just insert uniprot id as full name
+                    else:
+                        edge_dict['sourceFullName'] = uniprot_source
+                    edge_dict['sourceDisplayedName'] = source_name
+                    if map_uniprot_to_protein(uniprot_target):
+                        edge_dict['targetFullName'] = map_uniprot_to_protein(uniprot_target)
+                    # If uniprot id doesn't map to protein name, just insert uniprot id as full name
+                    else:
+                        edge_dict['targetFullName'] = uniprot_target
+                    edge_dict['targetDisplayedName'] = target_name
+
+
                     # Setting directedness based on direction prediction
                     if row['confidence_scores']:
                         for piped in row['confidence_scores'].split('|'):
@@ -494,6 +526,11 @@ def get_edge_data(builder_location):
                                     # Uniprot
                                     edge_dict['source'] = uniprot_source
                                     edge_dict['target'] = uniprot_target
+                                    edge_dict['sourceFullName'] = map_uniprot_to_protein(uniprot_source)
+                                    edge_dict['sourceDisplayedName'] = source_name
+                                    edge_dict['targetFullName'] = map_uniprot_to_protein(uniprot_target)
+                                    edge_dict['targetDisplayedName'] = target_name
+
                                 # If the calculated score is lower than cutoff,
                                 # we change the source and target and set directedness to True
                                 elif float(dir_data) < 2:
@@ -501,6 +538,11 @@ def get_edge_data(builder_location):
                                     # Uniprot
                                     edge_dict['source'] = uniprot_target
                                     edge_dict['target'] = uniprot_source
+                                    edge_dict['sourceFullName'] = map_uniprot_to_protein(uniprot_target)
+                                    edge_dict['sourceDisplayedName'] = target_name
+                                    edge_dict['targetFullName'] = map_uniprot_to_protein(uniprot_source)
+                                    edge_dict['targetDisplayedName'] = source_name
+
                                 else:
                                     # L1, PTMs, TFs, miRNAs and lncRNAs are directed
                                     if layer == 'layer1' or layer == 'layer2' or layer == 'layer5' \
@@ -541,19 +583,6 @@ def get_edge_data(builder_location):
                             edge_dict['target'] = uniprot_target
                             edge_dict['isDirected'] = False
 
-                    # Name
-                    if map_uniprot_to_protein(uniprot_source):
-                        edge_dict['sourceFullName'] = map_uniprot_to_protein(uniprot_source)
-                    # If uniprot id doesn't map to protein name, just insert uniprot id as full name
-                    else:
-                        edge_dict['sourceFullName'] = uniprot_source
-                    edge_dict['sourceDisplayedName'] = source_name
-                    if map_uniprot_to_protein(uniprot_target):
-                        edge_dict['targetFullName'] = map_uniprot_to_protein(uniprot_target)
-                    # If uniprot id doesn't map to protein name, just insert uniprot id as full name
-                    else:
-                        edge_dict['targetFullName'] = uniprot_target
-                    edge_dict['targetDisplayedName'] = target_name
                     # Directed
                     edge_dict['isDirect'] = True
 
@@ -940,7 +969,7 @@ def get_attribute_data(builder_location):
             "aggrephagy",
             'lipophagy',
             "glycophagy",
-            "reticulaophagy",
+            "reticulophagy",
             "nucleophagy",
             "selective autophagy"
         ],
@@ -949,14 +978,27 @@ def get_attribute_data(builder_location):
     })
     # Autophagy state
     attrib.append({
-        "key": "autophagyState",
-        "displayedName": "Autophagy state",
+        "key": "autophagyPhase",
+        "displayedName": "Autophagy phase",
         "dataType": "string",
         "possibleValues": [
             'Initiation',
             'Autophagosome formation',
             'Fusion with lysosome',
             'Autophagy receptor'
+        ],
+        "searchable": False,
+        "isNode": True
+    })
+    # Autophagy phenotype
+    attrib.append({
+        "key": "phenotypeAnnotation",
+        "displayedName": "Effect on autophagy phenotype",
+        "dataType": "string",
+        "possibleValues": [
+            'Stimulation',
+            'Inhibition',
+            'Unknown'
         ],
         "searchable": False,
         "isNode": True
