@@ -1,2 +1,2 @@
-# SignaLink3DataBase
-SignaLink3 database assembly workflow
+# AutophagyNet database
+Autophagy specific integrated network resource (2nd version of ARN)
